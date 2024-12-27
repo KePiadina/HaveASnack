@@ -1,0 +1,23 @@
+{
+	x: -12.0d,
+	y: -3.5d,
+	text: [
+		"Being in areas with extreme temperatures will make some foods inedible.",
+		"",
+		"§c§lHot§r climates, like the Nether, Desert, or Mesa, will make most cool foods (§e$foodCold§r) melt.",
+		"",
+		"§b§lCold§r climates, like the Snowy Plains or high altitudes (Y>150), will make warm foods (§e$foodHot§r) cool down or harden.",
+		"",
+		"Lastly, being in §lSpace§r will not let you eat as freely, as the oxygen vents may get clogged by stray crumbs and your bulky mask won't let you eat outside of pressurized areas.",
+		"",
+		"Note: Foods do not actually spoil visibly in these circumstances, they will simply stop you from eating them while in those environments"
+	],
+	dependencies: [
+		"086ba391"
+	],
+	tasks: [{
+		uid: "67bcb24c",
+		type: "checkmark",
+		title: "Food safety 101"
+	}]
+}

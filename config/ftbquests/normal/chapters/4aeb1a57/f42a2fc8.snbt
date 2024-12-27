@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -8.0d,
+	dependencies: [
+		"2f19861e"
+	],
+	tasks: [{
+		uid: "efb93258",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bubblywateritem"
+		}]
+	}]
+}

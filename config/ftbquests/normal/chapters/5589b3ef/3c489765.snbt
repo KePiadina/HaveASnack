@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	dependencies: [
+		"e377df9f",
+		"1f5ae503"
+	],
+	tasks: [{
+		uid: "d400e433",
+		type: "item",
+		items: [{
+			item: "harvestcraft:batteritem"
+		}]
+	}]
+}

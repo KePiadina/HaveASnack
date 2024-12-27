@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: -2.5d,
+	text: [
+		"While many foods are resistant to the environment, some may spoil or be inedible while you're in that specific biome",
+		"",
+		"Look up in JEI:",
+		"- §e$foodSpaceproof§r for space-suitable foods",
+		"- &e$foodPreserved§r for food that will never spoil",
+		"",
+		"- §e$foodCold§r for food susceptible to melting (mostly chocolate or frozen products)",
+		"- §e$foodHot§r for food susceptible to cooling down (mostly pasta and rice)",
+		"",
+		"Remember: if you want to remove items with a tag, just put a minus (-) in front of the tag"
+	],
+	dependencies: [
+		"ec24b2c5"
+	],
+	tasks: [{
+		uid: "b0387811",
+		type: "checkmark",
+		title: "Food safety 102"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	dependencies: [
+		"d0c9ecd4"
+	],
+	tasks: [{
+		uid: "a9a3b54b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllheavycream",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllheavycream"
+				}
+			}
+		}]
+	}]
+}

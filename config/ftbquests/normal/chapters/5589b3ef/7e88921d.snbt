@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	dependencies: [
+		"3ad05f8c",
+		"04eb580a"
+	],
+	tasks: [{
+		uid: "10555738",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAlljelly",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAlljelly"
+				}
+			}
+		}]
+	}]
+}

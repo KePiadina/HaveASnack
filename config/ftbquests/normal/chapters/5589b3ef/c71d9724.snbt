@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	dependencies: [
+		"9623eb67",
+		"36dbbec7"
+	],
+	tasks: [{
+		uid: "ba4c4138",
+		type: "item",
+		items: [{
+			item: "harvestcraft:butteritem"
+		}]
+	}]
+}

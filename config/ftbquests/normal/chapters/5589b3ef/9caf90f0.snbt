@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "c54d7cb6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllnut",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllnut"
+				}
+			}
+		}]
+	}]
+}

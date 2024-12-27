@@ -1,0 +1,17 @@
+{
+	"name": "junkfood",
+	"icon": "harvestcraft:chocolatebaritem",
+	"color": "964b00",
+	"decay": 2.5,
+	"visible": true,
+	"enabled": true,
+	"food": {
+		"oredict": [
+			"foodJunkfood",
+			"foodFried"
+		],                 
+		"items": [          
+			"contenttweaker:foodcaffe_peppina" 
+		]
+	}
+}

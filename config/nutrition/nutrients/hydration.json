@@ -1,0 +1,21 @@
+{
+	"name": "hydration",
+	"icon": "harvestcraft:bubblywateritem",
+	"color": "add8e6",
+	"decay": 4,
+	"visible": true,
+	"enabled": true,
+	"food": {
+		"oredict": [
+			"foodDrink",
+			"listAllfruit",
+            "listAlljuice",
+            "listAllsmoothie",
+            "listAllmilk",
+            "listAllwater"
+		],                 
+		"items": [   
+			"contenttweaker:foodcaffe_peppina"        
+		]
+	}
+}

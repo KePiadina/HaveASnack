@@ -1,0 +1,13 @@
+filename = 'restrictedcrops-1.5.jar'
+name = 'Restricted Crops'
+side = 'both'
+
+[download]
+hash = '7f014d00c8a8c344c530156686efc111c58733fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5235815
+project-id = 883096

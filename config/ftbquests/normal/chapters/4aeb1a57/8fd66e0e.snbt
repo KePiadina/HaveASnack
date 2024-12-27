@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: -11.0d,
+	dependencies: [
+		"9504e3ae"
+	],
+	tasks: [{
+		uid: "517a067e",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}]
+}

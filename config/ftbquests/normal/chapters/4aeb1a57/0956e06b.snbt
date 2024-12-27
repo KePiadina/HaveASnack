@@ -1,0 +1,13 @@
+{
+	title: "The Food Pyramid (scheme)",
+	x: -10.0d,
+	y: -5.5d,
+	text: [
+		"Nutrition is a mod that forces you to have a balanced diet, or suffer negative effects in case your stats go below a certain threshold. Under each food you can see what stats it will increase."
+	],
+	tasks: [{
+		uid: "fee67220",
+		type: "checkmark",
+		title: "Nutrition"
+	}]
+}

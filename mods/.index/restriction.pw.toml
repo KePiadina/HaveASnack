@@ -1,0 +1,13 @@
+filename = 'restriction-1.12.1-0.1.12.jar'
+name = 'Restriction'
+side = 'both'
+
+[download]
+hash = '89062170617dca131d2595cb928f1394c99e7228'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2561555
+project-id = 293868

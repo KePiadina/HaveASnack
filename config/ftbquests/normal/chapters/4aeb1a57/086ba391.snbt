@@ -1,0 +1,12 @@
+{
+	x: -11.0d,
+	y: -4.5d,
+	text: [
+		"This modpack focuses around farming and producing food to sell for money"
+	],
+	tasks: [{
+		uid: "4fc89e23",
+		type: "checkmark",
+		title: "Welcome to <packname>!"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: -8.0d,
+	dependencies: [
+		"210d7fa0",
+		"26c62b68",
+		"d05495b7"
+	],
+	tasks: [{
+		uid: "692d9903",
+		type: "item",
+		items: [{
+			item: "harvestcraft:theatreboxitem"
+		}]
+	}]
+}

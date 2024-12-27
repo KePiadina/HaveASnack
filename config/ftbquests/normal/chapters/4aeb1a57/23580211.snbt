@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: -11.0d,
+	tasks: [{
+		uid: "565492db",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cornitem"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+filename = 'MysticalCreations-1.12.2-1.6.1.jar'
+name = 'Mystical Creations'
+side = 'both'
+
+[download]
+hash = 'a3a8daab20fe2ac046cdecdf9cca06aea3e08785'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3221155
+project-id = 358711

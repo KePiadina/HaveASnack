@@ -1,0 +1,27 @@
+{
+	title: "3 New Nutrients",
+	x: -9.0d,
+	y: -6.5d,
+	description: "\"But these aren't necessary for life!!\"",
+	text: [
+		"This pack adds 3 new Nutrients to keep track of: Spice, Junk food, and Hydration.",
+		"",
+		"While they are not real food groups, you'll quickly get sick of eating bland foods that don't give you any enjoyment in life besides your stomach not rumbling.",
+		"",
+		"§c§lSpice§r can be increased by about anything with spicy or flavorful ingredients, like spice leaf, salt, hot pepper, mustard, and so on.",
+		"",
+		"§a§lJunk§r can be increased through unhealthy foods, like fried food, complex desserts, chocolate, and sugary drinks. Despite this, having a high Junk stat will not give negative effects.",
+		"",
+		"§b§lHydration§r can be increased through drinks and foods that contain water (like smoothies and fruit). Not much else to it.",
+		"",
+		"In case the stats do not show properly, make sure your language is set to English (US)"
+	],
+	dependencies: [
+		"0956e06b"
+	],
+	tasks: [{
+		uid: "c39abd34",
+		type: "checkmark",
+		title: "2 New nutrients"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -3.5d,
+	dependencies: [
+		"f328a418"
+	],
+	tasks: [{
+		uid: "8fe60e33",
+		type: "item",
+		items: [{
+			item: "harvestcraft:friesitem"
+		}]
+	}]
+}

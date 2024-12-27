@@ -1,0 +1,13 @@
+filename = 'maleksinfinitygauntlet.jar'
+name = "Malek's Infinity Gauntlet"
+side = 'both'
+
+[download]
+hash = 'ee9badf6fd27e221f69016c7db2d9867737cded4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3209181
+project-id = 448433

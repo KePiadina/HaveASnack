@@ -1,0 +1,192 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  AsmPlugin (Nutrition-GTCEu-1.12.2-1.0.0.jar)
+  SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  MixinBooter (!mixinbooter-10.2.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  GregTechLoadingPlugin (gregtech-1.12.2-2.8.10-beta.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  GTFOEarlyMixinPlugin (gregtechfoodoption-1.12.2-1.12.1.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+Contact their authors BEFORE contacting forge
+
+// Why did you do that?
+
+Time: 12/12/24 11:05 AM
+Description: Ticking player
+
+java.lang.NullPointerException: Ticking player
+	at net.minecraft.util.FoodStats.func_151686_a(SourceFile:32)
+	at gregtech.api.items.armor.ArmorUtils.canEat(ArmorUtils.java:172)
+	at gregtech.common.items.armor.QuarkTechSuite.onArmorTick(QuarkTechSuite.java:97)
+	at gregtech.api.items.armor.ArmorMetaItem.onArmorTick(ArmorMetaItem.java:101)
+	at net.minecraft.entity.player.InventoryPlayer.func_70429_k(InventoryPlayer.java:371)
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:511)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179)
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234)
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382)
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+No Mixin Metadata is found in the Stacktrace.
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.util.FoodStats.func_151686_a(SourceFile:32)
+	at gregtech.api.items.armor.ArmorUtils.canEat(ArmorUtils.java:172)
+	at gregtech.common.items.armor.QuarkTechSuite.onArmorTick(QuarkTechSuite.java:97)
+	at gregtech.api.items.armor.ArmorMetaItem.onArmorTick(ArmorMetaItem.java:101)
+	at net.minecraft.entity.player.InventoryPlayer.func_70429_k(InventoryPlayer.java:371)
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:511)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179)
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 11781
+	Entity Name: KePiadina
+	Entity's Exact location: 17.79, 56.00, 409.30
+	Entity's Block location: World: (17,56,409), Chunk: (at 1,3,9 in 1,25; contains blocks 16,0,400 to 31,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382)
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@1b399e84
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_401, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2429168904 bytes (2316 MB) / 4267704320 bytes (4070 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx8192m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 57 mods loaded, 57 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                                | Version       | Source                                        | Signature                                |
+	|:------ |:--------------------------------- |:------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft                         | 1.12.2        | minecraft.jar                                 | None                                     |
+	| LCHIJA | mcp                               | 9.42          | minecraft.jar                                 | None                                     |
+	| LCHIJA | FML                               | 8.0.99.99     | forge-1.12.2-14.23.5.2860-universal.jar       | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                             | 14.23.5.2860  | forge-1.12.2-14.23.5.2860-universal.jar       | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | mixinbooter                       | 10.2          | minecraft.jar                                 | None                                     |
+	| LCHIJA | applecore                         | 3.4.0         | AppleCore-mc1.12.2-3.4.0.jar                  | None                                     |
+	| LCHIJA | crafttweaker                      | 4.1.20        | CraftTweaker2-1.12-4.1.20.700.jar             | None                                     |
+	| LCHIJA | endertweaker                      | 1.2.3         | EnderTweaker-1.12.2-1.2.3.jar                 | None                                     |
+	| LCHIJA | jei                               | 4.16.1.1013   | jei_1.12.2-4.16.1.1013.jar                    | None                                     |
+	| LCHIJA | appleskin                         | 1.0.14        | AppleSkin-mc1.12-1.0.14.jar                   | None                                     |
+	| LCHIJA | appliedenergistics2               | rv6-stable-7  | appliedenergistics2-rv6-stable-7.jar          | None                                     |
+	| LCHIJA | base                              | 3.14.0        | base-1.12.2-3.14.0.jar                        | None                                     |
+	| LCHIJA | bookshelf                         | 2.3.590       | Bookshelf-1.12.2-2.3.590.jar                  | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | codechickenlib                    | 3.2.3.358     | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | contenttweaker                    | 1.12.2-4.10.0 | ContentTweaker-1.12.2-4.10.0.jar              | None                                     |
+	| LCHIJA | controlling                       | 3.0.10        | Controlling-3.0.12.4.jar                      | None                                     |
+	| LCHIJA | ctgui                             | 1.0.0         | CraftTweaker2-1.12-4.1.20.700.jar             | None                                     |
+	| LCHIJA | crafttweakerjei                   | 2.0.3         | CraftTweaker2-1.12-4.1.20.700.jar             | None                                     |
+	| LCHIJA | endercore                         | 1.12.2-0.5.78 | EnderCore-1.12.2-0.5.78.jar                   | None                                     |
+	| LCHIJA | enderio                           | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderiointegrationtic             | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderiobase                       | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderioconduits                   | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderioconduitsappliedenergistics | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderioconduitsopencomputers      | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderioconduitsrefinedstorage     | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderiointegrationforestry        | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderiointegrationticlate         | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderioinvpanel                   | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | ftblib                            | 5.4.7.2       | FTBLib-5.4.7.2.jar                            | None                                     |
+	| LCHIJA | enderiomachines                   | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | enderiopowertools                 | 5.3.72        | EnderIO-1.12.2-5.3.72.jar                     | None                                     |
+	| LCHIJA | forgelin                          | 1.8.4         | Forgelin-1.8.4.jar                            | None                                     |
+	| LCHIJA | ftbutilities                      | 5.4.1.131     | FTBUtilities-5.4.1.131.jar                    | None                                     |
+	| LCHIJA | itemfilters                       | 1.0.4.2       | ItemFilters-1.0.4.2.jar                       | None                                     |
+	| LCHIJA | ftbquests                         | 1202.9.0.15   | FTBQuests-1202.9.0.15.jar                     | None                                     |
+	| LCHIJA | gregtech                          | 2.8.10-beta   | gregtech-1.12.2-2.8.10-beta.jar               | None                                     |
+	| LCHIJA | nutrition                         | 4.13.0        | Nutrition-UEL-4.13.0.jar                      | None                                     |
+	| LCHIJA | gregtechfoodoption                | 1.12.1        | gregtechfoodoption-1.12.2-1.12.1.jar          | None                                     |
+	| LCHIJA | waila                             | 1.8.26        | Hwyla-1.8.26-B41_1.12.2.jar                   | None                                     |
+	| LCHIJA | teslacorelib                      | 1.0.18        | tesla-core-lib-1.12.2-1.0.18.jar              | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | industrialforegoing               | 1.12.2-1.12.2 | industrialforegoing-1.12.2-1.12.13-237.jar    | None                                     |
+	| LCHIJA | industrialrenewal                 | 0.21.8        | IndustrialRenewal_1.12.2-0.21.8.jar           | None                                     |
+	| LCHIJA | mousetweaks                       | 2.10.1        | MouseTweaks-2.10.1-mc1.12.2.jar               | None                                     |
+	| LCHIJA | nutrition_gtceu                   | 1.0.0         | Nutrition-GTCEu-1.12.2-1.0.0.jar              | None                                     |
+	| LCHIJA | packmode                          | 1.2.0         | packmode-1.12.2-1.2.0.jar                     | None                                     |
+	| LCHIJA | packmodemenu                      | 1.0.6         | PackModeMenu-1.0.6.jar                        | None                                     |
+	| LCHIJA | getalltheseeds                    | 1.12a         | Pam's Get all the Seeds! 1.12a.jar            | None                                     |
+	| LCHIJA | harvestcraft                      | 1.12.2zb      | Pam's HarvestCraft 1.12.2zg.jar               | None                                     |
+	| LCHIJA | sheepmilking                      | 1.12.2b       | Pam's Sheep Milking 1.12.2b.jar               | None                                     |
+	| LCHIJA | squidmilking                      | 1.12.2a       | Pam's Squid Milking 1.12.2a.jar               | None                                     |
+	| LCHIJA | pamsbreadcraft                    | 1.1.0         | Pam's+BreadCraft+1.12.2-1.1.2.jar             | None                                     |
+	| LCHIJA | pamscookables                     | 1.1           | pamscookables-1.1.jar                         | None                                     |
+	| LCHIJA | resourceloader                    | 1.5.3         | ResourceLoader-MC1.12.1-1.5.3.jar             | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | sereneseasons                     | 1.2.18        | SereneSeasons-1.12.2-1.2.18-universal.jar     | None                                     |
+	| LCHIJA | solcarrot                         | 1.8.4         | solcarrot-1.12.2-1.8.4.jar                    | None                                     |
+	| LCHIJA | teslacorelib_registries           | 1.0.18        | tesla-core-lib-1.12.2-1.0.18.jar              | None                                     |
+
+	Loaded coremods (and transformers): 
+AsmPlugin (Nutrition-GTCEu-1.12.2-1.0.0.jar)
+  kpan.nutrition_gtceu.asm.core.ASMTransformer
+SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  sereneseasons.asm.transformer.EntityRendererTransformer
+  sereneseasons.asm.transformer.WorldTransformer
+MixinBooter (!mixinbooter-10.2.jar)
+  
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+GregTechLoadingPlugin (gregtech-1.12.2-2.8.10-beta.jar)
+  gregtech.asm.GregTechTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+GTFOEarlyMixinPlugin (gregtechfoodoption-1.12.2-1.12.1.jar)
+  
+EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Ender IO: No known problems detected.
+	Authlib is : /C:/Users/User/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	AE2 Integration: IC2:OFF, RC:OFF, MFR:OFF, Waila:ON, InvTweaks:OFF, JEI:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:OFF, TESLA:OFF, CRAFTTWEAKER:ON
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['KePiadina'/11781, l='New World', x=17.79, y=56.00, z=409.30]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

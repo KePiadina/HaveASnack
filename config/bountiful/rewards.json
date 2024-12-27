@@ -1,0 +1,52 @@
+[
+  {
+    "content": "contenttweaker:coin1",
+    "unitWorth": 1,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin5",
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin10",
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin50",
+    "unitWorth": 50,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin100",
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin500",
+    "unitWorth": 500,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin1000",
+    "unitWorth": 1000,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin5000",
+    "unitWorth": 5000,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin10000",
+    "unitWorth": 10000,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:coin5000",
+    "unitWorth": 50000,
+    "weight": 100
+  }
+]

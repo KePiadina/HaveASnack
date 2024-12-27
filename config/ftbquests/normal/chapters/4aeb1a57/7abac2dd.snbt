@@ -1,0 +1,15 @@
+{
+	title: "A bit chilly out 'ere",
+	x: -13.0d,
+	y: -6.5d,
+	text: [
+		"In addition, crops will only grow in biomes where the climate allows for it (check tooltip).",
+		"",
+		"This can NOT be bypassed by Greenhouse glass."
+	],
+	tasks: [{
+		uid: "68bc9be2",
+		type: "checkmark",
+		title: "Season's growings"
+	}]
+}

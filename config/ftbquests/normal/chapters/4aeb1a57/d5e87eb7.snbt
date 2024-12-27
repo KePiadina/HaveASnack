@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -6.5d,
+	dependencies: [
+		"3e9e3cb7"
+	],
+	tasks: [{
+		uid: "6bb23ffa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:component_peeled_potato"
+		}]
+	}]
+}

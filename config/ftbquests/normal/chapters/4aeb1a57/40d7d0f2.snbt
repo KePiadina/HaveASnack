@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -6.5d,
+	dependencies: [
+		"d5e87eb7"
+	],
+	tasks: [{
+		uid: "098d0942",
+		type: "item",
+		items: [{
+			item: "contenttweaker:component_potato_slice"
+		}]
+	}]
+}

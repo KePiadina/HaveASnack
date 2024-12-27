@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: -8.0d,
+	tasks: [{
+		uid: "d35aa202",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 3"
+		}]
+	}]
+}
