@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	dependencies: [
+		"d25ca156",
+		"8ab23c39"
+	],
+	hide: true,
+	tasks: [{
+		uid: "30f415a4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beanseeditem"
+		}]
+	}]
+}

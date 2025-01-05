@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"dcc0e909"
+	],
+	optional: true,
+	tasks: [{
+		uid: "83104280",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutswineherder"
+		}]
+	}]
+}

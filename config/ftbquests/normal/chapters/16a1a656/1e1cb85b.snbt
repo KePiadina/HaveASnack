@@ -1,0 +1,12 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	hide: true,
+	tasks: [{
+		uid: "1b2319fc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:lentilseeditem"
+		}]
+	}]
+}

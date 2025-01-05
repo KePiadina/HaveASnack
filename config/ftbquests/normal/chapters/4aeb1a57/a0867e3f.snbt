@@ -1,0 +1,32 @@
+{
+	title: "§aImpulse Itemduct",
+	x: -9.0d,
+	y: -16.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fdd0416d"
+	],
+	tasks: [{
+		uid: "54041533",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32 1 2"
+		},
+		{
+			id: "thermaldynamics:duct_32",
+			Damage: 2s,
+			tag: {
+				DenseType: 1b
+			}
+		},
+		{
+			id: "thermaldynamics:duct_32",
+			Damage: 2s,
+			tag: {
+				DenseType: 2b
+			}
+		}]
+	}]
+}

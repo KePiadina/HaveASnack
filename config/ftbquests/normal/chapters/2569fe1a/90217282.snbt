@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"Spring, for rebirth and regrowth"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5a557241",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 108"
+		}]
+	}]
+}

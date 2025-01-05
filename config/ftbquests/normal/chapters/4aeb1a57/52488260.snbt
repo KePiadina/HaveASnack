@@ -1,0 +1,17 @@
+{
+	x: 14.5d,
+	y: -5.5d,
+	text: [
+		"Collects Sewage from the animals on top"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "c9ea7d0f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	}]
+}

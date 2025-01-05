@@ -1,0 +1,16 @@
+{
+	x: -19.0d,
+	y: -3.0d,
+	dependencies: [
+		"e9270dce",
+		"affc0d66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b975c962",
+		type: "item",
+		items: [{
+			item: "harvestcraft:ryeseeditem"
+		}]
+	}]
+}

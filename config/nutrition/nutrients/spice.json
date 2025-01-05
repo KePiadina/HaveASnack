@@ -11,7 +11,30 @@
             "foodFlavorful"
 		],                 
 		"items": [
-			"contenttweaker:foodcaffe_peppina"         
+			"contenttweaker:food_caffe_peppina",
+			"harvestcraft:supremepizzaitem",
+			"harvestcraft:pepperoniitem",
+			"harvestcraft:okrachipsitem",
+			"harvestcraft:kimchiitem",
+			"harvestcraft:guacamoleitem",
+			"harvestcraft:friedchickenitem",
+			"harvestcraft:curryitem",
+			"harvestcraft:enchiladaitem",
+			"harvestcraft:chorizoitem",
+			"harvestcraft:chickenpaellaitem",
+			"pamsbreadcraft:ranch",
+			"harvestcraft:bbqpulledporkitem",
+			"pamsbreadcraft:chickenkiev",
+			"pamsbreadcraft:chickentenders",
+			"harvestcraft:porksausageitem",
+			"harvestcraft:jambalayaitem",
+			"harvestcraft:quesadillaitem",
+			"harvestcraft:spicymustardporkitem",
+			"harvestcraft:spicygreensitem",
+			"harvestcraft:cornedbeefitem",
+			"harvestcraft:tunasaladitem",
+			"harvestcraft:fivespiceitem",
+			"harvestcraft:kungpaochickenitem"
 		]
 	}
 }

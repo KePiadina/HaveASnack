@@ -1,0 +1,17 @@
+{
+	x: 14.5d,
+	y: -9.0d,
+	text: [
+		"Collects milk, wool, and ink sacs from cows, sheep, and squids respectively"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "6f962491",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_resource_harvester"
+		}]
+	}]
+}

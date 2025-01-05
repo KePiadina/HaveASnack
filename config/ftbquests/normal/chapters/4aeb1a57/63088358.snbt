@@ -1,0 +1,17 @@
+{
+	title: "Coke Oven",
+	x: 0.5d,
+	y: -13.0d,
+	description: "And no wallsharing!",
+	text: [
+		"The Coke Oven can turn Coal into Coal Coke for absolutely free (if you don't value your time)"
+	],
+	tasks: [{
+		uid: "aa862d1e",
+		type: "item",
+		items: [{
+			item: "railcraft:coke_oven"
+		}],
+		count: 26L
+	}]
+}

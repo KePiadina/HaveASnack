@@ -1,7 +1,16 @@
 {
 	title: "3 New Nutrients",
-	x: -9.0d,
-	y: -6.5d,
+	icon: {
+		id: "harvestcraft:potatochipsitem",
+		tag: {
+			Rot: {
+				start: 0L,
+				time: 0L
+			}
+		}
+	},
+	x: -5.5d,
+	y: -12.0d,
 	description: "\"But these aren't necessary for life!!\"",
 	text: [
 		"This pack adds 3 new Nutrients to keep track of: Spice, Junk food, and Hydration.",

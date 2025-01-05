@@ -1,0 +1,35 @@
+{
+	title: "Itemducts",
+	x: -5.0d,
+	y: -16.5d,
+	text: [
+		"More compact and easier to route, ducts are pipe networks that can use Servos (push) or Retrievers (pull) to move things around.",
+		"",
+		"Better Retrievers/Servos will have more filtering options and will work faster, while better itemducts will move stuff faster"
+	],
+	dependencies: [
+		"de16aef2",
+		"ea32b9b5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bc632b27",
+		type: "item",
+		title: "Any Servo",
+		items: [{
+			item: "thermaldynamics:servo"
+		},
+		{
+			item: "thermaldynamics:servo 1 1"
+		},
+		{
+			item: "thermaldynamics:servo 1 2"
+		},
+		{
+			item: "thermaldynamics:servo 1 3"
+		},
+		{
+			item: "thermaldynamics:servo 1 4"
+		}]
+	}]
+}

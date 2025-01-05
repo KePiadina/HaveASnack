@@ -1,0 +1,32 @@
+{
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"When maxed out, a Phytogenic Insolator can produce 6 crops per second (using Fluxed Phyto-Gro as fertilizer)"
+	],
+	dependencies: [
+		"bd83013d"
+	],
+	tasks: [{
+		uid: "b5a13fef",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 4s,
+			tag: {
+				Energy: 0,
+				RSControl: 0b,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b
+			}
+		}]
+	}]
+}

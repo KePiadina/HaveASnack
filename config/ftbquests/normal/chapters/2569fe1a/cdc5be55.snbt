@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"Winter, a cozy retreat into the nest"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8701fe57",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 106"
+		}]
+	}]
+}

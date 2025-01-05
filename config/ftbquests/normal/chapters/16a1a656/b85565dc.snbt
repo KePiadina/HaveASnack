@@ -1,0 +1,23 @@
+{
+	x: -14.0d,
+	y: -0.5d,
+	dependencies: [
+		"c50e75ce",
+		"6bb70ca2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dbdb4cad",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "vanilla:poppy_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

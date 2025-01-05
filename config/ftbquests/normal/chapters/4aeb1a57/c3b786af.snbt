@@ -1,0 +1,22 @@
+{
+	x: 8.494897959183675d,
+	y: -7.0d,
+	text: [
+		"Fifth upgrade, 75% slower (400% lifespan)"
+	],
+	dependencies: [
+		"b47d8ff2"
+	],
+	tasks: [{
+		uid: "49bfb521",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"foodfunk:preserving": {
+					lastCheckTime: 2263258L
+				}
+			},
+			id: "foodfunk:freezer"
+		}]
+	}]
+}

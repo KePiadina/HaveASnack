@@ -1,0 +1,13 @@
+{
+	title: "Currency Exchange",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"As Bounties and the shop use different amounts, this set of quests lets you convert between them freely"
+	],
+	tasks: [{
+		uid: "4f5f5874",
+		type: "checkmark",
+		title: "Conversion"
+	}]
+}

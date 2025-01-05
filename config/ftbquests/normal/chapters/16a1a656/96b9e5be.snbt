@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 7.0d,
+	dependencies: [
+		"5ccc4b41",
+		"1cc79fec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "608924f2",
+		type: "item",
+		items: [{
+			item: "harvestcraft:leekseeditem"
+		}]
+	}]
+}

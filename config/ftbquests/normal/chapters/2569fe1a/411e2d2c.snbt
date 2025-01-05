@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"Autumn, the middle season between warm and cold"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c2de02ba",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 107"
+		}]
+	}]
+}

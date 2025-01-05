@@ -151,42 +151,6 @@
 				]
 			}
 		},
-		"platinum": {
-			"enabled": "false",
-			"distribution": "uniform",
-			"generator": {
-				"block": [
-					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "platinum"
-						},
-						"weight": 40
-					},
-					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "nickel"
-						},
-						"weight": 60
-					}
-				],
-				"material": "minecraft:stone",
-				"cluster-size": 4
-			},
-			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 25,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
 		"aluminum": {
 			"enabled": "false",
 			"distribution": "uniform",

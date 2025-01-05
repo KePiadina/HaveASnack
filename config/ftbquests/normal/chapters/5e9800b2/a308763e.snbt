@@ -1,0 +1,18 @@
+{
+	title: "Space food",
+	x: -0.7397959183673422d,
+	y: -1.4948979591836746d,
+	text: [
+		"Most foods will not be edible in space",
+		"",
+		"Look up §e$foodSpaceproof§r for Space-suitable foods",
+		"",
+		"Remember that wearing a helmet that covers your face (like the Space helmet) will prevent you from eating",
+		"",
+		"In case you want to be able to eat anything in space you can go to the modpack folder/scripts/foodsafety.zs and set §nspoiling§r to false."
+	],
+	tasks: [{
+		uid: "8104385d",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -7.0d,
+	y: -13.5d,
+	text: [
+		"The Ender Chest can be set to a frequency by using dyes on its 3 wool blocks at the top. Each frequency will have its own storage space"
+	],
+	dependencies: [
+		"de16aef2"
+	],
+	tasks: [{
+		uid: "55cdd00b",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}]
+}

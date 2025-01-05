@@ -1,0 +1,693 @@
+{
+	title: "Ore bees",
+	x: 8.5d,
+	y: -16.0d,
+	text: [
+		"Forestry bees can be bred to produce combs, which can then be centrifuged to get ores"
+	],
+	dependencies: [
+		"3a428a1b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "01125c90",
+		type: "item",
+		title: "Any Ore Bee",
+		items: [{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.zinc",
+						UID1: "extrabees.species.zinc"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.lead",
+						UID1: "extrabees.species.lead"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.nickel",
+						UID1: "extrabees.species.nickel"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.tin",
+						UID1: "extrabees.species.tin"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.copper",
+						UID1: "extrabees.species.copper"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.platinum",
+						UID1: "extrabees.species.platinum"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.silver",
+						UID1: "extrabees.species.silver"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.gold",
+						UID1: "extrabees.species.gold"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		},
+		{
+			id: "forestry:bee_princess_ge",
+			tag: {
+				MaxH: 30,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.iron",
+						UID1: "extrabees.species.iron"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Health: 30
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

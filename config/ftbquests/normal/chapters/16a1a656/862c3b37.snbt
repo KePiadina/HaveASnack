@@ -1,0 +1,16 @@
+{
+	x: -25.0d,
+	y: 24.5d,
+	dependencies: [
+		"6457b57d",
+		"159d44d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e9da93f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pineappleseeditem"
+		}]
+	}]
+}

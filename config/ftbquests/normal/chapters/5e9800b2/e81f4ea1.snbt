@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	text: [
+		"A Bonsai pot will take about 10 seconds to produce 2 fruits",
+		"",
+		"Note that Forestry Saplings do not get faster growth, and non-fruit trees drop absolutely nothing"
+	],
+	dependencies: [
+		"6a64ab36"
+	],
+	tasks: [{
+		uid: "2ff8495f",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"Why do they call it oven when you of in the cold food of out hot eat the food"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4c2c4f90",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 100"
+		}]
+	}]
+}

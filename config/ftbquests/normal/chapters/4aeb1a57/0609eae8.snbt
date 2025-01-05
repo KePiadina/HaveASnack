@@ -1,0 +1,21 @@
+{
+	title: "§lBasic automation",
+	x: -3.0d,
+	y: -6.5d,
+	shape: "gear",
+	description: "This is just like Animal Crossing",
+	text: [
+		"Colonies will let you populate your base with NPCs that will perform various tasks",
+		"",
+		"They will not, however, work during the night, storms, rain, or if a citizen has died recently"
+	],
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "15179ea0",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhuttownhall"
+		}]
+	}]
+}

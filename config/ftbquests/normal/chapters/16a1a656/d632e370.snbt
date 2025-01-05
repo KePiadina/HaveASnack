@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: 22.0d,
+	dependencies: [
+		"f394d0de",
+		"ff9f4c74"
+	],
+	hide: true,
+	tasks: [{
+		uid: "49610bfa",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiceleafseeditem"
+		}]
+	}]
+}

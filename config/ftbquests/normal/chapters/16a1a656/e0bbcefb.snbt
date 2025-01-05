@@ -1,0 +1,12 @@
+{
+	x: 5.5d,
+	y: -3.5d,
+	hide: true,
+	tasks: [{
+		uid: "71bb1751",
+		type: "item",
+		items: [{
+			item: "harvestcraft:juteseeditem"
+		}]
+	}]
+}

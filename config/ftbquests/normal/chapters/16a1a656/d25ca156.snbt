@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -12.0d,
+	text: [
+		"Potato Seeds are the AgriCraft version of potatoes, obtained by breaking a potato crop, which can be obtained by planting normal potatoes."
+	],
+	dependencies: [
+		"b55314ac"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "3a471239",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "vanilla:potato_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

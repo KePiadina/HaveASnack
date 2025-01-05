@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"43bcf42c",
+		"309d2a02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a69166d2",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "resource:cuprosia_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

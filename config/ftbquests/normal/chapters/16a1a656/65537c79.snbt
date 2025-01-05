@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: 2.0d,
+	dependencies: [
+		"4e5ced85",
+		"b85565dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d4d1ab9c",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "vanilla:orchid_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

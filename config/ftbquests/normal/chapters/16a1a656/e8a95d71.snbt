@@ -1,0 +1,12 @@
+{
+	x: 3.5d,
+	y: -3.5d,
+	hide: true,
+	tasks: [{
+		uid: "cc4e73c7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tomatilloseeditem"
+		}]
+	}]
+}

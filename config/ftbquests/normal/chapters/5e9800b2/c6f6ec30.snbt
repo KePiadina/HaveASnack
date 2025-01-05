@@ -1,0 +1,22 @@
+{
+	title: "We have liftoff",
+	x: -0.75d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"14f425fc",
+		"af984381",
+		"ef9947bf"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a5c6bbaf",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

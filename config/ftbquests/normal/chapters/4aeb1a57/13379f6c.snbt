@@ -1,0 +1,15 @@
+{
+	title: "§lLogistics",
+	x: -3.0d,
+	y: -14.5d,
+	shape: "gear",
+	text: [
+		""
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e19db07d",
+		type: "checkmark",
+		title: "Logistics"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Mars",
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"325c5bfb"
+	],
+	tasks: [{
+		uid: "87c5fd9b",
+		type: "dimension",
+		title: "Land on Mars",
+		dim: -29
+	}]
+}

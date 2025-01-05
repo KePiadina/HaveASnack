@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 22.0d,
+	dependencies: [
+		"c50e75ce",
+		"ed9f9066"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef3e004e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cantaloupeseeditem"
+		}]
+	}]
+}

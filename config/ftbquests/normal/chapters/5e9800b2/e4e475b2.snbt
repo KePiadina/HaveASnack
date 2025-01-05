@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		"Certus Quartz can be obtained from pulverizing Moon Dirt"
+	],
+	dependencies: [
+		"67a7eaf9"
+	],
+	tasks: [{
+		uid: "5d6b5125",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}]
+	}]
+}

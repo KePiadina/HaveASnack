@@ -1,0 +1,12 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	hide: true,
+	tasks: [{
+		uid: "be5c1457",
+		type: "item",
+		items: [{
+			item: "harvestcraft:greengrapeseeditem"
+		}]
+	}]
+}

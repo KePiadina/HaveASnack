@@ -1,0 +1,39 @@
+{
+	title: "§aThe Multifarm",
+	x: 13.0d,
+	y: -12.0d,
+	text: [
+		"The Multifarm is a complex machine, capable of farming up to 4 different plants based on its configuration, managing up to 440 farm blocks per machine at max size.",
+		"",
+		"They will be the ultimate machine for large scale farming.",
+		"",
+		"Check the Forester's Manual for more in-depth explanations on size and layout"
+	],
+	dependencies: [
+		"34edac68",
+		"59d66fe3",
+		"2f9d5e17"
+	],
+	tasks: [{
+		uid: "661aefc2",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		}],
+		count: 35L
+	},
+	{
+		uid: "13433084",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 2s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}]
+}

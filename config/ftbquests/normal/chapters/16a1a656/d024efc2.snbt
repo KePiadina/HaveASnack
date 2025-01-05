@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 27.0d,
+	dependencies: [
+		"16b60ca4",
+		"970fe2ec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "882bcb7c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turnipseeditem"
+		}]
+	}]
+}

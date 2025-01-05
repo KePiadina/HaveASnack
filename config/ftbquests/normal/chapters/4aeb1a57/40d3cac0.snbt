@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: -14.5d,
+	text: [
+		"Conveyor belts are a simple block that moves items around, not much else to it."
+	],
+	dependencies: [
+		"de16aef2"
+	],
+	tasks: [{
+		uid: "6659a1dc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}],
+		ignore_nbt: 1b
+	}]
+}

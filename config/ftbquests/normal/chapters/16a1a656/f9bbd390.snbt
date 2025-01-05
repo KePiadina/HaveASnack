@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 17.0d,
+	dependencies: [
+		"297a1cbb",
+		"8ab23c39"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70b078f0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:zucchiniseeditem"
+		}]
+	}]
+}

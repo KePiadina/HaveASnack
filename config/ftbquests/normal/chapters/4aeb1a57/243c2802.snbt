@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"Ctiizens have to eat, and you have to give it to them by placing food in their inventory",
+		"",
+		"Restaurants will auto-feed citizens so you don't have to"
+	],
+	dependencies: [
+		"dcc0e909"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c18381f6",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcook"
+		}]
+	}]
+}

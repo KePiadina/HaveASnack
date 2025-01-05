@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -7.5d,
+	text: [
+		"The Archery will let some guards become Archers"
+	],
+	dependencies: [
+		"1d4d1785"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a5f989e0",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutarchery"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 14.5d,
+	y: -7.5d,
+	text: [
+		"Speeds up crop growth"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "2c9fea82",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:hydrator"
+		}]
+	}]
+}

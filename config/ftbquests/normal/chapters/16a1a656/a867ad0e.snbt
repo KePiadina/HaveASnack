@@ -1,0 +1,16 @@
+{
+	x: -14.0d,
+	y: 2.0d,
+	dependencies: [
+		"08e5d87c",
+		"5045c87f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e7065cc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sesameseedsseeditem"
+		}]
+	}]
+}

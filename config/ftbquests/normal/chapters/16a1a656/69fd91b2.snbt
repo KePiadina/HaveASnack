@@ -1,0 +1,23 @@
+{
+	x: -11.5d,
+	y: 7.0d,
+	dependencies: [
+		"5429c714",
+		"309d2a02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2474be7c",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "resource:nitorwart_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

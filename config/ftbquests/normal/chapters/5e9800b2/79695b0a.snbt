@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"While not necessary, exploring other planets will give extremely strong machines that streamline farming and cooking"
+	],
+	dependencies: [
+		"ed5c9bf0",
+		"4cf9e5c8"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "af5f92ab",
+		type: "checkmark",
+		title: "Further ventures into space"
+	}]
+}

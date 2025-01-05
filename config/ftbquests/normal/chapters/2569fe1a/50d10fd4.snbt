@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	text: [
+		"The primordial desire for sweets has been a vice ever since the discovery of honey"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "20928a9c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 104"
+		}]
+	}]
+}

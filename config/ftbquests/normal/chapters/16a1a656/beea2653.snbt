@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: -4.5d,
+	hide: true,
+	tasks: [{
+		uid: "59355ccf",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sisalseeditem"
+		}]
+	}]
+}

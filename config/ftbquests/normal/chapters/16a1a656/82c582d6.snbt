@@ -1,0 +1,16 @@
+{
+	x: -14.0d,
+	y: 27.0d,
+	dependencies: [
+		"3d12de51",
+		"159d44d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12c7675b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cactusfruitseeditem"
+		}]
+	}]
+}

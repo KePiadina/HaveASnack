@@ -1,0 +1,17 @@
+{
+	x: 15.5d,
+	y: -10.0d,
+	text: [
+		"Breeds animals given food and energy, up to 35 animals per machine"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "27583c9b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	}]
+}

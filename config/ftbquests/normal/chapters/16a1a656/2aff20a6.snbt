@@ -1,0 +1,16 @@
+{
+	x: -27.0d,
+	y: 12.0d,
+	dependencies: [
+		"a867ad0e",
+		"83facb60"
+	],
+	hide: true,
+	tasks: [{
+		uid: "849c1d04",
+		type: "item",
+		items: [{
+			item: "harvestcraft:waterchestnutseeditem"
+		}]
+	}]
+}

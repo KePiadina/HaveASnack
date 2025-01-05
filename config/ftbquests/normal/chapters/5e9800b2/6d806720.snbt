@@ -1,0 +1,17 @@
+{
+	title: "Asteroid belt",
+	x: 7.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e94d25c0"
+	],
+	tasks: [{
+		uid: "4f80e069",
+		type: "dimension",
+		title: "Land on an Asteroid",
+		dim: -30
+	}]
+}

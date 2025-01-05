@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"dcc0e909"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4e1eecd8",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcowboy"
+		}]
+	}]
+}

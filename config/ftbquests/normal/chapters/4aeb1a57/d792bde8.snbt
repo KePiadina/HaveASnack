@@ -1,0 +1,19 @@
+{
+	x: 15.5d,
+	y: -4.5d,
+	text: [
+		"Given a Mob Imprisonment Tool and Essence, it can spawn copies of that mob",
+		"",
+		"Tip: Since Essence cost is based off of Mob HP, try to lower their health first before capturing them"
+	],
+	dependencies: [
+		"5e5f1b47"
+	],
+	tasks: [{
+		uid: "f07189d7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}]
+}

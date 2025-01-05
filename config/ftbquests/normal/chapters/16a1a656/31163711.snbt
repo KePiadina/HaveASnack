@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: -4.5d,
+	hide: true,
+	tasks: [{
+		uid: "14494c0b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:jicamaseeditem"
+		}]
+	}]
+}

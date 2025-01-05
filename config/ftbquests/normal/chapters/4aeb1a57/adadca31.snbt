@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -11.0d,
+	text: [
+		"Diamond hoes can harvest in a 7x7"
+	],
+	dependencies: [
+		"d6ba47fc"
+	],
+	tasks: [{
+		uid: "80c88ced",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

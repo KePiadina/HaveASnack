@@ -1,0 +1,30 @@
+{
+	title: "Pulverizer",
+	x: 6.0d,
+	y: -9.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d4347f9a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				Energy: 0,
+				RSControl: 0b,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b
+			}
+		}]
+	}]
+}

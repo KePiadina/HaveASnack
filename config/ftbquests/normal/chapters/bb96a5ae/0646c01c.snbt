@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "8cb1003f",
+		type: "ftbmoney:money",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "f614fb96",
+		type: "item",
+		item: "contenttweaker:coin5"
+	}]
+}

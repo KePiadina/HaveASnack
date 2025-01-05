@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	description: "\"For the first time in 2b2t history, slave-\"",
+	text: [
+		"A Builder's Hut will house 1 builder which will, well, build structures you request given the materials",
+		"",
+		"Builders will be quite slow, so you can send a building request and then go on with your business as usual",
+		"",
+		"Note that a builder can only build structures up to its hut's level"
+	],
+	dependencies: [
+		"0609eae8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "63994674",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutbuilder"
+		}]
+	}]
+}

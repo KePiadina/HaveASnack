@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		"Citizens have 5 different stats that will make their work in the respective field faster or slower.",
+		"",
+		"Highlighted in §a§lgreen§r is the primary stat of the workplace, while in §e§oyellow§r the secondary stat."
+	],
+	dependencies: [
+		"0609eae8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4505a951",
+		type: "checkmark",
+		title: "Levels"
+	}]
+}

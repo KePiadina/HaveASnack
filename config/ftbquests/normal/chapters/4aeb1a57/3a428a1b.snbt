@@ -1,0 +1,15 @@
+{
+	title: "§lRenewable ores & Ore processing",
+	x: 6.0d,
+	y: -15.75d,
+	shape: "gear",
+	text: [
+		"In case you were getting tired of going mining, there are multiple ways to get ores in a renewable manner, along with increasind the yield per ore"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f2b34cad",
+		type: "checkmark",
+		title: "Renewable ores"
+	}]
+}

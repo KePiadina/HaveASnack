@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: -5.5d,
+	text: [
+		"Catches fish automatically when placed over a 3x3 pool of water"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "2d7df92e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}]
+	}]
+}

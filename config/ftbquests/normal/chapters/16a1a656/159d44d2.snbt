@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 2.0d,
+	dependencies: [
+		"08e5d87c",
+		"15b6d670"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ec040587",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bambooshootseeditem"
+		}]
+	}]
+}

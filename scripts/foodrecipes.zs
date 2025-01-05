@@ -4,10 +4,13 @@ import mods.thermalexpansion.Refinery;
 import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Pulverizer;
-recipes.remove(<harvestcraft:friesitem>);
-mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:seed_oil> * 100, <harvestcraft:oliveoilitem>, 400);
+import mods.thermalexpansion.Imbuer;
+import mods.thermalexpansion.Compactor;
 
-recipes.addShapeless(<contenttweaker:food_pbnj>, [<ore:toolCuttingboard>, <ore:plateLesad>, <ore:foodGrapejelly>, <ore:bread>]);
+recipes.remove(<harvestcraft:friesitem>);
+Transposer.addExtractRecipe(<liquid:seed_oil> * 100, <harvestcraft:oliveoilitem>, 400);
+
+recipes.addShapeless(<contenttweaker:food_pbnj>, [<ore:toolCuttingboard>, <ore:plateLead>, <ore:foodGrapejelly>, <ore:bread>]);
 
 
 recipes.addShapeless(<contenttweaker:component_peeled_potato>, [<harvestcraft:cuttingboarditem>,<ore:cropPotato>]);
@@ -17,9 +20,8 @@ Sawmill.addRecipe(<contenttweaker:component_potato_slice> * 16, <contenttweaker:
 recipes.remove(<harvestcraft:oliveoilitem>);
 
 //Potato chips
-recipes.remove(<harvestcraft:potatochipsitem>);
+recipes.removeShapeless(<harvestcraft:potatochipsitem>);
 Transposer.addFillRecipe(<contenttweaker:component_fried_potato_slice> * 16, <contenttweaker:component_potato_slice> * 16, <liquid:seed_oil> * 500, 2000);
-recipes.addShapeless(<harvestcraft:potatochipsitem>, [<ore:toolPot>, <ore:cropPotato>, <ore:itemSalt>, <ore:foodOliveoil>]);
 InductionSmelter.addRecipe(<harvestcraft:potatochipsitem>, <contenttweaker:component_fried_potato_slice> * 16, <thermalfoundation:material:324>, 2000);
 
 //Fries
@@ -28,7 +30,7 @@ Sawmill.addRecipe(<contenttweaker:component_potato_strip> * 4, <contenttweaker:c
 Transposer.addFillRecipe(<contenttweaker:component_fried_potato_strip> * 16, <contenttweaker:component_potato_strip> * 16, <liquid:seed_oil> * 500, 2000);
 
 //CO2
-Crucible.addRecipe(<liquid:fluid_co2>,<minecraft:reeds>, 2000);
+Crucible.addRecipe(<liquid:fluid_co2> * 500,<minecraft:reeds>, 2000);
 
 //Popcorn
 recipes.remove(<harvestcraft:popcornitem>);
@@ -49,4 +51,29 @@ Pulverizer.addRecipe(<harvestcraft:cocoapowderitem>, <contenttweaker:component_r
 recipes.remove(<harvestcraft:bubblywateritem>);
 Transposer.addFillRecipe(<harvestcraft:bubblywateritem>, <harvestcraft:freshwateritem>, <liquid:fluid_co2> * 50, 2000);
 
-mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:food_caffe_peppina>, [<ore:foodCoffee>, <ore:foodChocolatebar>, <ore:listAlljelly>,<ore:cropOnion>,<ore:cropOnion>,<ore:cropOnion>,<harvestcraft:taffyitem>,<harvestcraft:taffyitem>,<harvestcraft:taffyitem>,<harvestcraft:taffyitem>,<forestry:butterfly_ge>,<forestry:butterfly_ge>,<forestry:butterfly_ge>,<forestry:butterfly_ge>,<ore:cropSpiceleaf>,<ore:foodCheese>,<ore:listAllturkeyraw>, <ore:feather>, <ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>,<ore:cropPeppercorn>,<ore:foodSalt>,<forge:bucketfilled>.withTag({FluidName: "crude_oil", Amount: 1000}),<ore:cropLettuce>,<ore:foodVinegar>,<ore:foodOliveoil>,<minecraft:tnt>]);
+//Slices
+Sawmill.addRecipe(<minecraft:melon> * 9, <minecraft:melon_block>,1500);
+Sawmill.addRecipe(<cfm:item_bread_slice> * 6, <minecraft:bread>,1500);
+Sawmill.addRecipe(<galacticraftcore:food:4> * 6, <galacticraftcore:cheese>,1500);
+
+Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 13,<harvestcraft:anchovypepperonipizzaitem>,1500);
+Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 9,<harvestcraft:hamandpineapplepizzaitem>,1500);
+Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 24,<harvestcraft:meatfeastpizzaitem>,1500);
+Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 11,<harvestcraft:pizzaitem>,1500);
+Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 14,<harvestcraft:supremepizzaitem>,1500);
+
+//Bioplastic
+Compactor.addPressRecipe(<industrialforegoing:plastic>, <minecraft:reeds> * 4, 1500);
+
+//Infinity dust farm
+Pulverizer.addRecipe(<enderio:item_material:20> * 9, <enderio:block_infinity>, 2000, <enderio:item_material:20>, 50);
+Pulverizer.addRecipe(<enderio:block_infinity> * 9, <enderio:block_infinity:1>, 2000, <enderio:block_infinity>, 50);
+Pulverizer.addRecipe(<enderio:block_infinity:1> * 9, <enderio:block_infinity:2>, 2000, <enderio:block_infinity:1>, 50);
+
+Compactor.addPressRecipe(<enderio:block_infinity:0>, <enderio:item_material:20> * 9, 2000);
+Compactor.addPressRecipe(<enderio:block_infinity:1>, <enderio:block_infinity:0> * 9, 2000);
+Compactor.addPressRecipe(<enderio:block_infinity:2>, <enderio:block_infinity:1> * 9, 2000);
+
+//Induction Smelter Energetic Alloy
+recipes.addShapeless(<contenttweaker:component_energetic_dust>, [<ore:dustRedstone>,<ore:dustGlowstone>]);
+mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot:1>, <minecraft:gold_ingot>, <contenttweaker:component_energetic_dust>, 2000);

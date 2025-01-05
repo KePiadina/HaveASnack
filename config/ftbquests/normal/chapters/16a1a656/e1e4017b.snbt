@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: -7.5d,
+	text: [
+		"These seeds cannot be obtained through crossbreeding, but they will still be available through gardens and the market"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3e4938a",
+		type: "checkmark",
+		title: "Unobtainable seeds"
+	}]
+}

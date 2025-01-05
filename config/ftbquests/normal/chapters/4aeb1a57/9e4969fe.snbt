@@ -1,0 +1,33 @@
+{
+	title: "Faster Steel",
+	x: 4.0d,
+	y: -12.5d,
+	text: [
+		"If you want to take less time to make steel, you can use an Induction Smelter"
+	],
+	dependencies: [
+		"49535e93"
+	],
+	tasks: [{
+		uid: "c3f4458e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 3s,
+			tag: {
+				Energy: 0,
+				RSControl: 0b,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b
+			}
+		}]
+	}]
+}

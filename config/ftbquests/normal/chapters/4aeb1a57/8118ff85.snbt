@@ -1,0 +1,19 @@
+{
+	x: 15.5d,
+	y: -7.5d,
+	text: [
+		"Automatically applies bonemeal/fertilizer to crops",
+		"",
+		"Note: It will get stuck on AgriCraft crop sticks and fertilize them constantly, so using it with range addons and cropsticks is not recommended"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "655c360f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_enrich_material_injector"
+		}]
+	}]
+}

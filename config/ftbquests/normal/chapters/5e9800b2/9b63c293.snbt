@@ -1,0 +1,17 @@
+{
+	title: "Venus",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e94d25c0"
+	],
+	tasks: [{
+		uid: "b5bbb6f1",
+		type: "dimension",
+		title: "Land on Venus",
+		dim: -31
+	}]
+}

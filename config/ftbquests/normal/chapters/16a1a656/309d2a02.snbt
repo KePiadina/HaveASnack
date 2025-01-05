@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: -8.0d,
+	dependencies: [
+		"e9270dce",
+		"d25ca156"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0aac7dc1",
+		type: "item",
+		items: [{
+			item: "agricraft:agri_seed"
+		}]
+	}]
+}

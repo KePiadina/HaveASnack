@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: 4.0d,
+	shape: "octagon",
+	dependencies: [
+		"54a511c6"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "878944c7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:forbidden_fruit"
+		}]
+	}]
+}

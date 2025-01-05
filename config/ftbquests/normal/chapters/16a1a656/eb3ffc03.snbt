@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: 12.0d,
+	dependencies: [
+		"10fc4bfc",
+		"108dd950"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5faa20f3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cabbageseeditem"
+		}]
+	}]
+}

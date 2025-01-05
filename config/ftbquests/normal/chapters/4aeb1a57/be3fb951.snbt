@@ -1,0 +1,19 @@
+{
+	title: "Tectonic Initiator",
+	x: 3.0d,
+	y: -17.0d,
+	description: "x3 + bonus",
+	text: [
+		""
+	],
+	dependencies: [
+		"ab058826"
+	],
+	tasks: [{
+		uid: "27d01800",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 273"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -14.0d,
+	y: 4.5d,
+	dependencies: [
+		"43bcf42c",
+		"3e25943d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14dc1c85",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "resource:redstodendron_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

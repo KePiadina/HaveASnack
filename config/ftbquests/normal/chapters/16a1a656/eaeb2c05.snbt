@@ -1,0 +1,12 @@
+{
+	x: 6.5d,
+	y: -3.5d,
+	hide: true,
+	tasks: [{
+		uid: "c05fe173",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cassavaseeditem"
+		}]
+	}]
+}

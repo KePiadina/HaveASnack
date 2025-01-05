@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: -0.5d,
+	dependencies: [
+		"a08ebf37",
+		"affc0d66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2efac67f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cornseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -25.0d,
+	y: 19.5d,
+	dependencies: [
+		"f9bbd390",
+		"4e31c6d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7916fa9c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:eggplantseeditem"
+		}]
+	}]
+}

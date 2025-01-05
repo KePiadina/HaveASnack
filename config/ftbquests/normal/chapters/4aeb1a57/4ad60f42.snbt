@@ -1,0 +1,17 @@
+{
+	title: "The Shop",
+	icon: "thermalfoundation:coin 1 103",
+	x: 8.5d,
+	y: -17.0d,
+	text: [
+		"If you really don't want to bother (you'll still have to crossbreed seeds), you can spend bounty money in the shop to buy ores"
+	],
+	dependencies: [
+		"3a428a1b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dbea7e66",
+		type: "checkmark"
+	}]
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/component_roasted_cocoa"
+    "layer0": "contenttweaker:items/foods/roasted_cocoa"
   }
 }

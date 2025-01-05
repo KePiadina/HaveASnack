@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 19.5d,
+	dependencies: [
+		"970fe2ec",
+		"b25a9235"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e61d7011",
+		type: "item",
+		items: [{
+			item: "harvestcraft:strawberryseeditem"
+		}]
+	}]
+}

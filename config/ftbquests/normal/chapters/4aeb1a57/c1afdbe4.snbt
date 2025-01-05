@@ -1,0 +1,22 @@
+{
+	x: 5.494897959183675d,
+	y: -7.0d,
+	text: [
+		"An upgrade, 25% slower (133% lifespan)"
+	],
+	dependencies: [
+		"f259e6a2"
+	],
+	tasks: [{
+		uid: "3d73b4e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"foodfunk:preserving": {
+					lastCheckTime: 2293590L
+				}
+			},
+			id: "cookingforblockheads:counter"
+		}]
+	}]
+}

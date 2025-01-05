@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: 2.0d,
+	dependencies: [
+		"15b6d670",
+		"1cc79fec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ddb5536",
+		type: "item",
+		items: [{
+			item: "harvestcraft:asparagusseeditem"
+		}]
+	}]
+}

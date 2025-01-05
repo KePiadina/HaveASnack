@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -6.5d,
+	text: [
+		"The Combat Academy will increase the citizens' average guard and combat skills in order to better protect themselves"
+	],
+	dependencies: [
+		"1d4d1785"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3a782c29",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcombatacademy"
+		}]
+	}]
+}

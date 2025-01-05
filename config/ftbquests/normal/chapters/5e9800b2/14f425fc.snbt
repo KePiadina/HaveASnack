@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	dependencies: [
+		"307678c4"
+	],
+	tasks: [{
+		uid: "edf4d0e5",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:heavy_plating"
+		}]
+	}]
+}

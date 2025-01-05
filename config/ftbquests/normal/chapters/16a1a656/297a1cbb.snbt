@@ -1,0 +1,16 @@
+{
+	x: -14.0d,
+	y: 14.5d,
+	dependencies: [
+		"3f4c8746",
+		"4a464525"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cb9c303e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cucumberseeditem"
+		}]
+	}]
+}

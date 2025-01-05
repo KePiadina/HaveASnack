@@ -1,0 +1,18 @@
+{
+	title: "Forestry genetics",
+	x: -27.5d,
+	y: -10.0d,
+	text: [
+		"Unfortunately I have little to no clue as to how Forestry actually works, you'll have to try alone for that.",
+		"",
+		"If you DO know, please reach out and help me understand it too.",
+		"",
+		"In the meantime, Forestry saplings are available through the Market",
+		"",
+		"Note that they are not necessary to complete the modpack, unlike AgriCraft"
+	],
+	tasks: [{
+		uid: "3397a018",
+		type: "checkmark"
+	}]
+}

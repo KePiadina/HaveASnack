@@ -1,0 +1,20 @@
+{
+	title: "Applied Energistics",
+	x: -4.0d,
+	y: -13.0d,
+	description: "Requires Space Exploration",
+	text: [
+		"AE2 is a huge logistics mod that can handle just about everything short of moving entities and players"
+	],
+	dependencies: [
+		"13379f6c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c13819a0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: -8.5d,
+	text: [
+		"The Warehouse and Deliveryman will be the main storage and logistic network of your colony"
+	],
+	dependencies: [
+		"2c10bf2d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d2e34379",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutwarehouse"
+		}]
+	},
+	{
+		uid: "be8bb285",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutdeliveryman"
+		}]
+	}]
+}

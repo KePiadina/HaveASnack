@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: -11.0d,
+	text: [
+		"Platinum hoes can harvest in a 5x5",
+		"",
+		"Platinum can be obtained by smelting Platinum dust, which is a secondary product of pulverizing Nickel ore"
+	],
+	dependencies: [
+		"abbf42e0"
+	],
+	tasks: [{
+		uid: "93acd20e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hoe_platinum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

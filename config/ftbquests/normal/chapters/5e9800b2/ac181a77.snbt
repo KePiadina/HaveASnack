@@ -1,0 +1,34 @@
+{
+	title: "Renewable oxygen",
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		"By making a sealed room with trees, you can create an oxygen generator to make infinite oxygen available in space as well"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"822f10f9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "77860d10",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	},
+	{
+		uid: "b7b09449",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:collector"
+		}]
+	},
+	{
+		uid: "8ded94ec",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:sealer"
+		}]
+	}]
+}

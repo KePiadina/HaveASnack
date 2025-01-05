@@ -1,0 +1,17 @@
+{
+	x: 14.5d,
+	y: -10.0d,
+	text: [
+		"Uses breeding foods to make baby animals grow faster"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "fff689b2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	}]
+}

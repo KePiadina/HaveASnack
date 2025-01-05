@@ -1,7 +1,13 @@
 mods
+backups
+local
+logs
 saves
 coremods
 screenshots
 texturepacks
+crash-reports
 server-resource-packs
+journeymap
 options.txt
+crafttweaker.log

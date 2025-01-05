@@ -1,0 +1,16 @@
+{
+	x: -25.0d,
+	y: 4.5d,
+	dependencies: [
+		"affc0d66",
+		"b25a9235"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc6e2341",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cottonseeditem"
+		}]
+	}]
+}

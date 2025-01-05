@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"27c7f879",
+		"65122610"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f6d858e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:whitemushroomseeditem"
+		}]
+	}]
+}

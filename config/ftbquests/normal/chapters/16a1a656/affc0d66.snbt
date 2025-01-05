@@ -1,0 +1,16 @@
+{
+	x: -21.5d,
+	y: -5.5d,
+	dependencies: [
+		"e9270dce",
+		"6bb70ca2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "55f91f6c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:barleyseeditem"
+		}]
+	}]
+}

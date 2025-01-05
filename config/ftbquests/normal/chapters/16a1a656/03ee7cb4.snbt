@@ -1,0 +1,15 @@
+{
+	x: -19.0d,
+	y: -12.0d,
+	dependencies: [
+		"b55314ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e9e6a4b",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot_seeds"
+		}]
+	}]
+}

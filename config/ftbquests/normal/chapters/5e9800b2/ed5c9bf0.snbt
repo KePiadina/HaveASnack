@@ -1,0 +1,17 @@
+{
+	title: "Spaceblock",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c6f6ec30"
+	],
+	tasks: [{
+		uid: "145fd8f4",
+		type: "dimension",
+		title: "Build a Space Station",
+		dim: 2
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 7.5d,
+	y: -5.5d,
+	hide: true,
+	tasks: [{
+		uid: "29afd89f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:juniperberryseeditem"
+		}]
+	}]
+}

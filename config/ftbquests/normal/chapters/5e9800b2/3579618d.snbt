@@ -1,0 +1,20 @@
+{
+	title: "A note on spoilage",
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"Foods will still spoil at normal speed inside of ME Storage Cells, but will rot slower if stored in a suitable container.",
+		"",
+		"Storage Buses will let you connect fridges and other food storage blocks to the network, reaping the benefits of slower decay and better logistics"
+	],
+	dependencies: [
+		"67a7eaf9"
+	],
+	tasks: [{
+		uid: "8c88c97d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}]
+}

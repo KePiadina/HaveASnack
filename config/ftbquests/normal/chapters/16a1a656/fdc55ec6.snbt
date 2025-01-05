@@ -1,0 +1,16 @@
+{
+	x: -26.0d,
+	y: 19.5d,
+	dependencies: [
+		"8ab23c39",
+		"f9bbd390"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e6004c7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:wintersquashseeditem"
+		}]
+	}]
+}

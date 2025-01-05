@@ -1,0 +1,22 @@
+{
+	title: "§lArea Harvesting",
+	x: 2.25d,
+	y: -11.0d,
+	shape: "gear",
+	text: [
+		"Steel Hoes are able to harvest 3x3 crops by right clicking on crop blocks"
+	],
+	dependencies: [
+		"49535e93"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8edc1833",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hoe_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

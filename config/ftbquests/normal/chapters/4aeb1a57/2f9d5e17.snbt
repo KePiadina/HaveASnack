@@ -1,0 +1,60 @@
+{
+	title: "§lAutomated Farming",
+	x: 11.25d,
+	y: -12.0d,
+	shape: "gear",
+	text: [
+		""
+	],
+	dependencies: [
+		"147795de"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a1be564f",
+		type: "item",
+		title: "Any Farm",
+		items: [{
+			item: "forestry:arboretum"
+		},
+		{
+			item: "forestry:arboretum 1 1"
+		},
+		{
+			item: "forestry:farm_crops"
+		},
+		{
+			item: "forestry:farm_crops 1 1"
+		},
+		{
+			item: "forestry:farm_mushroom"
+		},
+		{
+			item: "forestry:farm_mushroom 1 1"
+		},
+		{
+			item: "forestry:farm_gourd"
+		},
+		{
+			item: "forestry:farm_gourd 1 1"
+		},
+		{
+			item: "forestry:farm_nether"
+		},
+		{
+			item: "forestry:farm_nether 1 1"
+		},
+		{
+			item: "forestry:farm_ender"
+		},
+		{
+			item: "forestry:farm_ender 1 1"
+		},
+		{
+			item: "forestry:peat_bog"
+		},
+		{
+			item: "forestry:peat_bog 1 1"
+		}]
+	}]
+}

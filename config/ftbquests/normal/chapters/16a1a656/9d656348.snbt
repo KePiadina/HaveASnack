@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 24.5d,
+	dependencies: [
+		"d632e370",
+		"ff9f4c74"
+	],
+	hide: true,
+	tasks: [{
+		uid: "824b9f9d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bellpepperseeditem"
+		}]
+	}]
+}

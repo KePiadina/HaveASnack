@@ -1,0 +1,12 @@
+{
+	x: 3.5d,
+	y: -5.5d,
+	hide: true,
+	tasks: [{
+		uid: "5adf1f53",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mulberryseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"db5125c4"
+	],
+	tasks: [{
+		uid: "73eaf80b",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:rocket_t2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

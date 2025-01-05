@@ -1,0 +1,18 @@
+{
+	title: "Cheaper Steel",
+	x: 4.0d,
+	y: -13.5d,
+	text: [
+		"For an efficiency shortcut, you can turn coal into coke for 4x cheaper steel"
+	],
+	dependencies: [
+		"9e4969fe"
+	],
+	tasks: [{
+		uid: "5ca03950",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 258"
+		}]
+	}]
+}

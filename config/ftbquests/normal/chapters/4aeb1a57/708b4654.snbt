@@ -1,0 +1,19 @@
+{
+	title: "Blast Furnace",
+	x: 0.5d,
+	y: -12.0d,
+	text: [
+		"The Blast Furnace can smelt 1 iron ingot + 2 Coal coke into 1 Steel ingot"
+	],
+	dependencies: [
+		"63088358"
+	],
+	tasks: [{
+		uid: "7febfc26",
+		type: "item",
+		items: [{
+			item: "railcraft:blast_furnace"
+		}],
+		count: 34L
+	}]
+}

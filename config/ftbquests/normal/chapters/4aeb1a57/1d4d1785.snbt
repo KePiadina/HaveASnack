@@ -1,0 +1,19 @@
+{
+	title: "Tower Defense",
+	x: 0.5d,
+	y: -7.5d,
+	text: [
+		"Guards will help defend your colony against mobs or enemies"
+	],
+	dependencies: [
+		"2c10bf2d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "94a901fe",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutguardtower"
+		}]
+	}]
+}

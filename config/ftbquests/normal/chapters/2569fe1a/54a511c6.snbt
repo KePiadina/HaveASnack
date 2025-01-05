@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"That's it, you've beaten the pack!",
+		"",
+		"Hope you had fun."
+	],
+	dependencies: [
+		"cdc5be55",
+		"011361e1",
+		"411e2d2c",
+		"90217282",
+		"6a987eac",
+		"50d10fd4",
+		"8bfa90d2",
+		"909927d3",
+		"8684b7ff"
+	],
+	size: 4.0d,
+	tasks: [{
+		uid: "8166616c",
+		type: "item",
+		items: [{
+			item: "treetweaker:eden"
+		}]
+	}]
+}

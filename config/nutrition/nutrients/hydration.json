@@ -7,7 +7,7 @@
 	"enabled": true,
 	"food": {
 		"oredict": [
-			"foodDrink",
+			"listAlldrink",
 			"listAllfruit",
             "listAlljuice",
             "listAllsmoothie",
@@ -15,7 +15,7 @@
             "listAllwater"
 		],                 
 		"items": [   
-			"contenttweaker:foodcaffe_peppina"        
+			"contenttweaker:food_caffe_peppina"        
 		]
 	}
 }

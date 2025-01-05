@@ -1,5 +1,6 @@
 {
-	title: "The end",
+	title: "The End",
+	icon: "treetweaker:eden",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

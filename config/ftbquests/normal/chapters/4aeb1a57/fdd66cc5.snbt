@@ -1,14 +1,13 @@
 {
-	x: -14.0d,
-	y: -1.5d,
+	icon: "minecraft:paper",
+	x: -7.5d,
+	y: -7.5d,
 	description: "§mDon't play§7 See here",
 	text: [
-		"In case you don't like the food spoilage mechanic, you can remove the Food Spoiling mod so that food will no longer spoil",
-		"",
-		"In case you want to be able to eat everything everywhere you can go to the modpack folder /scripts/foodsafety.zs and set §nspoiling§r to false;"
+		"In case you don't like the food spoilage mechanic, you can remove the Food Funk mod so that food will no longer spoil"
 	],
 	dependencies: [
-		"3e03bb2b"
+		"ec24b2c5"
 	],
 	tasks: [{
 		uid: "1794cbdc",

@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: -1.5d,
+	text: [
+		"Greenhouse glass will let you grow plants regardless of season."
+	],
+	dependencies: [
+		"60f363a3"
+	],
+	tasks: [{
+		uid: "e60b4473",
+		type: "item",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}]
+}

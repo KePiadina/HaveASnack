@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"Despite its status as a low quality food, fried food used to be popular among the wealthy èlite"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cb138209",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 102"
+		}]
+	}]
+}

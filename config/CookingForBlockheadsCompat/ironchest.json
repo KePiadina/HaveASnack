@@ -1,0 +1,14 @@
+{
+	"modid": "ironchest",
+	"tiles": {
+		"kitchenItemProviders": [
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntityCopperShulkerBox",
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntityCrystalShulkerBox",
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntityDiamondShulkerBox",
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntityGoldShulkerBox",
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntityIronShulkerBox",
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntityObsidianShulkerBox",
+			"cpw.mods.ironchest.common.tileentity.shulker.TileEntitySilverShulkerBox"
+		]
+	}
+  }

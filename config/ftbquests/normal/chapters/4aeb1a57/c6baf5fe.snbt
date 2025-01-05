@@ -1,0 +1,23 @@
+{
+	title: "§aThe Fridge",
+	x: 9.494897959183675d,
+	y: -7.0d,
+	text: [
+		"Food doesn't rot while stored in the fridge"
+	],
+	dependencies: [
+		"c3b786af"
+	],
+	tasks: [{
+		uid: "cc6245cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"foodfunk:preserving": {
+					lastCheckTime: 2263337L
+				}
+			},
+			id: "cookingforblockheads:fridge"
+		}]
+	}]
+}

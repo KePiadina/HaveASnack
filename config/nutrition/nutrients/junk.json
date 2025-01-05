@@ -8,10 +8,11 @@
 	"food": {
 		"oredict": [
 			"foodJunkfood",
-			"foodFried"
+			"foodFried",
+			"foodChocolate"
 		],                 
 		"items": [          
-			"contenttweaker:foodcaffe_peppina" 
+			"contenttweaker:food_caffe_peppina" 
 		]
 	}
 }

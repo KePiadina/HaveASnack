@@ -1,0 +1,19 @@
+{
+	title: "Fly me to the moon",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"The Moon can house meteorites for AE2 meteorite presses and has Certus Quartz spawn in massive quantities",
+		"",
+		"Not much else to it."
+	],
+	dependencies: [
+		"c6f6ec30"
+	],
+	tasks: [{
+		uid: "d744832f",
+		type: "dimension",
+		title: "Land on the Moon",
+		dim: -28
+	}]
+}

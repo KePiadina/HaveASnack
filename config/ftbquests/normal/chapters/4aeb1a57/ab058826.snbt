@@ -1,0 +1,34 @@
+{
+	title: "Pulverizer",
+	x: 3.0d,
+	y: -16.0d,
+	description: "x2 + bonus",
+	text: [
+		""
+	],
+	dependencies: [
+		"3a428a1b"
+	],
+	tasks: [{
+		uid: "bc8abdb6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				Energy: 0,
+				RSControl: 0b,
+				Level: 0b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b
+			}
+		}]
+	}]
+}

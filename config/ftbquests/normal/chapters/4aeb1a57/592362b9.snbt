@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -8.5d,
+	text: [
+		"The Barracks will let you keep more guards"
+	],
+	dependencies: [
+		"1d4d1785"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e13e194c",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutbarracks"
+		}]
+	}]
+}

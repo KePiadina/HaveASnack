@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: -6.5d,
+	hide: true,
+	tasks: [{
+		uid: "6e004ffc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:huckleberryseeditem"
+		}]
+	}]
+}

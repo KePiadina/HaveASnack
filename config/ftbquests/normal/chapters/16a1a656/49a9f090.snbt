@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: -3.5d,
+	hide: true,
+	tasks: [{
+		uid: "3e3600f7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:milletseeditem"
+		}]
+	}]
+}

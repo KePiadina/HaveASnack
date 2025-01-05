@@ -1,11 +1,12 @@
 {
-	x: -4.0d,
-	y: -3.0d,
+	x: -3.0d,
+	y: -10.5d,
 	text: [
 		"The Bounty Board will be your main money making method. Every once in a while, you will get bounties to complete by cooking up food, with more complex foods giving substantially higher payouts.",
 		"",
-		"Note that, since most plants only grow in certain seasons, you may have to make greenhouses to complete certain bounties"
+		"While there is no exact moment you should go for it, bear in mind that most bounties will be impossible without some research and industrialization."
 	],
+	size: 3.0d,
 	tasks: [{
 		uid: "816664d8",
 		type: "item",

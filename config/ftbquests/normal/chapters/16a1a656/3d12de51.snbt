@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 24.5d,
+	dependencies: [
+		"ed9f9066",
+		"6457b57d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76eb74f6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kiwiseeditem"
+		}]
+	}]
+}

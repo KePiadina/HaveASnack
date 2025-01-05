@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"That one fish crawled out of the water and now you're playing this pack and paying taxes."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "353c4cb7",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 103"
+		}]
+	}]
+}

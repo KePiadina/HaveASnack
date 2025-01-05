@@ -1,9 +1,13 @@
 {
 	title: "Season's growings",
-	x: -12.0d,
-	y: -5.5d,
+	icon: "sereneseasons:ss_icon",
+	x: -8.5d,
+	y: -11.0d,
 	text: [
 		"This pack features Serene Seasons, which means that crops will only grow during their Fertile seasons (see each seed or sapling's tooltip)"
+	],
+	dependencies: [
+		"086ba391"
 	],
 	tasks: [{
 		uid: "27cdb586",

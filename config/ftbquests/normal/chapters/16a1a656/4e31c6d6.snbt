@@ -1,0 +1,16 @@
+{
+	x: -14.0d,
+	y: -3.0d,
+	dependencies: [
+		"42eaef0a",
+		"309d2a02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c3fcf15",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tomatoseeditem"
+		}]
+	}]
+}

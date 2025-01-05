@@ -1,0 +1,32 @@
+{
+	title: "Oreberries",
+	x: 8.5d,
+	y: -18.0d,
+	text: [
+		"While weaker and less varied, Oreberry bushes produce oreberries, which can be smelted into metal nuggets or eaten to gain experience"
+	],
+	dependencies: [
+		"3a428a1b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0ef6b2aa",
+		type: "item",
+		title: "Any Oreberry Bush",
+		items: [{
+			item: "oreberries:tin_oreberry_bush"
+		},
+		{
+			item: "oreberries:aluminum_oreberry_bush"
+		},
+		{
+			item: "oreberries:iron_oreberry_bush"
+		},
+		{
+			item: "oreberries:gold_oreberry_bush"
+		},
+		{
+			item: "oreberries:copper_oreberry_bush"
+		}]
+	}]
+}

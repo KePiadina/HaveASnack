@@ -1,0 +1,19 @@
+{
+	title: "Flux Anodizers",
+	x: 3.0d,
+	y: -14.5d,
+	description: "x2",
+	text: [
+		""
+	],
+	dependencies: [
+		"3a428a1b"
+	],
+	tasks: [{
+		uid: "d51feb89",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 257"
+		}]
+	}]
+}

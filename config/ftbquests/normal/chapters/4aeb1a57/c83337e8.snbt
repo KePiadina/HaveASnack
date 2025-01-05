@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: -13.5d,
+	text: [
+		"The Seed Analyzer will show you your seeds' stats"
+	],
+	dependencies: [
+		"147795de",
+		"b55314ac"
+	],
+	tasks: [{
+		uid: "53a6769b",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "796c057d",
+		type: "item",
+		item: "agricraft:journal"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -16.5d,
+	text: [
+		"Capacitor banks are able to merge together into one large multiblock energy bank"
+	],
+	dependencies: [
+		"03e00127"
+	],
+	tasks: [{
+		uid: "9bce7950",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}]
+	}]
+}

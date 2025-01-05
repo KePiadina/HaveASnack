@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: -6.5d,
+	hide: true,
+	tasks: [{
+		uid: "8691751f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:agaveseeditem"
+		}]
+	}]
+}

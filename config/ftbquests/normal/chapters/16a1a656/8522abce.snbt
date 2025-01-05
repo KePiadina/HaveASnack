@@ -1,0 +1,12 @@
+{
+	x: 6.5d,
+	y: -6.5d,
+	hide: true,
+	tasks: [{
+		uid: "1764cd1b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kohlrabiseeditem"
+		}]
+	}]
+}

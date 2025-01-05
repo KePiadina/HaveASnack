@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: -13.5d,
+	dependencies: [
+		"40d3cac0"
+	],
+	tasks: [{
+		uid: "a0e0fa79",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 5"
+		}]
+	},
+	{
+		uid: "6572feb9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 3"
+		}]
+	}]
+}

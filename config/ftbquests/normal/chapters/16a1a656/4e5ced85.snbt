@@ -1,0 +1,23 @@
+{
+	x: -16.5d,
+	y: -3.0d,
+	dependencies: [
+		"e9270dce",
+		"8ab23c39"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c63dc4f8",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "vanilla:dandelion_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

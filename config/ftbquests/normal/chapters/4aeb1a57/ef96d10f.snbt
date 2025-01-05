@@ -1,0 +1,19 @@
+{
+	x: 15.5d,
+	y: -9.0d,
+	text: [
+		"Moves all baby animals to behind itself, useful for sorting",
+		"",
+		"Using the Adult Filter will move only adults"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "24b3aba7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}]
+	}]
+}

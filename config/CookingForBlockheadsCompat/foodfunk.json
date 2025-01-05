@@ -1,0 +1,11 @@
+{
+	"modid": "foodfunk",
+	"tiles": {
+		"kitchenItemProviders": [
+			"com.wumple.foodfunk.coldchest.larder.TileEntityLarder",
+			"com.wumple.foodfunk.coldchest.icebox.TileEntityIcebox",
+			"com.wumple.foodfunk.coldchest.freezer.TileEntityFreezer",
+			"com.wumple.foodfunk.coldchest.esky.TileEntityEsky"
+		]
+	}
+  }

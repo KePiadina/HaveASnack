@@ -1,0 +1,16 @@
+{
+	x: -19.0d,
+	y: 7.0d,
+	dependencies: [
+		"5ccc4b41",
+		"b25a9235"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13c2a182",
+		type: "item",
+		items: [{
+			item: "harvestcraft:lettuceseeditem"
+		}]
+	}]
+}

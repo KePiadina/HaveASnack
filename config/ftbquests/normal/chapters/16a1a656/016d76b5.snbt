@@ -1,0 +1,16 @@
+{
+	x: -26.0d,
+	y: 9.5d,
+	dependencies: [
+		"108dd950",
+		"a10c895e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "565c7eb8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:artichokeseeditem"
+		}]
+	}]
+}

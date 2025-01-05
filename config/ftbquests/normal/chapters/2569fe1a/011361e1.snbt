@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"Summer, for leisure and refreshments"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a0f4bd78",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 105"
+		}]
+	}]
+}

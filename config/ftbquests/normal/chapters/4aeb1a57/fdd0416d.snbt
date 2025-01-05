@@ -1,0 +1,21 @@
+{
+	title: "Itemducts",
+	x: -7.0d,
+	y: -16.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0c813fde"
+	],
+	tasks: [{
+		uid: "30923737",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32"
+		},
+		{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	}]
+}

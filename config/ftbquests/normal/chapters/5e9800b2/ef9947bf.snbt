@@ -1,0 +1,47 @@
+{
+	title: "Oxygen Equipment",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"822f10f9"
+	],
+	tasks: [{
+		uid: "701fe843",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_tank_light_full"
+		},
+		{
+			item: "galacticraftcore:oxygen_tank_med_full"
+		},
+		{
+			item: "galacticraftcore:oxygen_tank_heavy_full"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c0d3c792",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_mask"
+		}]
+	},
+	{
+		uid: "6316b49c",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_gear"
+		}]
+	},
+	{
+		uid: "e5a4b66f",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_item 1 19"
+		}]
+	}]
+}

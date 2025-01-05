@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -5.5d,
+	dependencies: [
+		"d25ca156",
+		"309d2a02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8af95133",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	}]
+}

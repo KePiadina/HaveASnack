@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 22.0d,
+	dependencies: [
+		"ed9f9066",
+		"b25a9235"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eae30d60",
+		type: "item",
+		items: [{
+			item: "harvestcraft:raspberryseeditem"
+		}]
+	}]
+}

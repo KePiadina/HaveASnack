@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "b76db2b7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coin1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f97a076e",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

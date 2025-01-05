@@ -1,0 +1,23 @@
+{
+	x: -11.5d,
+	y: 2.0d,
+	dependencies: [
+		"43bcf42c",
+		"d25ca156"
+	],
+	hide: true,
+	tasks: [{
+		uid: "349efb1a",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "resource:lapender_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

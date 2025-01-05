@@ -1,0 +1,12 @@
+{
+	x: 7.5d,
+	y: -6.5d,
+	hide: true,
+	tasks: [{
+		uid: "115e6d19",
+		type: "item",
+		items: [{
+			item: "harvestcraft:amaranthseeditem"
+		}]
+	}]
+}

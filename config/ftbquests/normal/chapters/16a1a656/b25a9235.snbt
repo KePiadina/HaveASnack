@@ -1,0 +1,16 @@
+{
+	x: -19.0d,
+	y: 2.0d,
+	dependencies: [
+		"08e5d87c",
+		"027c18e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "795e307b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soybeanseeditem"
+		}]
+	}]
+}

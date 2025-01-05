@@ -1,0 +1,29 @@
+{
+	title: "§lAgricultural genetics",
+	x: 6.5d,
+	y: -13.5d,
+	shape: "gear",
+	text: [
+		"Crop sticks work in 2 modes: spread (vertical sticks), and mutation (crossed)",
+		"",
+		"Spread sticks can house a plant that will, well, spread to other free crop sticks when growing",
+		"",
+		"Mutation sticks can interact with the surrounding (spread) crop sticks, and will havea chance to get a mutated crop based off of its parents (surrounding plants). When similar plants combine, the result will usually be a plant with higher stats. When different plants combine, they may create a new type of plant.",
+		"",
+		"You can see the full chart in the AgriCraft chapter as you unlock it.",
+		"",
+		"Note: Neither AoE harvesting nor MineColonies farms work on Crops, so you might want to keep having un-supported crops until you get decently good crops, or mechanical farms"
+	],
+	dependencies: [
+		"c1a0acd4",
+		"adadca31"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "66edd4d3",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}]
+}

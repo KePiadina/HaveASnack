@@ -1,0 +1,23 @@
+{
+	x: -19.0d,
+	y: -8.0d,
+	dependencies: [
+		"e9270dce",
+		"03ee7cb4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "695b928a",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "vanilla:sugarcane_plant",
+				agri_strength: 1b,
+				agri_gain: 1b
+			}
+		}]
+	}]
+}

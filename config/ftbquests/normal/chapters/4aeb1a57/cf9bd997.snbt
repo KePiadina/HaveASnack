@@ -1,0 +1,21 @@
+{
+	title: "§aSuper-Laminar Fluiduct",
+	x: -5.0d,
+	y: -20.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2c9b63fa"
+	],
+	tasks: [{
+		uid: "9de9a415",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16 1 6"
+		},
+		{
+			item: "thermaldynamics:duct_16 1 7"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: -3.5d,
+	hide: true,
+	tasks: [{
+		uid: "79933ae3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:arrowrootseeditem"
+		}]
+	}]
+}

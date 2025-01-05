@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"Ore blocks are now craftable, forget about having to get silk touch to grow crops."
+	],
+	dependencies: [
+		"43bcf42c"
+	],
+	tasks: [{
+		uid: "c9c05c97",
+		type: "checkmark",
+		title: "Ore blocks",
+		disable_toast: true
+	}]
+}

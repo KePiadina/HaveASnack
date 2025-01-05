@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: 14.5d,
+	dependencies: [
+		"eb3ffc03",
+		"4a464525"
+	],
+	hide: true,
+	tasks: [{
+		uid: "43c73d5f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:brusselsproutseeditem"
+		}]
+	}]
+}

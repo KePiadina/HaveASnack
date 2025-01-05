@@ -1,0 +1,39 @@
+{
+	title: "Applied Energistics 2",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"AE2 will allow you to craft massive amounts of items automatically"
+	],
+	dependencies: [
+		"4cf9e5c8"
+	],
+	tasks: [{
+		uid: "c12228ab",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "8d9af93a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "8bf2f07f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "7db682fa",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}]
+}

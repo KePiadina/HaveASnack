@@ -1,0 +1,17 @@
+{
+	x: 14.5d,
+	y: -4.5d,
+	text: [
+		"Refines Sewage into Fertilizer, producing 1 Fertilizer every 2 buckets"
+	],
+	dependencies: [
+		"52488260"
+	],
+	tasks: [{
+		uid: "e6937370",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sewage_composter_solidifier"
+		}]
+	}]
+}

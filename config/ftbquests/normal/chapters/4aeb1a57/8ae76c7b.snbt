@@ -1,0 +1,20 @@
+{
+	title: "§aAugment: Pyro-Concentrator",
+	x: 1.0d,
+	y: -16.0d,
+	description: "x4",
+	text: [
+		""
+	],
+	dependencies: [
+		"d476759b",
+		"e23f3bc0"
+	],
+	tasks: [{
+		uid: "01a6aa78",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 304"
+		}]
+	}]
+}

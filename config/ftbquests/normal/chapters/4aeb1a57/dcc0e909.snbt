@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	text: [
+		"Farmers will be able to work on fields by planting and harvesting crops"
+	],
+	dependencies: [
+		"2c10bf2d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b4d224a3",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutfarmer"
+		}]
+	}]
+}

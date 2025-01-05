@@ -1,0 +1,16 @@
+{
+	x: -25.0d,
+	y: 22.0d,
+	dependencies: [
+		"ed9f9066",
+		"b25a9235"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4317282e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blackberryseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -14.0d,
+	dependencies: [
+		"40d3cac0"
+	],
+	tasks: [{
+		uid: "3b658007",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "§lFarming Utilities",
+	x: 11.5d,
+	y: -8.5d,
+	shape: "gear",
+	text: [
+		"Industrial Foregoing adds a lot of different machines to automate different processes, mainly for logistics, husbandry, agriculture, and mob farms"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "74c669a5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}]
+}

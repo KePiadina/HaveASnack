@@ -1,0 +1,16 @@
+{
+	x: -25.0d,
+	y: 29.5d,
+	dependencies: [
+		"d024efc2",
+		"e229664a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5d7845f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rutabagaseeditem"
+		}]
+	}]
+}

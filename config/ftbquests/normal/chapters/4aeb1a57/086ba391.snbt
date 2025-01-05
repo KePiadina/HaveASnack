@@ -1,9 +1,15 @@
 {
-	x: -11.0d,
-	y: -4.5d,
+	title: "Welcome to Have A Snack",
+	x: -7.5d,
+	y: -10.0d,
 	text: [
-		"This modpack focuses around farming and producing food to sell for money"
+		"This modpack focuses around farming and cooking, with the ultimate goal of growing the Tree of Eden and eating the Forbidden Fruit.",
+		"",
+		"While the pack can technically be beaten without following ANY questline (except AgriCraft crossbreeding), you will quickly be overwhelmed by the amount of work you'll have to do to craft items and preserve them",
+		"",
+		"Each milestone quest will have a gear shape along with a short explanation of what its tree does, with the final upgrade being &agreen."
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "4fc89e23",
 		type: "checkmark",

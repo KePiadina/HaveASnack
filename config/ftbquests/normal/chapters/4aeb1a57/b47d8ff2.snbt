@@ -1,0 +1,22 @@
+{
+	x: 7.494897959183675d,
+	y: -7.0d,
+	text: [
+		"Fourth upgrade, 50% slower (200% lifespan)"
+	],
+	dependencies: [
+		"d191e9a2"
+	],
+	tasks: [{
+		uid: "9a83cc49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"foodfunk:preserving": {
+					lastCheckTime: 2263744L
+				}
+			},
+			id: "foodfunk:icebox"
+		}]
+	}]
+}

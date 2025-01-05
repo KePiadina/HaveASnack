@@ -1,0 +1,18 @@
+{
+	title: "Fluxducts",
+	x: -1.0d,
+	y: -13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"03e00127"
+	],
+	tasks: [{
+		uid: "340e7182",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0"
+		}]
+	}]
+}

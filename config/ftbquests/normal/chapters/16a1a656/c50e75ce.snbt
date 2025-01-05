@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -3.0d,
+	dependencies: [
+		"6bb70ca2",
+		"8ab23c39"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f407155a",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}]
+	}]
+}

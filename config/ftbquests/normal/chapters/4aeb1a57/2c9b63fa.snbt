@@ -1,0 +1,22 @@
+{
+	title: "Fluiduct",
+	icon: "thermaldynamics:duct_16",
+	x: -5.0d,
+	y: -18.5d,
+	text: [
+		"Note that the base fluiduct CANNOT hold hot liquids, like Lava"
+	],
+	dependencies: [
+		"0c813fde"
+	],
+	tasks: [{
+		uid: "5c5ee24d",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16"
+		},
+		{
+			item: "thermaldynamics:duct_16 1 1"
+		}]
+	}]
+}

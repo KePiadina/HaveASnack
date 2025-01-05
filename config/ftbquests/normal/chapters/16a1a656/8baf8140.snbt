@@ -1,0 +1,16 @@
+{
+	x: -14.0d,
+	y: 17.0d,
+	dependencies: [
+		"5ccc4b41",
+		"3dfbb73a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5216e3a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:onionseeditem"
+		}]
+	}]
+}

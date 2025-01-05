@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"79695b0a"
+	],
+	tasks: [{
+		uid: "b446f09a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:item_basic_moon"
+		}]
+	}]
+}
