@@ -34,10 +34,6 @@ galacticraftcore:basic_block_core:5
 galacticraftcore:basic_block_core:6
 galacticraftcore:basic_block_core:7
 
-harvestcraft:duckrawitem
-harvestcraft:turkeyrawitem
-harvestcraft:venisonrawitem
-
 cfm:counter_drawer
 cfm:cabinet_kitchen
 cfm:counter_sink
