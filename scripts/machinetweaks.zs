@@ -67,3 +67,4 @@ recipes.addShaped(<forestry:ffarm:2>.withTag({FarmBlock: 10}), [[null, anyFarm, 
 recipes.addShapeless(<forestry:fertilizer_compound> * 8, [<industrialforegoing:fertilizer>]);
 
 recipes.addShapeless(<enderstorage:ender_storage:1>, [<minecraft:blaze_rod>, <ore:blockWoolWhite> | <ore:blockWoolGray> | <ore:blockWoolMagenta> | <ore:blockWoolLightGray> | <ore:blockWoolBlack> | <ore:blockWoolYellow> | <ore:blockWoolBlue> | <ore:blockWoolRed> | <ore:blockWoolLightBlue> | <ore:blockWoolPurple> | <ore:blockWoolBrown> | <ore:blockWoolPink> | <ore:blockWoolCyan> | <ore:blockWoolLime> | <ore:blockWoolOrange> | <ore:blockWoolGreen>, <minecraft:blaze_rod>, <ore:obsidian>, <thermalexpansion:tank>, <ore:obsidian>, <minecraft:blaze_rod>, <ore:enderpearl>, <minecraft:blaze_rod>]);
+

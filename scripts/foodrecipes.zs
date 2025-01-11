@@ -80,16 +80,16 @@ recipes.addShapeless(<contenttweaker:component_energetic_dust>, [<ore:dustRedsto
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot:1>, <minecraft:gold_ingot>, <contenttweaker:component_energetic_dust>, 2000);
 
 //Custom meat
-recipes.addShaped(<harvestcraft:groundbeefitem>, [[<biomesoplenty:fleshchunk>],[],[]]);
-recipes.addShaped(<harvestcraft:groundporkitem>, [[null,<biomesoplenty:fleshchunk>],[],[]]);
+recipes.addShaped(<harvestcraft:groundbeefitem>, [[<biomesoplenty:fleshchunk>, null, null],[],[]]);
+recipes.addShaped(<harvestcraft:groundporkitem>, [[null,<biomesoplenty:fleshchunk>,null],[],[]]);
 recipes.addShaped(<harvestcraft:groundchickenitem>, [[null,null,<biomesoplenty:fleshchunk>],[],[]]);
 
-recipes.addShaped(<harvestcraft:groundduckitem>, [[],[<biomesoplenty:fleshchunk>],[]]);
-recipes.addShaped(<harvestcraft:groundfishitem>, [[],[null,<biomesoplenty:fleshchunk>],[]]);
+recipes.addShaped(<harvestcraft:groundduckitem>, [[],[<biomesoplenty:fleshchunk>,null,null],[]]);
+recipes.addShaped(<harvestcraft:groundfishitem>, [[],[null,<biomesoplenty:fleshchunk>,null],[]]);
 recipes.addShaped(<harvestcraft:groundmuttonitem>, [[],[null,null,<biomesoplenty:fleshchunk>],[]]);
 
-recipes.addShaped(<harvestcraft:groundrabbititem>, [[],[],[<biomesoplenty:fleshchunk>]]);
-recipes.addShaped(<harvestcraft:groundturkeyitem>, [[],[],[null,<biomesoplenty:fleshchunk>]]);
+recipes.addShaped(<harvestcraft:groundrabbititem>, [[],[],[<biomesoplenty:fleshchunk>,null,null]]);
+recipes.addShaped(<harvestcraft:groundturkeyitem>, [[],[],[null,<biomesoplenty:fleshchunk>,null]]);
 recipes.addShaped(<harvestcraft:groundvenisonitem>, [[],[],[null,null,<biomesoplenty:fleshchunk>]]);
 
 Pulverizer.addRecipe(<biomesoplenty:fleshchunk> * 4, <biomesoplenty:flesh>, 2000);
