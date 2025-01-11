@@ -6,6 +6,7 @@ import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Imbuer;
 import mods.thermalexpansion.Compactor;
+import mods.thermalexpansion.Centrifuge;
 
 recipes.remove(<harvestcraft:friesitem>);
 Transposer.addExtractRecipe(<liquid:seed_oil> * 100, <harvestcraft:oliveoilitem>, 400);
@@ -90,3 +91,6 @@ recipes.addShaped(<harvestcraft:groundmuttonitem>, [[],[null,null,<biomesoplenty
 recipes.addShaped(<harvestcraft:groundrabbititem>, [[],[],[<biomesoplenty:fleshchunk>]]);
 recipes.addShaped(<harvestcraft:groundturkeyitem>, [[],[],[null,<biomesoplenty:fleshchunk>]]);
 recipes.addShaped(<harvestcraft:groundvenisonitem>, [[],[],[null,null,<biomesoplenty:fleshchunk>]]);
+
+Pulverizer.addRecipe(<biomesoplenty:fleshchunk> * 4, <biomesoplenty:flesh>, 2000);
+Centrifuge.addRecipe([(<minecraft:bone>) % 10, <minecraft:leather> % 10, <minecraft:rotten_flesh> % 10, <minecraft:spider_eye> % 10], <biomesoplenty:flesh>, <liquid:blood>, 250);
