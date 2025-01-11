@@ -94,3 +94,5 @@ recipes.addShaped(<harvestcraft:groundvenisonitem>, [[],[],[null,null,<biomesopl
 
 Pulverizer.addRecipe(<biomesoplenty:fleshchunk> * 4, <biomesoplenty:flesh>, 2000);
 Centrifuge.addRecipe([(<minecraft:bone>) % 10, <minecraft:leather> % 10, <minecraft:rotten_flesh> % 10, <minecraft:spider_eye> % 10], <biomesoplenty:flesh>, <liquid:blood>, 250);
+
+recipes.addShapeless(<minecraft:leather>, [<ore:listAllmeatcooked>, <ore:itemSalt>, <ore:foodOliveoil>]);
