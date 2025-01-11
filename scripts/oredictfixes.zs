@@ -11,6 +11,8 @@ import crafttweaker.oredict.IOreDict;
 <ore:itemCurrency>.add(<contenttweaker:coin10000>);
 <ore:itemCurrency>.add(<contenttweaker:coin50000>);
 
+<ore:itemBeeswax>.add(<harvestcraft:beeswaxitem>);
+
 val chocolate = <ore:foodChocolate>;
 chocolate.add(<harvestcraft:chocolatebaritem>);
 chocolate.add(<harvestcraft:hotchocolateitem>);
