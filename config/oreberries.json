@@ -2,36 +2,36 @@
   "Iron": {
     "color": "#FFC7A3",
     "tooltip": "Sweet Irony",
-    "smeltingResult": "minecraft:iron_nugget"
+    "smeltingResult": "extrabees:misc:6",
+    "growsInLight": true
   },
   "Gold": {
     "color": "#FFCC33",
     "tooltip": "Pure Luster",
-    "smeltingResult": "minecraft:gold_nugget",
+    "smeltingResult": "extrabees:misc:7",
     "rarity": 9,
     "maxHeight": 32,
-    "sizeChance": 6
+    "sizeChance": 6,
+    "growsInLight": true
   },
   "Copper": {
     "color": "#FF8833",
     "tooltip": "Tastes like metal",
-    "smeltingResult": {
-      "color": "#FF6600"
-    },
+    "smeltingResult": "extrabees:misc:10",
     "rarity": 4,
     "density": 2,
     "minHeight": 20,
-    "maxHeight": 60
+    "maxHeight": 60,
+    "growsInLight": true
   },
   "Tin": {
     "color": "#BB4422",
     "tooltip": "Tin Man",
-    "smeltingResult": {
-      "color": "#FFBA80"
-    },
+    "smeltingResult": "extrabees:misc:11",
     "rarity": 4,
     "density": 2,
-    "maxHeight": 40
+    "maxHeight": 40,
+    "growsInLight": true
   },
   "Aluminum": {
     "color": "#EEFFFF",
@@ -49,7 +49,8 @@
     "rarity": 3,
     "density": 2,
     "maxHeight": 60,
-    "sizeChance": 14
+    "sizeChance": 14,
+    "growsInLight": true
   },
   "Essence": {
     "bushName": "Essence Berry Bush",
@@ -63,5 +64,35 @@
     "preferredHeight": 48,
     "maxHeight": 32,
     "sizeChance": 8
+  },
+  "Diamond": {
+    "bushName": "Diamond Berry Bush",
+    "tooltip": "Shining",
+    "smeltingResult": "thermalfoundation:material:16",
+    "growsInLight": true,
+    "tradeable": false,
+    "preferredHeight": 12,
+    "maxHeight": 32,
+    "sizeChance": 8
+  },
+  "Lead": {
+    "color": "#656870",
+    "tooltip": "Our ancestors' microplastics",
+    "smeltingResult": "extrabees:misc:13",
+    "rarity": 4,
+    "density": 2,
+    "minHeight": 5,
+    "maxHeight": 60,
+    "growsInLight": true
+  },
+  "Nickel": {
+    "color": "#dee6dd",
+    "tooltip": "Nick'd",
+    "smeltingResult": "extrabees:misc:12",
+    "rarity": 4,
+    "density": 2,
+    "minHeight": 5,
+    "maxHeight": 60,
+    "growsInLight": true
   }
 }
