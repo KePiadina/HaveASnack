@@ -13,5 +13,20 @@
 		items: [{
 			item: "bountiful:bountyboarditem"
 		}]
+	}],
+	rewards: [{
+		uid: "86495311",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b,
+				Inventory: {},
+				RepairCost: 0,
+				display: {
+					Name: "Wallet"
+				}
+			}
+		}
 	}]
 }

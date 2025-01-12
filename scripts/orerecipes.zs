@@ -15,3 +15,5 @@ recipes.addShaped(<thermalfoundation:ore:5>, [[<ore:ingotNickel>,<ore:ingotNicke
 recipes.addShaped(<thermalfoundation:ore:6>, [[<ore:ingotPlatinum>,<ore:ingotPlatinum>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<minecraft:stone>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<ore:ingotPlatinum>,<ore:ingotPlatinum>]]);
 
 recipes.addShapeless(<thermalfoundation:material:103> * 4, [<ore:dustLead>, <ore:dustLead>, <ore:dustLead>, <ore:dustPlatinum>, <ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>]);
+
+recipes.removeByRegex("extrabees:.{0,}_dust_dust");

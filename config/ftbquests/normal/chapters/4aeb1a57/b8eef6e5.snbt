@@ -1,0 +1,16 @@
+{
+	title: "Flesh",
+	x: 0.5d,
+	y: -10.0d,
+	description: "More like free meat",
+	text: [
+		"Nether Flesh can be crafted into different ground meats, or centrifuged as a block for various mob drops"
+	],
+	tasks: [{
+		uid: "4372e27d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:fleshchunk"
+		}]
+	}]
+}

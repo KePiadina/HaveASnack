@@ -1,7 +1,7 @@
 {
 	title: "§lArea Harvesting",
 	x: 2.25d,
-	y: -11.0d,
+	y: -10.5d,
 	shape: "gear",
 	text: [
 		"Steel Hoes are able to harvest 3x3 crops by right clicking on crop blocks"
