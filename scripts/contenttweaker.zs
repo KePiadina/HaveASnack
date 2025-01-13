@@ -23,7 +23,10 @@ var components = [
 	"potato_strip",
 	"peeled_potato",
 	"roasted_cocoa",
-	"energetic_dust"
+
+	"energetic_dust",
+	"ender_upgrade",
+	"stellar_upgrade",
 ] as string[];
 var fluids = [
 	"co2"

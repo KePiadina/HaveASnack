@@ -1,0 +1,210 @@
+#PARSE_ESCAPES
+# ^ having this in the first line allows us to use "\uXXXX" escapes in this file
+
+#***  Ender IO *****#
+enderio.config.items.darksteel.upgrades=Steel Alloy Upgrades
+enderio.config.items.darksteel.upgrades.explosive=Pickaxe: Explosive Upgrade
+enderio.config.items.darksteel.upgrades.speed=Leggings: Speed Upgrade
+enderio.config.items.darksteel.upgrades.hoe=Axe: Fork (Hoe) Upgrade
+enderio.config.items.darksteel.upgrades.empowered=Empowered Upgrades
+enderio.config.items.darksteel.upgrades.jump=Boots: Jump Upgrade
+enderio.config.items.darksteel.upgrades.swim=Leggings: Swimming Upgrade
+enderio.config.items.darksteel.upgrades.nightvision=Helmet: Night Vision Upgrade
+enderio.config.items.darksteel.upgrades.theoneprobe=Helmet: The One Probe Upgrade
+enderio.config.items.darksteel.upgrades.glider=Chestplate: Glider Upgrade
+enderio.config.items.darksteel.upgrades.elytra=Chestplate: Elytra Upgrade
+enderio.config.items.darksteel.upgrades.thaumaturgerobes=Armor: Thaumaturge's Robes Upgrades
+enderio.config.items.darksteel.upgrades.gogglesofrevealing=Helmet: Goggles of Revealing Upgrade
+enderio.config.items.darksteel.upgrades.soundlocator=Helmet: Sound Locator Upgrade
+enderio.config.items.darksteel.upgrades.travel=Pickaxe/Sword: Travel Upgrade
+enderio.config.items.darksteel.upgrades.spoon=Pickaxe: Spoon (Shovel) Upgrade
+enderio.config.items.darksteel.upgrades.padding=Helmet: Padding Upgrade
+
+enderio.darksteel.upgrade.travel.name=Travel
+enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Hold shift and R-Click to teleport or activate a travel anchor or Ender IO
+
+enderio.darksteel.upgrade.spoon.name=Spoon
+enderio.darksteel.upgrade.spoon.tooltip.detailed.line1=Who needs a shovel when you have a spoon...
+
+enderio.darksteel.upgrade.hoe.name=Fork
+enderio.darksteel.upgrade.hoe.tooltip.detailed.line1=Who needs a hoe when you have a fork...
+
+enderio.darksteel.upgrade.tnt.0.enabled=Explosive Active
+enderio.darksteel.upgrade.tnt.0.disabled=Explosive Disabled
+
+enderio.darksteel.upgrade.tnt.0.name=Explosive I
+enderio.darksteel.upgrade.tnt.0.tooltip.detailed.line1=Adds explosive power to the pickaxe, damaging surrounding blocks while mining.
+# translator note: "nail" is referencing Tinkers' hammer---"if all you have is a hammer, everything looks like a nail"
+enderio.darksteel.upgrade.tnt.0.tooltip.detailed.line2=For problems that look like nails.
+
+enderio.darksteel.upgrade.tnt.1.name=Explosive II
+enderio.darksteel.upgrade.tnt.1.tooltip.detailed.line1=Adds more explosive power to the pickaxe, damaging surrounding blocks while mining.
+enderio.darksteel.upgrade.tnt.1.tooltip.detailed.line2=For problems that look like nails.
+
+enderio.darksteel.upgrade.tnt.2.name=Explosive III
+enderio.darksteel.upgrade.tnt.2.tooltip.detailed.line1=Adds even more explosive power to the pickaxe, damaging surrounding blocks while mining.
+enderio.darksteel.upgrade.tnt.2.tooltip.detailed.line2=For problems that look like nails.
+
+enderio.darksteel.upgrade.tnt.3.name=Explosive IV
+enderio.darksteel.upgrade.tnt.3.tooltip.detailed.line1=Adds ridiculous explosive power to the pickaxe, damaging surrounding blocks while mining.
+enderio.darksteel.upgrade.tnt.3.tooltip.detailed.line2=For problems that look like combs.
+
+enderio.darksteel.upgrade.tnt.4.name=Explosive V
+enderio.darksteel.upgrade.tnt.4.tooltip.detailed.line1=Adds ludicrous explosive power to the pickaxe, damaging surrounding blocks while mining.
+# translator note: "ridiculous", "combs" and "ludicrous" are Spaceballs references, see video. 
+enderio.darksteel.upgrade.tnt.4.tooltip.detailed.line2=https://youtu.be/ygE01sOhzz0
+
+attribute.name.enderio.aoe.xz=Mining Range
+attribute.name.enderio.aoe.y=Mining Depth
+attribute.name.enderio.aoe.xyz=Mining Volume
+
+enderio.darksteel.upgrade.anvil.0.name=Micro Anvil
+enderio.darksteel.upgrade.anvil.0.tooltip.detailed.line1=Allows editing upgrades of a single item in the field.
+enderio.darksteel.upgrade.anvil.0.tooltip.detailed.line2=Activate with a hotkey or by shift-right-clicking any upgradeable item that doesn't do anything else when doing that.
+
+enderio.darksteel.upgrade.anvil.1.name=Mini Anvil
+enderio.darksteel.upgrade.anvil.1.tooltip.detailed.line1=Allows editing upgrades of all equipped items in the field.
+enderio.darksteel.upgrade.anvil.1.tooltip.detailed.line2=Activate with a hotkey or by shift-right-clicking any upgradeable item that doesn't do anything else when doing that.
+
+enderio.darksteel.upgrade.anvil.2.name=Pocket Anvil
+enderio.darksteel.upgrade.anvil.2.tooltip.detailed.line1=Provides full anvil functionality and allows editing upgrades of any item in the field.
+enderio.darksteel.upgrade.anvil.2.tooltip.detailed.line2=Activate with a hotkey or by shift-right-clicking any upgradeable item that doesn't do anything else when doing that.
+
+item.item_dark_steel_upgrade.name=Blank Upgrade
+item.item_dark_steel_upgrade.with=Upgrade "%s"
+
+# These are for the tooltips of item_dark_steel_upgrade:
+enderio.darksteel.upgrades.tooltip.lineitem=\u0020*\u0020%s
+enderio.darksteel.upgrades.tooltip.main=Upgrade for Steel Items
+enderio.darksteel.upgrades.tooltip.dependencies=Depends on:
+enderio.darksteel.upgrades.tooltip.itemclasses=Can be applied to:
+enderio.darksteel.upgrades.tooltip.levels.line1=%s levels needed to activate this upgrade
+enderio.darksteel.upgrades.tooltip.levels.line2=(Activate this upgrade by right-clicking)
+enderio.darksteel.upgrades.tooltip.apply.line1=Needs to be applied to an item
+enderio.darksteel.upgrades.tooltip.apply.line2=(Open the GUI with shift-right-click, using any Dark Anvil or with the Anvil upgrades)
+
+enderio.darksteel.upgrades.check.prerequisite.missing=Requires upgrade "%s" to be installed
+enderio.darksteel.upgrades.check.prerequisite.energy=Requires item to be empowered
+
+enderio.darksteel.upgrades.gui.not_levels=%s levels needed to activate this upgrade
+enderio.darksteel.upgrades.gui.activated=Upgrade activated
+enderio.darksteel.upgrades.gui.no_items=No upgradeable Steel Alloy items equipped
+
+enderio.darksteel.upgrades.gui.not_installed=No upgradeable item equipped
+enderio.darksteel.upgrades.gui.not_inserted=Put an upgradeable item into the slot
+enderio.darksteel.upgrades.gui.storage=Storage
+
+enderio.darksteel.upgrades.everything=Any Steel Alloy Item
+enderio.darksteel.upgrades.weapons=Steel Alloy Weapons
+enderio.darksteel.upgrades.weapons.sword=Steel Alloy Swords
+enderio.darksteel.upgrades.tools=Steel Alloy Tools
+enderio.darksteel.upgrades.tools.axe=Steel Alloy Axes
+enderio.darksteel.upgrades.tools.crook=Steel Alloy Crooks
+enderio.darksteel.upgrades.tools.pickaxe=Steel Alloy Pickaxes
+enderio.darksteel.upgrades.armor=Steel Alloy Armors
+enderio.darksteel.upgrades.armor.head=Steel Alloy Helmets
+enderio.darksteel.upgrades.armor.chest=Steel Alloy Chestplates
+enderio.darksteel.upgrades.armor.legs=Steel Alloy Leg Armor
+enderio.darksteel.upgrades.armor.feet=Steel Alloy Boots
+
+enderio.darksteel.upgrade.carpet.name=Carpeting
+enderio.darksteel.upgrade.carpet.tooltip.detailed.line1=Flattens the explosive force into a carpet.
+
+enderio.darksteel.upgrade.depth.name=Depth
+enderio.darksteel.upgrade.depth.tooltip.detailed.line1=Directs the explosive force away from the player.
+
+enderio.darksteel.upgrade.glider.name=Glider
+enderio.darksteel.upgrade.glider.tooltip.detailed.line1=Enables gliding
+enderio.darksteel.upgrade.glider.enabled=Glider Active
+enderio.darksteel.upgrade.glider.disabled=Glider Disabled
+
+enderio.darksteel.upgrade.elytra.name=Elytra
+enderio.darksteel.upgrade.elytra.tooltip.detailed.line1=Makes armor work as Elytra
+enderio.darksteel.upgrade.elytra.tooltip.detailed.line2=§4(That means flying as if an Elytra was equipped, NOT "creative" flight!)
+enderio.darksteel.upgrade.elytra.enabled=Elytra Active
+enderio.darksteel.upgrade.elytra.disabled=Elytra Disabled
+
+enderio.darksteel.upgrade.sound.name=Sound Locator
+enderio.darksteel.upgrade.sound.tooltip.detailed.line1=Displays the location of nearby sounds
+enderio.darksteel.upgrade.sound.enabled=Sound Locator Active
+enderio.darksteel.upgrade.sound.disabled=Sound Locator Disabled
+
+enderio.darksteel.upgrade.padding.name=Padding
+enderio.darksteel.upgrade.padding.tooltip.detailed.line1=Muffles nearby sounds
+
+enderio.darksteel.upgrade.direct.name=Direct
+enderio.darksteel.upgrade.direct.tooltip.detailed.line1=Teleports mined things directly into your inventory
+
+enderio.darksteel.upgrade.inv.0.name=Inventory I
+enderio.darksteel.upgrade.inv.0.tooltip.detailed.line1=Adds an inventory to your armor
+enderio.darksteel.upgrade.inv.0.tooltip.detailed.line2=The size depends on the armor type
+enderio.darksteel.upgrade.inv.0.tooltip.detailed.line3=Set the hotkey to open it in the game options
+
+enderio.darksteel.upgrade.inv.container=Cannot put a bag into the armor inventory
+enderio.darksteel.upgrade.inv.big=Item too big for the armor inventory
+
+enderio.darksteel.upgrade.inv.1.name=Inventory II
+enderio.darksteel.upgrade.inv.1.tooltip.detailed.line1=Increases the size of your armor's inventory
+enderio.darksteel.upgrade.inv.1.tooltip.detailed.line2=Set the hotkey to open it in the game options
+
+enderio.darksteel.upgrade.inv.2.name=Inventory III
+enderio.darksteel.upgrade.inv.2.tooltip.detailed.line1=Increases the size of your armor's inventory
+enderio.darksteel.upgrade.inv.2.tooltip.detailed.line2=Set the hotkey to open it in the game options
+
+enderio.darksteel.upgrade.gogglesOfRevealing.name=Revealing
+enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis Discount: 5%
+enderio.darksteel.upgrade.gogglesOfRevealing.enabled=Magic is being revealed
+enderio.darksteel.upgrade.gogglesOfRevealing.disabled=Magic is hidden from plain sight
+
+enderio.darksteel.upgrade.thaumaturge_robes.chest.name=Thaumaturge's Robe
+enderio.darksteel.upgrade.thaumaturge_robes.chest.tooltip.detailed.line1=Vis Discount: 3%
+enderio.darksteel.upgrade.thaumaturge_robes.legs.name=Thaumaturge's Leggings
+enderio.darksteel.upgrade.thaumaturge_robes.legs.tooltip.detailed.line1=Vis Discount: 3%
+enderio.darksteel.upgrade.thaumaturge_robes.feet.name=Thaumaturge's Boots
+enderio.darksteel.upgrade.thaumaturge_robes.feet.tooltip.detailed.line1=Vis Discount: 2%
+
+enderio.darksteel.upgrade.jump_one.name=Jump
+enderio.darksteel.upgrade.jump_one.tooltip.detailed.line1=Increases step and jump height
+enderio.darksteel.upgrade.jump_one.enabled=Jump Enabled
+enderio.darksteel.upgrade.jump_one.disabled=Jump Disabled
+
+enderio.darksteel.upgrade.step_assist.name=Step Assist
+enderio.darksteel.upgrade.step_assist.tooltip.detailed.line1=Allows you to walk up blocks as if they were stairs.
+enderio.darksteel.upgrade.step_assist.enabled=Step Assist Active
+enderio.darksteel.upgrade.step_assist.disabled=Step Assist Disabled
+
+enderio.gui.step_assis_unavailable=Step Assist may be disabled by another mod
+
+enderio.darksteel.upgrade.jump_two.name=Jump II
+enderio.darksteel.upgrade.jump_two.tooltip.detailed.line1=Increases step and jump height
+enderio.darksteel.upgrade.jump_two.tooltip.detailed.line2=Allows double jumps
+
+enderio.darksteel.upgrade.jump_three.name=Jump III
+enderio.darksteel.upgrade.jump_three.tooltip.detailed.line1=Increases step and jump height
+enderio.darksteel.upgrade.jump_three.tooltip.detailed.line2=Allows triple jumps
+
+enderio.darksteel.upgrade.speed_one.name=Speed
+enderio.darksteel.upgrade.speed_one.tooltip.detailed.line1=Increases movement speed
+enderio.darksteel.upgrade.speed_one.enabled=Speed Active
+enderio.darksteel.upgrade.speed_one.disabled=Speed Disabled
+
+enderio.darksteel.upgrade.speed_two.name=Speed II
+enderio.darksteel.upgrade.speed_two.tooltip.detailed.line1=Increases movement speed
+
+enderio.darksteel.upgrade.speed_three.name=Speed III
+enderio.darksteel.upgrade.speed_three.tooltip.detailed.line1=Increases movement speed
+
+enderio.darksteel.upgrade.swim.name=Flippers
+
+enderio.darksteel.upgrade.nightVision.name=Night Vision
+enderio.darksteel.upgrade.nightVision.enabled=Night Vision Enabled
+enderio.darksteel.upgrade.nightVision.disabled=Night Vision Disabled
+
+enderio.darksteel.upgrade.top.name=The One Probe
+enderio.darksteel.upgrade.top.enabled=The One Probe Enabled
+enderio.darksteel.upgrade.top.disabled=The One Probe Disabled
+
+# These are used for the "The One Probe" integration
+enderio.top.action.header.pre=§e
+enderio.top.action.header.post=:
+enderio.top.action.none=§4nothing

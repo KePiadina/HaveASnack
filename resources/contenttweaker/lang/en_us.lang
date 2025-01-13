@@ -24,6 +24,8 @@ item.contenttweaker.component_peeled_potato.name=Peeled Potato
 item.contenttweaker.component_roasted_cocoa.name=Roasted Cocoa Beans
 item.contenttweaker.component_energetic_dust.name=Energetic Dust
 item.contenttweaker.forbidden_fruit.name=§c§lF§6§lo§e§lr§a§lb§3§li§9§ld§5§ld§c§le§6§ln §a§lF§3§lr§9§lu§5§li§c§lt
+item.contenttweaker.component_ender_upgrade.name=Blank Ender Upgrade
+item.contenttweaker.component_stellar_upgrade.name=Blank Stellar Upgrade
 
 fluid.fluid_co2=CO2
 
