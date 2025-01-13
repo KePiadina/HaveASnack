@@ -96,3 +96,22 @@ Pulverizer.addRecipe(<biomesoplenty:fleshchunk> * 4, <biomesoplenty:flesh>, 2000
 Centrifuge.addRecipe([(<minecraft:bone>) % 10, <minecraft:leather> % 10, <minecraft:rotten_flesh> % 10, <minecraft:spider_eye> % 10], <biomesoplenty:flesh>, <liquid:blood>, 250);
 
 recipes.addShapeless(<minecraft:leather>, [<ore:listAllmeatcooked>, <ore:itemSalt>, <ore:foodOliveoil>]);
+
+Centrifuge.addRecipe([<artifacts:everlasting_porkchop>, <minecraft:porkchop>], <artifacts:everlasting_porkchop>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_porkchop>, <minecraft:cooked_porkchop>], <artifacts:everlasting_cooked_porkchop>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_beef>, <minecraft:beef>], <artifacts:everlasting_beef>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_beef>, <minecraft:cooked_beef>], <artifacts:everlasting_cooked_beef>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_chicken>, <minecraft:chicken>], <artifacts:everlasting_chicken>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_chicken>, <minecraft:cooked_chicken>], <artifacts:everlasting_cooked_chicken>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_rotten_flesh>, <minecraft:rotten_flesh>], <artifacts:everlasting_rotten_flesh>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_spider_eye>, <minecraft:spider_eye>], <artifacts:everlasting_spider_eye>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_rabbit>, <minecraft:rabbit>], <artifacts:everlasting_rabbit>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_rabbit>, <minecraft:cooked_rabbit>], <artifacts:everlasting_cooked_rabbit>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_mutton>, <minecraft:mutton>], <artifacts:everlasting_mutton>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_mutton>, <minecraft:cooked_mutton>], <artifacts:everlasting_cooked_mutton>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_rabbit_stew>, <minecraft:rabbit_stew>], <artifacts:everlasting_rabbit_stew>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cod>, <minecraft:cod>], <artifacts:everlasting_cod>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_cod>, <minecraft:cooked_cod>], <artifacts:everlasting_cooked_cod>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_salmon>, <minecraft:salmon>], <artifacts:everlasting_salmon>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_cooked_salmon>, <minecraft:cooked_salmon>], <artifacts:everlasting_cooked_salmon>, null, 2500);
+Centrifuge.addRecipe([<artifacts:everlasting_clownfish>, <minecraft:clownfish>], <artifacts:everlasting_clownfish>, null, 2500);
