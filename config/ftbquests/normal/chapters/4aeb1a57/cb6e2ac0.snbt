@@ -1,6 +1,6 @@
 {
-	x: -3.0d,
-	y: -5.0d,
+	x: -10.0d,
+	y: -2.5d,
 	text: [
 		"Citizens have 5 different stats that will make their work in the respective field faster or slower.",
 		"",

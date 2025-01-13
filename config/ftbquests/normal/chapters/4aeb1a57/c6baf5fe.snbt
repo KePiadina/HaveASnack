@@ -1,7 +1,7 @@
 {
 	title: "§aThe Fridge",
-	x: 9.494897959183675d,
-	y: -7.0d,
+	x: 2.4948979591836746d,
+	y: -7.5d,
 	text: [
 		"Food doesn't rot while stored in the fridge"
 	],

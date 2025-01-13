@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: -6.5d,
+	x: -8.5d,
+	y: -4.0d,
 	description: "\"For the first time in 2b2t history, slave-\"",
 	text: [
 		"A Builder's Hut will house 1 builder which will, well, build structures you request given the materials",

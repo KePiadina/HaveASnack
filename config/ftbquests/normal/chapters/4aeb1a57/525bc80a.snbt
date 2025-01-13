@@ -1,7 +1,7 @@
 {
 	title: "More Workers",
-	x: 0.5d,
-	y: -6.5d,
+	x: -6.5d,
+	y: -4.0d,
 	text: [
 		"A Citizen's Hut will let you house more people and expand your base further",
 		"",
