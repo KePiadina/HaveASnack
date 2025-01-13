@@ -127,7 +127,7 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 25
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -148,7 +148,7 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 14
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -169,7 +169,7 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 14
 			},
 			"cluster-count": 2,
 			"min-height": 0,
@@ -190,7 +190,7 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 14
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -211,7 +211,7 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 14
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -232,7 +232,7 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 10
 			},
 			"cluster-count": 1,
 			"center-height": 16,
@@ -256,7 +256,7 @@
 					"name": "gold_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 14
 			},
 			"cluster-count": 20,
 			"min-height": 32,
@@ -294,7 +294,7 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 2
 			},
 			"cluster-count": {
 				"min": 3,
@@ -372,7 +372,7 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 19
 			},
 			"cluster-count": 16,
 			"min-height": 10,
