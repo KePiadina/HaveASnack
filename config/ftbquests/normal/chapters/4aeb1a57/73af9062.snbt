@@ -1,0 +1,94 @@
+{
+	title: "Dark Armor",
+	x: 7.0d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0cc63ea8"
+	],
+	tasks: [{
+		uid: "b3a71442",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_helmet",
+			tag: {
+				"enderio:dsuinv": [{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				},
+				{
+					Damage: 0s,
+					id: "minecraft:air",
+					Count: 1
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0868625",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f3e7b92",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e645ace",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
