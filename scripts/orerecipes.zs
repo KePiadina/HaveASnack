@@ -17,3 +17,8 @@ recipes.addShaped(<thermalfoundation:ore:6>, [[<ore:ingotPlatinum>,<ore:ingotPla
 recipes.addShapeless(<thermalfoundation:material:103> * 4, [<ore:dustLead>, <ore:dustLead>, <ore:dustLead>, <ore:dustPlatinum>, <ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>]);
 
 recipes.removeByRegex("extrabees:.{0,}_dust_dust");
+
+recipes.remove(<railcraft:ingot:9> * 4);
+recipes.addShapeless(<railcraft:ingot:9> * 4, [<ore:ingotAluminum>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<railcraft:ingot:8>, <thermalfoundation:material:64>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<railcraft:ingot:8>, <thermalfoundation:material:128>);
