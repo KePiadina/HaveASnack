@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -5.5d,
+	dependencies: [
+		"fdb26757"
+	],
+	tasks: [{
+		uid: "af334d46",
+		type: "item",
+		items: [{
+			item: "enderio:item_end_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

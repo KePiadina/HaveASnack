@@ -1,12 +1,13 @@
 {
-	title: "Ender Armor",
-	x: 4.964285714285701d,
-	y: -4.5d,
+	title: "Twilite Armor",
+	x: 5.0d,
+	y: -3.5d,
 	text: [
 		""
 	],
 	dependencies: [
-		"73af9062"
+		"73af9062",
+		"fdb26757"
 	],
 	tasks: [{
 		uid: "05a07b06",

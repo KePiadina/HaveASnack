@@ -1,11 +1,13 @@
 {
-	title: "§aStellar Armor",
-	x: 8.464285714285701d,
-	y: -4.5d,
+	title: "§aAstralium Armor",
+	x: 8.5d,
+	y: -3.5d,
+	description: "Not to be confused with §oAustralium",
 	text: [
 		""
 	],
 	dependencies: [
+		"8b73da7f",
 		"607afed3"
 	],
 	tasks: [{

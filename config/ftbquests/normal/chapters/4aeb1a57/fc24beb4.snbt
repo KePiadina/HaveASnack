@@ -1,14 +1,14 @@
 {
-	x: 0.49489795918367463d,
+	x: 2.0d,
 	y: -7.5d,
 	dependencies: [
-		"c6baf5fe"
+		"d30db9cb"
 	],
 	tasks: [{
-		uid: "0383fa42",
+		uid: "75d4a2eb",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:preservation_chamber"
+			item: "enderio:item_dark_steel_crook"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

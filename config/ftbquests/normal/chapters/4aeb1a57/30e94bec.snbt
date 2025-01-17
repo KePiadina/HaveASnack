@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: -6.0d,
+	dependencies: [
+		"d30db9cb"
+	],
+	tasks: [{
+		uid: "d7e38af6",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

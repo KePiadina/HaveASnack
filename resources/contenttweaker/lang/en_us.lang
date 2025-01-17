@@ -26,8 +26,11 @@ item.contenttweaker.component_energetic_dust.name=Energetic Dust
 item.contenttweaker.forbidden_fruit.name=§c§lF§6§lo§e§lr§a§lb§3§li§9§ld§5§ld§c§le§6§ln §a§lF§3§lr§9§lu§5§li§c§lt
 item.contenttweaker.component_ender_upgrade.name=Blank Ender Upgrade
 item.contenttweaker.component_stellar_upgrade.name=Blank Stellar Upgrade
+item.contenttweaker.component_new_leaf.name=New Leaf
+item.contenttweaker.component_astralium_scythe.name=§fA§7s§8t§7r§fa§7l§8i§7u§fm Scythe
 
 fluid.fluid_co2=CO2
+fluid.fluid_netherstar=Nether Star Mixture
 
 tile.contenttweaker.eden_leaves.name=Tree of Eden Leaves
 tile.contenttweaker.eden_log.name=Tree of Eden Wood

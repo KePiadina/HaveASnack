@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: -6.0d,
+	dependencies: [
+		"fdb26757"
+	],
+	tasks: [{
+		uid: "8e176787",
+		type: "item",
+		items: [{
+			item: "enderio:item_end_steel_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

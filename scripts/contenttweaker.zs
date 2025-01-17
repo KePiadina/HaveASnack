@@ -27,12 +27,17 @@ var components = [
 	"energetic_dust",
 	"ender_upgrade",
 	"stellar_upgrade",
+
+	"new_leaf",
+	
 ] as string[];
 var fluids = [
-	"co2"
+	"co2",
+	"netherstar"
 ] as string[];
 var fluidcolors = [
-	Color.fromHex("B7C9E2")
+	Color.fromHex("B7C9E2"),
+	Color.fromHex("D3D3D3")
 ] as Color[];
 
 for i, food in foodlist {
@@ -48,3 +53,9 @@ for i, fluid in fluids {
 	var fluidstack = VanillaFactory.createFluid("fluid_"~fluid, fluidcolors[i]);
 	fluidstack.register();
 }
+
+	var hoestack = VanillaFactory.createItem("component_astralium_scythe");
+	hoestack.maxStackSize=1;
+	hoestack.rarity="EPIC";
+	hoestack.toolClass="hoe";
+	hoestack.register();

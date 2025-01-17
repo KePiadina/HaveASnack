@@ -1,12 +1,13 @@
 {
-	title: "Dark Armor",
-	x: 1.964285714285701d,
-	y: -4.5d,
+	title: "Umbralis Armor",
+	x: 2.0d,
+	y: -3.5d,
 	text: [
 		"Note: Despite the upgrades requiring high tier materials, you can still equip them on lower tier armor (but why would you want to?)"
 	],
 	dependencies: [
-		"0cc63ea8"
+		"0cc63ea8",
+		"d30db9cb"
 	],
 	tasks: [{
 		uid: "b3a71442",
