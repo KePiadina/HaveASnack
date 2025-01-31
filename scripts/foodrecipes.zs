@@ -7,6 +7,7 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Imbuer;
 import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.Centrifuge;
+import mods.harvestcrafttweaker.HarvestCraftTweaker;
 
 recipes.remove(<harvestcraft:friesitem>);
 Transposer.addExtractRecipe(<liquid:seed_oil> * 100, <harvestcraft:oliveoilitem>, 400);
@@ -31,6 +32,7 @@ Sawmill.addRecipe(<contenttweaker:component_potato_strip> * 4, <contenttweaker:c
 Transposer.addFillRecipe(<contenttweaker:component_fried_potato_strip> * 16, <contenttweaker:component_potato_strip> * 16, <liquid:seed_oil> * 500, 2000);
 
 //CO2
+HarvestCraftTweaker.removePressingByInput(<harvestcraft:freshwateritem>);
 Crucible.addRecipe(<liquid:fluid_co2> * 500,<minecraft:reeds>, 2000);
 
 //Popcorn
