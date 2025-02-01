@@ -9,14 +9,13 @@ import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.Centrifuge;
 import mods.harvestcrafttweaker.HarvestCraftTweaker;
 
-recipes.remove(<harvestcraft:friesitem>);
+
+
+//Seed oil
 Transposer.addExtractRecipe(<liquid:seed_oil> * 100, <harvestcraft:oliveoilitem>, 400);
 
+//PB&J
 recipes.addShapeless(<contenttweaker:food_pbnj>, [<ore:toolCuttingboard>, <ore:plateLead>, <ore:foodGrapejelly>, <ore:bread>]);
-
-
-recipes.addShapeless(<contenttweaker:component_peeled_potato>, [<harvestcraft:cuttingboarditem>,<ore:cropPotato>]);
-Sawmill.addRecipe(<contenttweaker:component_potato_slice> * 16, <contenttweaker:component_peeled_potato>, 1500);
 
 //Cooking oil
 recipes.remove(<harvestcraft:oliveoilitem>);
@@ -27,6 +26,10 @@ Transposer.addFillRecipe(<contenttweaker:component_fried_potato_slice> * 16, <co
 InductionSmelter.addRecipe(<harvestcraft:potatochipsitem>, <contenttweaker:component_fried_potato_slice> * 16, <thermalfoundation:material:324>, 2000);
 
 //Fries
+recipes.remove(<harvestcraft:friesitem>);
+recipes.addShapeless(<contenttweaker:component_peeled_potato>, [<harvestcraft:cuttingboarditem>,<ore:cropPotato>]);
+Sawmill.addRecipe(<contenttweaker:component_potato_slice> * 16, <contenttweaker:component_peeled_potato>, 1500);
+
 recipes.addShapeless(<harvestcraft:friesitem>, [<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_fried_potato_strip>,<contenttweaker:component_paper_bag>]);
 Sawmill.addRecipe(<contenttweaker:component_potato_strip> * 4, <contenttweaker:component_potato_slice>, 1500);
 Transposer.addFillRecipe(<contenttweaker:component_fried_potato_strip> * 16, <contenttweaker:component_potato_strip> * 16, <liquid:seed_oil> * 500, 2000);
@@ -52,6 +55,7 @@ Pulverizer.addRecipe(<harvestcraft:cocoapowderitem>, <contenttweaker:component_r
 
 //Soda
 recipes.remove(<harvestcraft:bubblywateritem>);
+mods.harvestcrafttweaker.HarvestCraftTweaker.removePressingByInput(<harvestcraft:freshwateritem>);
 Transposer.addFillRecipe(<harvestcraft:bubblywateritem>, <harvestcraft:freshwateritem>, <liquid:fluid_co2> * 50, 2000);
 
 //Slices
@@ -65,21 +69,6 @@ Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 24,<harvestcraft:meatfeastpizz
 Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 11,<harvestcraft:pizzaitem>,1500);
 Sawmill.addRecipe(<harvestcraft:pizzasliceitem> * 14,<harvestcraft:supremepizzaitem>,1500);
 
-//Bioplastic
-Compactor.addPressRecipe(<industrialforegoing:plastic>, <minecraft:reeds> * 4, 1500);
-
-//Infinity dust farm
-Pulverizer.addRecipe(<enderio:item_material:20> * 9, <enderio:block_infinity>, 2000, <enderio:item_material:20>, 50);
-Pulverizer.addRecipe(<enderio:block_infinity> * 9, <enderio:block_infinity:1>, 2000, <enderio:block_infinity>, 50);
-Pulverizer.addRecipe(<enderio:block_infinity:1> * 9, <enderio:block_infinity:2>, 2000, <enderio:block_infinity:1>, 50);
-
-Compactor.addPressRecipe(<enderio:block_infinity:0>, <enderio:item_material:20> * 9, 2000);
-Compactor.addPressRecipe(<enderio:block_infinity:1>, <enderio:block_infinity:0> * 9, 2000);
-Compactor.addPressRecipe(<enderio:block_infinity:2>, <enderio:block_infinity:1> * 9, 2000);
-
-//Induction Smelter Energetic Alloy
-recipes.addShapeless(<contenttweaker:component_energetic_dust>, [<ore:dustRedstone>,<ore:dustGlowstone>]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot:1>, <minecraft:gold_ingot>, <contenttweaker:component_energetic_dust>, 2000);
 
 //Custom meat
 recipes.addShaped(<harvestcraft:groundbeefitem>, [[<biomesoplenty:fleshchunk>, null, null],[],[]]);
@@ -118,3 +107,4 @@ Centrifuge.addRecipe([<artifacts:everlasting_salmon>, <minecraft:salmon>* 64,<mi
 Centrifuge.addRecipe([<artifacts:everlasting_cooked_salmon>, <minecraft:cooked_salmon>* 64,<minecraft:cooked_salmon>* 64,<minecraft:cooked_salmon>* 64], <artifacts:everlasting_cooked_salmon>, null, 2500);
 Centrifuge.addRecipe([<artifacts:everlasting_clownfish>, <minecraft:clownfish>* 64,<minecraft:clownfish>* 64,<minecraft:clownfish>* 64], <artifacts:everlasting_clownfish>, null, 2500);
 Centrifuge.addRecipe([<minecraft:dragon_egg>, <minecraft:egg> * 16,<minecraft:egg> * 16,<minecraft:egg> * 16], <minecraft:dragon_egg>, null, 2500);
+

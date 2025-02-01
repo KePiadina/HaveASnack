@@ -7,7 +7,6 @@ var tools = [
 	"hoe_grains",
 	"hoe_veggie",
 	"hoe_leaf",
-	"fishing_umbralis"
 ] as string[];
 var components = [
 	"grains_bundle1",

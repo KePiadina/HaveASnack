@@ -45,20 +45,6 @@ recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision"}), [<contenttweaker:component_stellar_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:night_vision"})]);
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}), [<contenttweaker:component_stellar_upgrade>, <ore:chestWood>, <ore:gearVibrant>]);
 
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:770>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:96>, <thermalfoundation:material:770>);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:fluid_netherstar> * 250, <minecraft:nether_star>, 3600);
-
-mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:167>, <fluid:petrotheum> * 1000, 10000);
-mods.forestry.Carpenter.addRecipe(<enderio:item_alloy_ingot:8> * 4, [
-	[<minecraft:glowstone_dust>,<minecraft:fire_charge>,<minecraft:glowstone_dust>],
-	[<extendedcrafting:material:7>,<enderio:item_alloy_ingot:6>,<extendedcrafting:material:7>],
-	[<minecraft:glowstone_dust>,<minecraft:fire_charge>,<minecraft:glowstone_dust>]], 30, <fluid:aerotheum> * 1000);
-
-mods.forestry.Carpenter.addRecipe(<enderio:item_alloy_endergy_ingot:3> * 8, [
-	[<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>],
-	[<enderio:item_alloy_ingot:8>,<appliedenergistics2:material:11>,<enderio:item_alloy_ingot:8>],
-	[<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>]], 30, <fluid:fluid_netherstar> * 250);
 
 
 //Removing EnderIO component that may cause issues 
