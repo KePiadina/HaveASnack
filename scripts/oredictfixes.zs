@@ -1,5 +1,6 @@
 import crafttweaker.oredict.IOreDict;
 
+<ore:itemSilicon>.add(<projectred-core:resource_item:301>);
 <ore:itemCurrency>.add(<contenttweaker:coin1>);
 <ore:itemCurrency>.add(<contenttweaker:coin5>);
 <ore:itemCurrency>.add(<contenttweaker:coin10>);
