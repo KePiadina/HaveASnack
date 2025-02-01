@@ -42,3 +42,7 @@ cfm:counter
 cfm:oven
 cfm:freezer
 cfm:chopping_board
+
+
+
+projectred-core:drawplate
