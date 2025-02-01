@@ -1,7 +1,7 @@
 {
 	title: "§lFood preservation",
-	x: -5.0d,
-	y: -8.498299319727884d,
+	x: 11.5d,
+	y: 1.0017006802721156d,
 	shape: "gear",
 	text: [
 		"Food preservation will help you stockpile more complex foods to complete bounties with",

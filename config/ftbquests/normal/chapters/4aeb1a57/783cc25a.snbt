@@ -1,0 +1,109 @@
+{
+	title: "Petrotheum Fishing",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			Amount: 1000,
+			FluidName: "petrotheum"
+		}
+	},
+	x: 13.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dfe9c4f9"
+	],
+	tasks: [{
+		uid: "64aa5fb6",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	},
+	{
+		uid: "dbef779c",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_ore"
+		}]
+	},
+	{
+		uid: "abd17342",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	},
+	{
+		uid: "a99cf30d",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_ore"
+		}]
+	},
+	{
+		uid: "bdbdbfb4",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald_ore"
+		}]
+	},
+	{
+		uid: "cc22d3a5",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2052"
+		}]
+	},
+	{
+		uid: "de713b87",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore"
+		}]
+	},
+	{
+		uid: "d29c1ec9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 1"
+		}]
+	},
+	{
+		uid: "f185ff2e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 2"
+		}]
+	},
+	{
+		uid: "2fb6352e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 3"
+		}]
+	},
+	{
+		uid: "fc91f5cf",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 4"
+		}]
+	},
+	{
+		uid: "cf51b1ca",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 5"
+		}]
+	},
+	{
+		uid: "a066f5b6",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_ore"
+		}]
+	}]
+}

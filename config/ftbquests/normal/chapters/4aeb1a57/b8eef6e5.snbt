@@ -1,7 +1,7 @@
 {
 	title: "Flesh",
-	x: 0.5d,
-	y: -10.0d,
+	x: -3.0d,
+	y: -8.5d,
 	description: "More like free meat",
 	text: [
 		"Nether Flesh can be crafted into different ground meats, or centrifuged as a block for various mob drops"

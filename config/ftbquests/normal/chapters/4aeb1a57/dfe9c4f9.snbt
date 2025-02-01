@@ -1,0 +1,21 @@
+{
+	title: "The fishing life",
+	x: 11.5d,
+	y: -1.5d,
+	shape: "gear",
+	description: "Women fear me, fish fear me, I am very scary",
+	text: [
+		"Fishing has been expanded to allow fishing in other fluids to get different items and treasures",
+		"",
+		"Each quest has all possible drops and chances"
+	],
+	tasks: [{
+		uid: "8b232658",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

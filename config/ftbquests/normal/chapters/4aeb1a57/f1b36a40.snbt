@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: -2.0d,
+	y: -8.5d,
+	dependencies: [
+		"f5d91e52"
+	],
+	tasks: [{
+		uid: "88de9b23",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	},
+	{
+		uid: "3ffce846",
+		type: "item",
+		items: [{
+			item: "minecraft:egg"
+		}]
+	}]
+}

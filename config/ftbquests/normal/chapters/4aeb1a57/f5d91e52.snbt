@@ -1,0 +1,14 @@
+{
+	title: "§lInfinite food",
+	x: -2.0d,
+	y: -7.0d,
+	shape: "gear",
+	description: "Solving world hunger",
+	text: [
+		"Certain items can be renewably centrifuged to extract their products infinitely"
+	],
+	tasks: [{
+		uid: "9d7da2a0",
+		type: "checkmark"
+	}]
+}

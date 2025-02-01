@@ -1,0 +1,66 @@
+{
+	title: "Everlasting meat",
+	x: -1.0d,
+	y: -8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f5d91e52"
+	],
+	tasks: [{
+		uid: "5e0b8c3b",
+		type: "item",
+		title: "Any Everlasting food",
+		items: [{
+			item: "artifacts:everlasting_porkchop"
+		},
+		{
+			item: "artifacts:everlasting_mutton"
+		},
+		{
+			item: "artifacts:everlasting_cod"
+		},
+		{
+			item: "artifacts:everlasting_salmon"
+		},
+		{
+			item: "artifacts:everlasting_rotten_flesh"
+		},
+		{
+			item: "artifacts:everlasting_beef"
+		},
+		{
+			item: "artifacts:everlasting_rabbit"
+		},
+		{
+			item: "artifacts:everlasting_cooked_porkchop"
+		},
+		{
+			item: "artifacts:everlasting_cooked_beef"
+		},
+		{
+			item: "artifacts:everlasting_cooked_rabbit"
+		},
+		{
+			item: "artifacts:everlasting_chicken"
+		},
+		{
+			item: "artifacts:everlasting_cooked_salmon"
+		},
+		{
+			item: "artifacts:everlasting_cooked_cod"
+		},
+		{
+			item: "artifacts:everlasting_rabbit_stew"
+		},
+		{
+			item: "artifacts:everlasting_cooked_chicken"
+		},
+		{
+			item: "artifacts:everlasting_cooked_mutton"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Cryotheum Fishing",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			Amount: 1000,
+			FluidName: "cryotheum"
+		}
+	},
+	x: 13.5d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dfe9c4f9"
+	],
+	tasks: [{
+		uid: "5d2e797e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2048"
+		}]
+	},
+	{
+		uid: "fd339371",
+		type: "item",
+		items: [{
+			item: "minecraft:ice"
+		}]
+	},
+	{
+		uid: "e6cc3567",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}]
+	}]
+}

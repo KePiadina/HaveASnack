@@ -1,14 +1,14 @@
 {
-	x: 9.0d,
-	y: -7.0d,
+	x: 1.5d,
+	y: -7.5d,
 	dependencies: [
-		"8b73da7f"
+		"d30db9cb"
 	],
 	tasks: [{
-		uid: "8bb42c04",
+		uid: "2f1babe1",
 		type: "item",
 		items: [{
-			item: "enderio:item_stellar_alloy_pickaxe"
+			item: "thermalfoundation:tool.fishing_rod_invar"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
