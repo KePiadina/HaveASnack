@@ -25,8 +25,8 @@ var components = [
 	"roasted_cocoa",
 
 	"energetic_dust",
-	"ender_upgrade",
-	"stellar_upgrade",
+	"twilite_upgrade",
+	"astralium_upgrade",
 
 	"new_leaf",
 	
