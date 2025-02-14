@@ -1,3 +1,4 @@
+/*
 recipes.addShaped(<contenttweaker:toolcomponent_grains_bundle1>, [
 	[<harvestcraft:barleyitem>, <minecraft:string>, <minecraft:wheat>], 
 	[<minecraft:string>, <minecraft:stick>, <minecraft:string>], 
@@ -8,4 +9,4 @@ recipes.addShaped(<contenttweaker:toolcomponent_grains_bundle2>, [
 	[<minecraft:string>, <minecraft:stick>, <minecraft:string>], 
 	[<harvestcraft:quinoaitem>, <minecraft:string>, <harvestcraft:breadfruititem>]
 ]);
-
+*/
