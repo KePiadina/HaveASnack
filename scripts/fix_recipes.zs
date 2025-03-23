@@ -35,3 +35,7 @@ recipes.removeByRecipeName("forestry:block_to_bronze");
 recipes.addShapeless(<thermalfoundation:material:129>, [<forestry:ingot_tin>]);
 recipes.addShapeless(<thermalfoundation:material:128>, [<forestry:ingot_copper>]);
 recipes.addShapeless(<thermalfoundation:material:163>, [<forestry:ingot_bronze>]);
+
+<forestry:ingot_tin>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.")
+<forestry:ingot_copper>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.")
+<forestry:ingot_bronze>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.")
