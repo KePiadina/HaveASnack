@@ -62,12 +62,12 @@
         "max_x": 0,
         "max_y": -2,
         "max_z": 0,
-        "item": "oredict:oreCopper",
+        "item": "thermalfoundation:ore",
         "meta": 0,
         "tags": "",
         "ignoreMeta": true,
         "ignoreTags": [],
-        "useOreDict": true
+        "useOreDict": false
       }
     ]
   },
