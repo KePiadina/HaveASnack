@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/compoents/twilite_upgrade"
+    "layer0": "contenttweaker:items/components/twilite_upgrade"
   }
 }
