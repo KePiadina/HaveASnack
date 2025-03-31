@@ -11,12 +11,12 @@
 		uid: "9a83cc49",
 		type: "item",
 		items: [{
+			id: "foodfunk:icebox",
 			ForgeCaps: {
 				"foodfunk:preserving": {
 					lastCheckTime: 2263744L
 				}
-			},
-			id: "foodfunk:icebox"
+			}
 		}]
 	}]
 }

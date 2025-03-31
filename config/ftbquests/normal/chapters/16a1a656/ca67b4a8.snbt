@@ -1,0 +1,18 @@
+{
+	x: -29.0d,
+	y: -8.0d,
+	text: [
+		"Given Woven Silk, it will collect pollen that bees obtain while pollinating trees"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	optional: true,
+	tasks: [{
+		uid: "627f0e14",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.sieve"
+		}]
+	}]
+}

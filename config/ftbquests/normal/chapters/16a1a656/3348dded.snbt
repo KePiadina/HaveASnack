@@ -1,0 +1,17 @@
+{
+	x: -30.0d,
+	y: -7.5d,
+	text: [
+		"Given Royal Jelly, they will create hives around the alveary that drop a princess with the same genes as the queen"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "61c01e18",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.swarmer"
+		}]
+	}]
+}

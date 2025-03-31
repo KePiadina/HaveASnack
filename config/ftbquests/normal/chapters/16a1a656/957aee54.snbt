@@ -1,0 +1,23 @@
+{
+	title: "Grafter",
+	x: -25.5d,
+	y: -10.5d,
+	text: [
+		"Grafters will drop saplings with a much higher chance than without"
+	],
+	dependencies: [
+		"6eb01e7c"
+	],
+	tasks: [{
+		uid: "d3cbccc0",
+		type: "item",
+		items: [{
+			item: "forestry:grafter_proven"
+		},
+		{
+			item: "forestry:grafter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

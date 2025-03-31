@@ -1,0 +1,19 @@
+{
+	x: -25.5d,
+	y: -9.5d,
+	text: [
+		"The Escritoire is a block where you can play a simple minigame of matching tiles for their product + some notes to increase (sometimes).",
+		"",
+		"Hints can be obtained by using Honey, the bee's respective honeycomb, or any other bee"
+	],
+	dependencies: [
+		"6eb01e7c"
+	],
+	tasks: [{
+		uid: "2c624592",
+		type: "item",
+		items: [{
+			item: "forestry:escritoire"
+		}]
+	}]
+}

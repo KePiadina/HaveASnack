@@ -1,0 +1,19 @@
+{
+	x: -27.5d,
+	y: -8.5d,
+	text: [
+		"The Apiary can either use a Queen, or breed a Princess and a Drone to produce a Queen.",
+		"",
+		"In case the two types are compatible, the queen will die and produce offspring of the mutated species"
+	],
+	dependencies: [
+		"6eb01e7c"
+	],
+	tasks: [{
+		uid: "272a36f4",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}]
+}

@@ -11,12 +11,12 @@
 		uid: "3d73b4e2",
 		type: "item",
 		items: [{
+			id: "cookingforblockheads:counter",
 			ForgeCaps: {
 				"foodfunk:preserving": {
 					lastCheckTime: 2293590L
 				}
-			},
-			id: "cookingforblockheads:counter"
+			}
 		}]
 	}]
 }

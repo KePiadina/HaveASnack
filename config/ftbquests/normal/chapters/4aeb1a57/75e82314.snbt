@@ -1,0 +1,24 @@
+{
+	x: 16.5d,
+	y: -4.5d,
+	text: [
+		"This handy bauble can keep you fed as long as it contains liquid meat",
+		"",
+		"Note that it will not grant nutrition score, however"
+	],
+	dependencies: [
+		"23dd71dd"
+	],
+	tasks: [{
+		uid: "23c5082c",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:meat_feeder",
+			ForgeCaps: {
+				"industrialforegoing:meat_feeder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

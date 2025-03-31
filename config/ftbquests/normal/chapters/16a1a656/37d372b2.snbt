@@ -1,0 +1,17 @@
+{
+	x: -28.5d,
+	y: -3.5d,
+	text: [
+		"Lowers Alveary temperature"
+	],
+	dependencies: [
+		"c669ffab"
+	],
+	tasks: [{
+		uid: "ccb2e1be",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.fan"
+		}]
+	}]
+}

@@ -12,12 +12,12 @@
 		uid: "cc6245cd",
 		type: "item",
 		items: [{
+			id: "cookingforblockheads:fridge",
 			ForgeCaps: {
 				"foodfunk:preserving": {
 					lastCheckTime: 2263337L
 				}
-			},
-			id: "cookingforblockheads:fridge"
+			}
 		}]
 	}]
 }

@@ -1,0 +1,18 @@
+{
+	title: "&aAlveary",
+	x: -27.5d,
+	y: -6.5d,
+	text: [
+		"The Alveary is a multiblock version of the Apiary, offering more customization and even higher outputs with the correct setup."
+	],
+	dependencies: [
+		"06775d45"
+	],
+	tasks: [{
+		uid: "f8b15a3c",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.plain"
+		}]
+	}]
+}

@@ -1,0 +1,80 @@
+{
+	icon: {
+		id: "forestry:sapling",
+		tag: {
+			IsAnalyzed: 0b,
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "satsuma",
+					UID1: "satsuma"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.heightSmallest",
+					UID1: "forestry.heightSmallest"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.saplingsAverage",
+					UID1: "forestry.saplingsAverage"
+				},
+				{
+					Slot: 3b,
+					UID0: "extratrees.fruitSatsuma",
+					UID1: "extratrees.fruitSatsuma"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.yieldLow",
+					UID1: "forestry.yieldLow"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.sappinessLow",
+					UID1: "forestry.sappinessLow"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.leavesNone",
+					UID1: "forestry.leavesNone"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.maturationFast",
+					UID1: "forestry.maturationFast"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.i1d",
+					UID1: "forestry.i1d"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.fireproofFalse",
+					UID1: "forestry.fireproofFalse"
+				}]
+			}
+		}
+	},
+	x: -29.5d,
+	y: -9.5d,
+	text: [
+		"Trees can breed when bees (or butterflies) pollinate the leaves (easily noticeable when wearing Spectacles) of a tree with the pollen of another, and then harvesting the leaves by breaking them with a grafter.",
+		"",
+		"Bees will pollinate the trees when their house (Beehouse, Apiary, or Alveary) is close or between the needed trees",
+		"",
+		"Note that you should analyze the saplings beforehand, to expedite the process"
+	],
+	dependencies: [
+		"6eb01e7c",
+		"2db78141",
+		"ca67b4a8"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "510fdbb5",
+		type: "checkmark",
+		title: "Tree breeding"
+	}]
+}

@@ -6,6 +6,9 @@
 	text: [
 		"Nether Flesh can be crafted into different ground meats, or centrifuged as a block for various mob drops"
 	],
+	dependencies: [
+		"f5d91e52"
+	],
 	tasks: [{
 		uid: "4372e27d",
 		type: "item",

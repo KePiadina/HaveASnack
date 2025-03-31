@@ -10,10 +10,10 @@
 		items: [{
 			id: "thermalexpansion:cell",
 			tag: {
-				Send: 1000,
 				Energy: 0,
 				RSControl: 0b,
 				Level: 0b,
+				Send: 1000,
 				SideCache: [B;
 					2b,
 					1b,

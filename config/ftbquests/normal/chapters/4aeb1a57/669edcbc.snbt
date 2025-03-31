@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	dependencies: [
+		"f74564ad"
+	],
+	tasks: [{
+		uid: "ad806fa8",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}]
+	}]
+}

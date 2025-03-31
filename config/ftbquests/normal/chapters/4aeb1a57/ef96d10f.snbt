@@ -1,6 +1,7 @@
 {
 	x: 15.5d,
 	y: -9.0d,
+	description: "Automated animal cruelty",
 	text: [
 		"Moves all baby animals to behind itself, useful for sorting",
 		"",

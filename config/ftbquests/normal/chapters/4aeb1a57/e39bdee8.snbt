@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	dependencies: [
+		"f74564ad"
+	],
+	tasks: [{
+		uid: "b949331c",
+		type: "item",
+		title: "Any Tall Flower",
+		items: [{
+			item: "minecraft:double_plant 1 1"
+		},
+		{
+			item: "minecraft:double_plant 1 4"
+		},
+		{
+			item: "minecraft:double_plant 1 5"
+		},
+		{
+			item: "minecraft:double_plant"
+		}]
+	}]
+}

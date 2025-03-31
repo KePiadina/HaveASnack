@@ -1,0 +1,17 @@
+{
+	icon: "teslacorelib:speed_tier2",
+	x: -5.5d,
+	y: -10.0d,
+	description: "Too fast!",
+	text: [
+		"If speed effects are too annoying, check the config for Custom FoV to tweak them to your liking"
+	],
+	dependencies: [
+		"0956e06b"
+	],
+	tasks: [{
+		uid: "69a5e86a",
+		type: "checkmark",
+		title: "Addendum"
+	}]
+}

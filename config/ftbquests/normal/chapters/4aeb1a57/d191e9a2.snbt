@@ -11,12 +11,12 @@
 		uid: "0781517d",
 		type: "item",
 		items: [{
+			id: "foodfunk:esky",
 			ForgeCaps: {
 				"foodfunk:preserving": {
 					lastCheckTime: 2263184L
 				}
-			},
-			id: "foodfunk:esky"
+			}
 		}]
 	}]
 }

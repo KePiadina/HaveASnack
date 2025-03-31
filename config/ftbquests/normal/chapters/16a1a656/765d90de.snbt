@@ -6,15 +6,15 @@
 		uid: "022f362a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"foodfunk:rot": {
+			id: "harvestcraft:sesameseedsitem",
+			tag: {
+				Rot: {
 					start: 0L,
 					time: 0L
 				}
 			},
-			id: "harvestcraft:sesameseedsitem",
-			tag: {
-				Rot: {
+			ForgeCaps: {
+				"foodfunk:rot": {
 					start: 0L,
 					time: 0L
 				}

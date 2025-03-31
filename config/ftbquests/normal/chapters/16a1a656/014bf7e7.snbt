@@ -1,0 +1,17 @@
+{
+	x: -26.0d,
+	y: -8.0d,
+	text: [
+		"The simplest honey generator, it does not mutate bees nor does it allow for frames"
+	],
+	dependencies: [
+		"6eb01e7c"
+	],
+	tasks: [{
+		uid: "474e5e67",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}]
+}

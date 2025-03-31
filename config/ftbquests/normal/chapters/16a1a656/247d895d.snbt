@@ -1,0 +1,17 @@
+{
+	x: -25.0d,
+	y: -6.0d,
+	text: [
+		"Lets bees work even during rain"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "0468ec5a",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 2"
+		}]
+	}]
+}

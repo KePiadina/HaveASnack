@@ -1,16 +1,16 @@
 {
-	title: "Forestry genetics",
+	title: "&lForestry genetics",
+	icon: "minecraft:sapling",
 	x: -27.5d,
-	y: -10.0d,
+	y: -9.75d,
+	shape: "gear",
 	text: [
-		"Unfortunately I have little to no clue as to how Forestry actually works, you'll have to try alone for that.",
+		"Forestry has an in-depth tree and bee breeding setup, which will not be shown here as it's not necessary to complete the modpack.",
 		"",
-		"If you DO know, please reach out and help me understand it too.",
-		"",
-		"In the meantime, Forestry saplings are available through the Market",
-		"",
-		"Note that they are not necessary to complete the modpack, unlike AgriCraft"
+		"Here you'll only see a simplified guide on the mod. Bear in mind that bees, trees, butterflies, and moths all take very long times, so you should mainly focus on the mod while waiting for something else, since it will take generations to get your desired result"
 	],
+	size: 1.5d,
+	optional: true,
 	tasks: [{
 		uid: "3397a018",
 		type: "checkmark"

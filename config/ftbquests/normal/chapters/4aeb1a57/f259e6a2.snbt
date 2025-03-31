@@ -13,12 +13,12 @@
 		uid: "9c23b1cb",
 		type: "item",
 		items: [{
+			id: "foodfunk:larder",
 			ForgeCaps: {
 				"foodfunk:preserving": {
 					lastCheckTime: 2263553L
 				}
-			},
-			id: "foodfunk:larder"
+			}
 		}]
 	}]
 }

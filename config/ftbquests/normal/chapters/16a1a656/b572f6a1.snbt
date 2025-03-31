@@ -1,0 +1,17 @@
+{
+	x: -30.0d,
+	y: -6.5d,
+	text: [
+		"Prevents new species from being produced, ensuring bees don't mutate into new types (changing alleles and genes will still work)"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "562e8b19",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.stabiliser"
+		}]
+	}]
+}

@@ -19,6 +19,16 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:jaslumine_plant",
+				agri_gain: 1b,
+				agri_strength: 1b
+			}
+		},
+		{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_growth: 1b,
+				agri_seed: "resource:cuprosia_plant",
 				agri_strength: 1b,
 				agri_gain: 1b
 			}
@@ -28,19 +38,9 @@
 			tag: {
 				agri_analyzed: 0b,
 				agri_growth: 1b,
-				agri_seed: "resource:cuprosia_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
-			}
-		},
-		{
-			id: "agricraft:agri_seed",
-			tag: {
-				agri_analyzed: 0b,
-				agri_growth: 1b,
 				agri_seed: "resource:plombean_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -49,8 +49,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:platiolus_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -59,8 +59,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:niccissus_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -69,8 +69,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:redstodendron_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -79,8 +79,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:aurigold_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -89,8 +89,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:petinia_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -99,8 +99,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:lapender_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		},
 		{
@@ -109,8 +109,8 @@
 				agri_analyzed: 0b,
 				agri_growth: 1b,
 				agri_seed: "resource:ferranium_plant",
-				agri_gain: 1b,
-				agri_strength: 1b
+				agri_strength: 1b,
+				agri_gain: 1b
 			}
 		}]
 	}]

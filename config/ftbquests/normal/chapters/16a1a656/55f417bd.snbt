@@ -1,0 +1,98 @@
+{
+	icon: {
+		id: "forestry:butterfly_ge",
+		tag: {
+			IsAnalyzed: 0b,
+			Health: 20,
+			MaxH: 20,
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "extrabutterflies.species.pearlborderedfritillary",
+					UID1: "extrabutterflies.species.pearlborderedfritillary"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.sizeSmall",
+					UID1: "forestry.sizeSmall"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.speedSlowest",
+					UID1: "forestry.speedSlowest"
+				},
+				{
+					Slot: 3b,
+					UID0: "forestry.lifespanShorter",
+					UID1: "forestry.lifespanShorter"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.i3d",
+					UID1: "forestry.i3d"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.i3d",
+					UID1: "forestry.i3d"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.toleranceNone",
+					UID1: "forestry.toleranceNone"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.toleranceNone",
+					UID1: "forestry.toleranceNone"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 10b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 11b,
+					UID0: "forestry.flowersVanilla",
+					UID1: "forestry.flowersVanilla"
+				},
+				{
+					Slot: 12b,
+					UID0: "forestry.bfNone",
+					UID1: "forestry.bfNone"
+				},
+				{
+					Slot: 13b,
+					UID0: "forestry.cocoonDefault",
+					UID1: "forestry.cocoonDefault"
+				}]
+			}
+		}
+	},
+	x: -29.5d,
+	y: -11.0d,
+	description: "Lepidot- Lepidoptr- Ledi- Insect science",
+	text: [
+		"Lepidopterology concerns itself with butterflies and moths. While they are not as useful as bees, they are easier to work with as they don't need a home block.",
+		"",
+		"Butterflies spawn near Forestry trees and can be caught with a Scoop by sneaking up on them"
+	],
+	dependencies: [
+		"6eb01e7c"
+	],
+	tasks: [{
+		uid: "0f564f66",
+		type: "checkmark",
+		title: "Lepidopterology"
+	}]
+}

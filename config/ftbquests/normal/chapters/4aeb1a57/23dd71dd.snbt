@@ -1,0 +1,17 @@
+{
+	x: 16.5d,
+	y: -5.5d,
+	text: [
+		"Unlike the Mob Crusher, the Mob Slaughter Factory produces Pink Slime and Liquid Meat from mobs instead of normal mobs"
+	],
+	dependencies: [
+		"0c3daffa"
+	],
+	tasks: [{
+		uid: "5b74a9c2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}]
+}

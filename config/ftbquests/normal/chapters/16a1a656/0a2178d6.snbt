@@ -1,0 +1,20 @@
+{
+	x: -27.5d,
+	y: -3.5d,
+	text: [
+		"Depending on the fluid inserted, changes temperature and humidity",
+		"",
+		"&6Lava&r -> +10% Temp, -20% Humidity",
+		"&bWater&r -> -10% Temp, +20% Humidity"
+	],
+	dependencies: [
+		"c669ffab"
+	],
+	tasks: [{
+		uid: "555f66ad",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.hygro"
+		}]
+	}]
+}

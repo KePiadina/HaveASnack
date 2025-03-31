@@ -1,0 +1,17 @@
+{
+	x: -25.0d,
+	y: -7.0d,
+	text: [
+		"Lets Diurnal bees work during nighttime"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "198a9516",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 3"
+		}]
+	}]
+}

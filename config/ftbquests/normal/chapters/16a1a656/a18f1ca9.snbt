@@ -1,0 +1,17 @@
+{
+	x: -25.0d,
+	y: -5.0d,
+	text: [
+		"Opens a slot for a hive frame"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "ea6819a3",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 1"
+		}]
+	}]
+}

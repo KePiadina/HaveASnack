@@ -1,0 +1,17 @@
+{
+	x: -30.0d,
+	y: -5.5d,
+	text: [
+		"Increases mutation chance for offspring"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "c05cb077",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary"
+		}]
+	}]
+}

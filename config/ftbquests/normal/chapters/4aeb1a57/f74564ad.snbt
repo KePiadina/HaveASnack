@@ -1,0 +1,15 @@
+{
+	title: "§lWorkarounds",
+	x: -2.0d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"This set of quests is mostly to show alternative recipes for rare or hard-to-find items"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "44765fcd",
+		type: "checkmark",
+		title: "Workarounds"
+	}]
+}

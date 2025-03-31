@@ -1,0 +1,17 @@
+{
+	x: -27.5d,
+	y: -4.5d,
+	text: [
+		"Energy Hatch for the Alveary"
+	],
+	dependencies: [
+		"4955a966"
+	],
+	tasks: [{
+		uid: "038a8b34",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -30.0d,
+	y: -4.5d,
+	text: [
+		"Uses Electron Tubes to modify bee behavior, like Frames for Apiaries"
+	],
+	dependencies: [
+		"c669ffab",
+		"4955a966"
+	],
+	tasks: [{
+		uid: "b416d724",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 4"
+		}]
+	}]
+}

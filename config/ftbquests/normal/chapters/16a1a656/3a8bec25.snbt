@@ -1,0 +1,17 @@
+{
+	x: -26.5d,
+	y: -3.5d,
+	text: [
+		"Increases Alveary temperature"
+	],
+	dependencies: [
+		"c669ffab"
+	],
+	tasks: [{
+		uid: "b1befe58",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.heater"
+		}]
+	}]
+}
