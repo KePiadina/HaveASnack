@@ -118,3 +118,11 @@ mods.forestry.Carpenter.addRecipe(<enderio:item_alloy_endergy_ingot:3> * 8, [
 	[<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>],
 	[<enderio:item_alloy_ingot:8>,<appliedenergistics2:material:11>,<enderio:item_alloy_ingot:8>],
 	[<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>]], 30, <fluid:fluid_netherstar> * 250);
+
+
+recipes.remove(<extendedcrafting:table_advanced>);
+recipes.addShaped(<extendedcrafting:table_advanced>, [[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>], [<extendedcrafting:material:2>, <extendedcrafting:table_basic>, <extendedcrafting:material:2>], [<extendedcrafting:material:15>, <extendedcrafting:material:2>, <extendedcrafting:material:15>]]);
+recipes.remove(<extendedcrafting:table_elite>);
+recipes.addShaped(<extendedcrafting:table_elite>, [[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>], [<extendedcrafting:material:2>, <extendedcrafting:table_advanced>, <extendedcrafting:material:2>], [<extendedcrafting:material:16>, <extendedcrafting:material:2>, <extendedcrafting:material:16>]]);
+recipes.remove(<extendedcrafting:table_ultimate>);
+recipes.addShaped(<extendedcrafting:table_ultimate>, [[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], [<extendedcrafting:material:2>, <extendedcrafting:table_elite>, <extendedcrafting:material:2>], [<extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:17>]]);
