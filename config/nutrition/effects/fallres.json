@@ -1,0 +1,16 @@
+{
+	"name": "fallres",
+	"potion": "minecraft:jump_boost",
+	"amplifier": 255,
+	"minimum": 90,
+	"maximum": 100,
+	"detect": "all",
+	"nutrients": [
+        "dairy",
+        "protein",
+        "vegetable"
+    ],                             
+	"cumulative_modifier": 0,      
+	"particles": "transparent",    
+	"enabled": true            
+}

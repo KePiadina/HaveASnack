@@ -1,0 +1,12 @@
+{
+	"name": "speed",
+	"potion": "minecraft:speed",
+	"amplifier": 2,
+	"minimum": 75,
+	"maximum": 100,
+	"detect": "average",
+	"nutrients": [],
+	"cumulative_modifier": 1,
+	"particles": "transparent",
+	"enabled": true
+}

@@ -1,0 +1,12 @@
+{
+	"name": "regen",
+	"potion": "minecraft:regeneration",
+	"amplifier": 2,
+	"minimum": 90,
+	"maximum": 100,
+	"detect": "average",
+	"nutrients": [],                             
+	"cumulative_modifier": 1,      
+	"particles": "transparent",    
+	"enabled": true            
+}
