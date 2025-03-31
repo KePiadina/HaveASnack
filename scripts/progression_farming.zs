@@ -1,7 +1,7 @@
 
 //Greenhouse Glass moved to Moon
 recipes.remove(<sereneseasons:greenhouse_glass>);
-recipes.addShaped(<sereneseasons:greenhouse_glass>, [[<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>], [<ore:blockGlass>, <ore:ingotDesh>, <ore:blockGlass>], [<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>]]);
+recipes.addShaped(<sereneseasons:greenhouse_glass> * 8, [[<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>], [<ore:blockGlass>, <ore:ingotDesh>, <ore:blockGlass>], [<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>]]);
 
 //Phytogenic Insolator moved to Solar Dust (Venus, T3)
 recipes.remove(<thermalexpansion:machine:4>);
