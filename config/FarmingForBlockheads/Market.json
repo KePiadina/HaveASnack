@@ -26,8 +26,8 @@
     "Animal Eggs": "1*contenttweaker:coin50",
     "Pams Harvestcraft Seeds": "1*contenttweaker:coin50",
     "AgriCraft Seeds": "1*contenttweaker:coin50",
-    "BiomesOPlenty Saplings": "1*minecraft:emerald:0",
-    "BiomesOPlenty Sacred Oak Sapling": "1*minecraft:emerald:8"
+    "BiomesOPlenty Saplings": "1*contenttweaker:coin50",
+    "BiomesOPlenty Sacred Oak Sapling": "1*contenttweaker:coin50"
   },
   "defaults amount": {
     "__comment": "You can define custom amounts for the default entries here.",
@@ -50,6 +50,7 @@
   "custom entries": {
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
     "minecraft:wheat_seeds": "1*contenttweaker:coin50",
+    "minecraft:dye:3": "1*contenttweaker:coin50",
     "harvestcraft:agaveseeditem": "1*contenttweaker:coin50",
     "harvestcraft:mulberryseeditem": "1*contenttweaker:coin50",
     "harvestcraft:tomatilloseeditem": "1*contenttweaker:coin50",
