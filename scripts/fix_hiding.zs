@@ -12,3 +12,8 @@ JEI.removeAndHide(<projectred-transmission:framed_wire:34>);
 JEI.removeAndHide(<projectred-core:resource_item:104>);
 JEI.removeAndHide(<projectred-core:resource_item:252>);
 JEI.removeAndHide(<projectred-core:resource_item:105>);
+JEI.removeAndHide(<projectred-transmission:wire:34>);
+
+recipes.remove(<harvestcraft:market>);
+JEI.removeAndHide(<harvestcraft:market>);
+<harvestcraft:market>.addTooltip("Wrong item");
