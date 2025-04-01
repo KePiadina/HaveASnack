@@ -1,0 +1,28 @@
+{
+	disable_toast: true,
+	x: -23.0d,
+	y: 9.5d,
+	text: [
+		"Note that crops will no longer drop from gardens after this tier"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"10fc4bfc",
+		"f2078597",
+		"20a9bb38",
+		"553cb44e",
+		"a8313db3",
+		"016d76b5",
+		"3f4c8746",
+		"83facb60",
+		"1b021abe",
+		"a1fe7522",
+		"d843d17c"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "c8b0d206",
+		type: "checkmark",
+		title: "T7"
+	}]
+}

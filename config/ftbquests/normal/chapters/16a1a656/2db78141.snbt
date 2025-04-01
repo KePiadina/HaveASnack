@@ -3,7 +3,7 @@
 	x: -27.5d,
 	y: -11.5d,
 	text: [
-		"Analyzers will show you the item's genome, including Saplings, Maturing speed, Height, Girth, Yield, Sappiness, and Effects",
+		"Analyzers will show you the item's genome, including Saplings (drop rate per leaf), Maturing speed, Height, Girth, fruit Yield, Sappiness (Biomass created from the Fermenter), and Effects",
 		"",
 		"The Portable Analyzer will give a more in-depth review of the sample, including if it's a dominant (red) or recessive (blue) gene, along with the active/inactive trait"
 	],

@@ -1,0 +1,23 @@
+{
+	title: "T8",
+	disable_toast: true,
+	x: -23.0d,
+	y: 12.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2aff20a6",
+		"7832af28",
+		"f394d0de",
+		"4b70c673",
+		"4a464525",
+		"eb3ffc03"
+	],
+	tasks: [{
+		uid: "cd83deb9",
+		type: "checkmark",
+		title: "T7"
+	}]
+}

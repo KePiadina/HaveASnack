@@ -1,0 +1,22 @@
+{
+	disable_toast: true,
+	x: -23.0d,
+	y: -0.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"43bcf42c",
+		"54b9e2bd",
+		"15b6d670",
+		"5538edbe",
+		"08e5d87c",
+		"b85565dc",
+		"5045c87f",
+		"16b6340c",
+		"18c714a8"
+	],
+	tasks: [{
+		uid: "f23d3b85",
+		type: "checkmark",
+		title: "T3"
+	}]
+}

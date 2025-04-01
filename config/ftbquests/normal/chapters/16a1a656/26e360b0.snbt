@@ -1,0 +1,52 @@
+{
+	title: "The Ultimate Farmer",
+	x: -14.0d,
+	y: 29.5d,
+	shape: "diamond",
+	text: [
+		"Congratulations on getting every crop! Have a trophy"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1c5a5a19",
+		"9e9b1b1f",
+		"4bb31436",
+		"183e25f8",
+		"ca4619c1",
+		"26838f6b",
+		"4a156079",
+		"62cb5624",
+		"49faa248",
+		"06a68d13",
+		"666aab9c",
+		"9646b53f",
+		"a261c81c",
+		"0ea6f7fb",
+		"f20518ba"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "718b9376",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0aabee11",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorRed: 65,
+				TrophyColorBlue: 52,
+				TrophyVariant: "classic",
+				TrophyColorGreen: 205,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:component_astralium_scythe",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Master Farmer"
+			}
+		}
+	}]
+}

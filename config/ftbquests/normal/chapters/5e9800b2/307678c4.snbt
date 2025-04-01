@@ -1,6 +1,10 @@
 {
+	title: "Compressor",
 	x: -3.5d,
 	y: -1.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"822f10f9"
 	],
