@@ -1,7 +1,7 @@
 {
 	"name": "fallres",
 	"potion": "minecraft:jump_boost",
-	"amplifier": 255,
+	"amplifier": 0,
 	"minimum": 90,
 	"maximum": 100,
 	"detect": "all",
