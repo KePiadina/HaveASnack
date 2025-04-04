@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 9999
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
@@ -40,6 +41,7 @@ var fluidcolors = [
 	Color.fromHex("D3D3D3")
 ] as Color[];
 
+
 for i, food in foodlist {
 	var foodstack = VanillaFactory.createItemFood("food_"~food,foodValue[i][0]);
 	foodstack.saturation = foodValue[i][1];
@@ -54,8 +56,17 @@ for i, fluid in fluids {
 	fluidstack.register();
 }
 
-	var hoestack = VanillaFactory.createItem("component_astralium_scythe");
-	hoestack.maxStackSize=1;
-	hoestack.rarity="EPIC";
-	hoestack.toolClass="hoe";
-	hoestack.register();
+var hoestack = VanillaFactory.createItem("component_astralium_scythe");
+hoestack.maxStackSize=1;
+hoestack.rarity="EPIC";
+hoestack.toolClass="hoe";
+hoestack.register();
+
+var uranium = VanillaFactory.createItemFood("food_raw_uranium", 1);
+uranium.onItemFoodEaten = function(stack, world, player) {
+	if (!world.isRemote()) {
+		player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(1000000, 2));
+	}
+};
+uranium.saturation = 1;
+uranium.register();

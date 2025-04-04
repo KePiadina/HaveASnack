@@ -10,8 +10,9 @@ item.contenttweaker.coin10000.name=100Ꝁ Bill
 item.contenttweaker.coin50000.name=500Ꝁ Bill
 
 item.contenttweaker.food_pbnj.name=Pb&J
-item.contenttweaker.food_popcorn_bag.name=Popcorn bag
+item.contenttweaker.food_popcorn_bag.name=Popcorn Bag
 item.contenttweaker.food_caffe_peppina.name=§6§lCaffè della Peppina
+item.contenttweaker.food_raw_uranium.name=Yellowcake Uranium
 
 item.contenttweaker.component_meat_rotten.name=Rotten Meat
 item.contenttweaker.component_fish_rotten.name=Rotten Fish

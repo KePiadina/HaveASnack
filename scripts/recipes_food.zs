@@ -108,3 +108,4 @@ Centrifuge.addRecipe([<artifacts:everlasting_cooked_salmon>, <minecraft:cooked_s
 Centrifuge.addRecipe([<artifacts:everlasting_clownfish>, <minecraft:clownfish>* 64,<minecraft:clownfish>* 64,<minecraft:clownfish>* 64], <artifacts:everlasting_clownfish>, null, 2500);
 Centrifuge.addRecipe([<minecraft:dragon_egg>, <minecraft:egg> * 16,<minecraft:egg> * 16,<minecraft:egg> * 16], <minecraft:dragon_egg>, null, 2500);
 
+Transposer.addFillRecipe(<contenttweaker:food_raw_uranium>, <thermalfoundation:ore:3>, <liquid:petrotheum> * 500, 2000);
