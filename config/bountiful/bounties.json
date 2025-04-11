@@ -230,7 +230,7 @@
 {"unitWorth":14,    "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:currybread"},
 {"unitWorth":7,     "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:croutons"},
 {"unitWorth":8,     "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:coppiaferrarese"},
-{"unitWorth":12,    "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:melonpan"},
+{"unitWorth":30,    "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:melonpan"},
 {"unitWorth":18,    "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:kulcha"},
 {"unitWorth":17,    "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:langos"},
 {"unitWorth":4,     "weight":60,   "amount": {"min": 1,"max": 4},		"content":"pamsbreadcraft:whitebread"},
