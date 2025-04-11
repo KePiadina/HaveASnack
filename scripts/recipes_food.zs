@@ -109,3 +109,31 @@ Centrifuge.addRecipe([<artifacts:everlasting_clownfish>, <minecraft:clownfish>* 
 Centrifuge.addRecipe([<minecraft:dragon_egg>, <minecraft:egg> * 16,<minecraft:egg> * 16,<minecraft:egg> * 16], <minecraft:dragon_egg>, null, 2500);
 
 Transposer.addFillRecipe(<contenttweaker:food_raw_uranium>, <thermalfoundation:ore:3>, <liquid:petrotheum> * 500, 2000);
+
+Centrifuge.addRecipe([<oreberries:essence_oreberry> * 6], <oreberries:essence_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:iron_oreberry> * 6], <oreberries:iron_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:gold_oreberry> * 6], <oreberries:gold_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:copper_oreberry> * 6], <oreberries:copper_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:tin_oreberry> * 6], <oreberries:tin_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:aluminum_oreberry> * 6], <oreberries:aluminum_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:nickel_oreberry> * 6], <oreberries:nickel_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:diamond_oreberry> * 6], <oreberries:diamond_oreberry_bush>, null, 2000);
+Centrifuge.addRecipe([<oreberries:lead_oreberry> * 6], <oreberries:lead_oreberry_bush>, null, 2000);
+
+InductionSmelter.addRecipe(<oreberries:essence_oreberry_bush>, <oreberries:essence_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:iron_oreberry_bush>, <oreberries:iron_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:gold_oreberry_bush>, <oreberries:gold_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:copper_oreberry_bush>, <oreberries:copper_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:tin_oreberry_bush>, <oreberries:tin_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:aluminum_oreberry_bush>, <oreberries:aluminum_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:nickel_oreberry_bush>, <oreberries:nickel_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:diamond_oreberry_bush>, <oreberries:diamond_oreberry> * 16, <minecraft:leaves>, 2000);
+InductionSmelter.addRecipe(<oreberries:lead_oreberry_bush>, <oreberries:lead_oreberry> * 16, <minecraft:leaves>, 2000);
+
+Compactor.addPressRecipe(<minecraft:iron_ore>,<oreberries:iron_oreberry> * 4, 2000);
+Compactor.addPressRecipe(<minecraft:gold_ore>,<oreberries:gold_oreberry> * 4, 2000);
+Compactor.addPressRecipe(<thermalfoundation:ore:1>,<oreberries:tin_oreberry> * 4, 2000);
+Compactor.addPressRecipe(<thermalfoundation:ore:4>,<oreberries:aluminum_oreberry> * 4, 2000);
+Compactor.addPressRecipe(<thermalfoundation:ore:3>,<oreberries:lead_oreberry> * 4, 2000);
+Compactor.addPressRecipe(<thermalfoundation:ore:5>,<oreberries:nickel_oreberry> * 4, 2000);
+Compactor.addPressRecipe(<thermalfoundation:ore:0>,<oreberries:copper_oreberry> * 4, 2000);
