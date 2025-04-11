@@ -1,0 +1,39 @@
+{
+	title: "Irrigation",
+	x: 5.0d,
+	y: -9.0d,
+	text: [
+		"AgriCraft offers a shower sprinkler system that can accelerate plant growth in a 7x5x7 square over the sprinkler. Water is drained from a water tank (which can fill up either with pipes or rainfall) through channels, and then sprinklers below a channel will be able to spray over the plants",
+		"",
+		"The effect stacks, so multiple sprinklers can overlap and make plants grow faster"
+	],
+	tasks: [{
+		uid: "92e81862",
+		type: "item",
+		items: [{
+			item: "agricraft:sprinkler"
+		}]
+	},
+	{
+		uid: "22c1c97b",
+		type: "item",
+		items: [{
+			id: "agricraft:water_tank",
+			tag: {
+				agri_material: "chisel:planks-oak",
+				agri_material_meta: 6
+			}
+		}]
+	},
+	{
+		uid: "b5e2baa8",
+		type: "item",
+		items: [{
+			id: "agricraft:water_channel_normal",
+			tag: {
+				agri_material: "chisel:planks-oak",
+				agri_material_meta: 4
+			}
+		}]
+	}]
+}
