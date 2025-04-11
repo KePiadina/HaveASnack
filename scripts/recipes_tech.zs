@@ -126,3 +126,6 @@ recipes.remove(<extendedcrafting:table_elite>);
 recipes.addShaped(<extendedcrafting:table_elite>, [[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>], [<extendedcrafting:material:2>, <extendedcrafting:table_advanced>, <extendedcrafting:material:2>], [<extendedcrafting:material:16>, <extendedcrafting:material:2>, <extendedcrafting:material:16>]]);
 recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.addShaped(<extendedcrafting:table_ultimate>, [[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>], [<extendedcrafting:material:2>, <extendedcrafting:table_elite>, <extendedcrafting:material:2>], [<extendedcrafting:material:17>, <extendedcrafting:material:2>, <extendedcrafting:material:17>]]);
+
+recipes.remove(<agricraft:sprinkler>);
+recipes.addShaped(<agricraft:sprinkler> * 2, [[null, <ore:slabWood>, null], [null, <ore:nuggetIron>, null], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
