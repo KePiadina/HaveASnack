@@ -129,3 +129,7 @@ recipes.addShaped(<extendedcrafting:table_ultimate>, [[<extendedcrafting:materia
 
 recipes.remove(<agricraft:sprinkler>);
 recipes.addShaped(<agricraft:sprinkler> * 2, [[null, <ore:slabWood>, null], [null, <ore:nuggetIron>, null], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
+
+recipes.remove(<railcraft:coke_oven>);
+recipes.addShaped(<railcraft:coke_oven>* 2, [[<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>], [<ore:ingotBrick>, <minecraft:sand>, <ore:ingotBrick>], [<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>]]);
+recipes.addShaped(<railcraft:coke_oven> * 2, [[null, <railcraft:brick_sandy>, null], [null, <ore:sand>, null], [null, <railcraft:brick_sandy>, null]]);
