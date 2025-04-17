@@ -1,0 +1,40 @@
+{
+	title: "Dyes",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"Dyes can also be obtained in liquid form through chemical processes, or replicated with crude oil"
+	],
+	dependencies: [
+		"f74564ad"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f0ddea53",
+		type: "item",
+		title: "Any dye ingredient",
+		disable_toast: true,
+		items: [{
+			item: "thermalfoundation:material 1 769"
+		},
+		{
+			item: "minecraft:redstone"
+		},
+		{
+			item: "thermalfoundation:material 1 64"
+		},
+		{
+			item: "thermalfoundation:material"
+		},
+		{
+			item: "thermalfoundation:material 1 65"
+		}]
+	},
+	{
+		uid: "1c301bbb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 892"
+		}]
+	}]
+}

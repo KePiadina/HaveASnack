@@ -2,6 +2,9 @@ import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Sawmill;
 import mods.thermalexpansion.Compactor;
+import mods.thermalexpansion.Refinery;
+import mods.thermalexpansion.Crucible;
+import mods.thermalexpansion.Transposer;
 recipes.addShapeless(<enderstorage:ender_storage:1>, [<minecraft:blaze_rod>, <ore:wool>, <minecraft:blaze_rod>, <ore:obsidian>, <thermalexpansion:tank>, <ore:obsidian>, <minecraft:blaze_rod>, <ore:enderpearl>, <minecraft:blaze_rod>]);
 
 //Simplified ProjectRed recipes to be cheaper
@@ -104,11 +107,11 @@ recipes.addShaped(<enderio:item_material:80>, [
 	[<enderio:item_alloy_nugget:7>, <enderio:item_alloy_nugget:7>, <enderio:item_alloy_nugget:7>]
 ]);
 
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:770>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:96>, <thermalfoundation:material:770>);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:fluid_netherstar> * 250, <minecraft:nether_star>, 3600);
+InductionSmelter.removeRecipe(<thermalfoundation:material:160>, <thermalfoundation:material:770>);
+InductionSmelter.removeRecipe(<thermalfoundation:material:96>, <thermalfoundation:material:770>);
+Crucible.addRecipe(<liquid:fluid_netherstar> * 250, <minecraft:nether_star>, 3600);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:167>, <fluid:petrotheum> * 1000, 10000);
+Transposer.addFillRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:167>, <fluid:petrotheum> * 1000, 10000);
 mods.forestry.Carpenter.addRecipe(<enderio:item_alloy_ingot:8> * 4, [
 	[<minecraft:glowstone_dust>,<minecraft:fire_charge>,<minecraft:glowstone_dust>],
 	[<extendedcrafting:material:7>,<enderio:item_alloy_ingot:6>,<extendedcrafting:material:7>],
@@ -131,5 +134,5 @@ recipes.remove(<agricraft:sprinkler>);
 recipes.addShaped(<agricraft:sprinkler> * 2, [[null, <ore:slabWood>, null], [null, <ore:nuggetIron>, null], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
 
 recipes.remove(<railcraft:coke_oven>);
-recipes.addShaped(<railcraft:coke_oven>* 2, [[<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>], [<ore:ingotBrick>, <minecraft:sand>, <ore:ingotBrick>], [<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>]]);
+recipes.addShaped(<railcraft:coke_oven> * 2, [[<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>], [<ore:ingotBrick>, <minecraft:sand>, <ore:ingotBrick>], [<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>]]);
 recipes.addShaped(<railcraft:coke_oven> * 2, [[null, <railcraft:brick_sandy>, null], [null, <ore:sand>, null], [null, <railcraft:brick_sandy>, null]]);

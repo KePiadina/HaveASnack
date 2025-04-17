@@ -22,3 +22,44 @@ Transposer.addFillRecipe(<minecraft:double_plant:4>, <minecraft:red_flower>, <li
 Transposer.addFillRecipe(<minecraft:double_plant>, <minecraft:yellow_flower>, <liquid:glowstone> * 500, 2000);
 Transposer.addFillRecipe(<minecraft:double_plant:5>, <minecraft:red_flower:7>, <liquid:glowstone> * 500, 2000);
 Transposer.addFillRecipe(<minecraft:double_plant:1>, <minecraft:red_flower:2>, <liquid:glowstone> * 500, 2000);
+
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye>, <liquid:fluid_dyeblack> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:1>, <liquid:fluid_dyered> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:2>, <liquid:fluid_dyegreen> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:3>, <liquid:fluid_dyebrown> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:4>, <liquid:fluid_dyeblue> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:5>, <liquid:fluid_dyepurple> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:6>, <liquid:fluid_dyecyan> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:7>, <liquid:fluid_dyelightgray> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:8>, <liquid:fluid_dyegray> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:9>, <liquid:fluid_dyepink> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:10>, <liquid:fluid_dyelime> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:11>, <liquid:fluid_dyeyellow> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:12>, <liquid:fluid_dyelightblue> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:13>, <liquid:fluid_dyemagenta> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:14>, <liquid:fluid_dyeorange> * 144, 1000);
+Refinery.addRecipe(<liquid:refined_oil> * 5, <thermalfoundation:dye:15>, <liquid:fluid_dyewhite> * 144, 1000);
+
+Crucible.addRecipe(<liquid:fluid_dyeblack> * 288, <thermalfoundation:material:769>, 800);
+Refinery.addRecipe(<liquid:fluid_dyered> * 288, null, <liquid:redstone> * 250, 800);
+Transposer.addExtractRecipe(<liquid:fluid_dyegreen> * 288, <thermalfoundation:material:64>, 800);
+Transposer.addFillRecipe(<thermalfoundation:dye:3> * 2, <thermalfoundation:material>, <liquid:water> * 288, 800);
+InductionSmelter.addRecipe(<thermalfoundation:dye:4> * 2, <thermalfoundation:material>, <harvestcraft:almonditem> * 8, 800);
+InductionSmelter.addRecipe(<thermalfoundation:dye:11> * 2, <thermalfoundation:material:65>, <thermalfoundation:material:771>, 800);
+
+Imbuer.addRecipe(<liquid:fluid_dyeblack> * 1152, <thermalfoundation:dye>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyered> * 1152, <thermalfoundation:dye:1>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyegreen> * 1152, <thermalfoundation:dye:2>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyebrown> * 1152, <thermalfoundation:dye:3>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyeblue> * 1152, <thermalfoundation:dye:4>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyepurple> * 1152, <thermalfoundation:dye:5>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyecyan> * 1152, <thermalfoundation:dye:6>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyelightgray> * 1152, <thermalfoundation:dye:7>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyegray> * 1152, <thermalfoundation:dye:8>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyepink> * 1152, <thermalfoundation:dye:9>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyelime> * 1152, <thermalfoundation:dye:10>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyeyellow> * 1152, <thermalfoundation:dye:11>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyelightblue> * 1152, <thermalfoundation:dye:12>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyemagenta> * 1152, <thermalfoundation:dye:13>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyeorange> * 1152, <thermalfoundation:dye:14>, <liquid:crude_oil> * 72, 4000);
+Imbuer.addRecipe(<liquid:fluid_dyewhite> * 1152, <thermalfoundation:dye:15>, <liquid:crude_oil> * 72, 4000);

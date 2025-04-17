@@ -35,3 +35,20 @@ fluid.fluid_netherstar=Nether Star Mixture
 
 tile.contenttweaker.eden_leaves.name=Tree of Eden Leaves
 tile.contenttweaker.eden_log.name=Tree of Eden Wood
+
+fluid.fluid_dyeBlack=Black Dye
+fluid.fluid_dyeRed=Red Dye
+fluid.fluid_dyeGreen=Green Dye
+fluid.fluid_dyeBrown=Brown Dye
+fluid.fluid_dyeBlue=Blue Dye
+fluid.fluid_dyePurple=Purple Dye
+fluid.fluid_dyeCyan=Cyan Dye
+fluid.fluid_dyeLightGray=LightGray Dye
+fluid.fluid_dyeGray=Gray Dye
+fluid.fluid_dyePink=Pink Dye
+fluid.fluid_dyeLime=Lime Dye
+fluid.fluid_dyeYellow=Yellow Dye
+fluid.fluid_dyeLightBlue=LightBlue Dye
+fluid.fluid_dyeMagenta=Magenta Dye
+fluid.fluid_dyeOrange=Orange Dye
+fluid.fluid_dyeWhite=White Dye
