@@ -1,6 +1,6 @@
 {
 	icon: "minecraft:paper",
-	x: -7.5d,
+	x: -9.5d,
 	y: -7.5d,
 	description: "§mDon't play§7 See here",
 	text: [

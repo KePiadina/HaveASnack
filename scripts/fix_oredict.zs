@@ -3,6 +3,9 @@ import crafttweaker.oredict.IOreDict;
 mods.industrialforegoing.FluidDictionary.add("seed.oil", "seed_oil", 1);
 mods.industrialforegoing.FluidDictionary.add("seed_oil", "seed.oil", 1);
 
+mods.industrialforegoing.FluidDictionary.add("oil", "crude_oil", 1);
+mods.industrialforegoing.FluidDictionary.add("crude_oil", "oil", 1);
+
 <ore:itemSilicon>.add(<projectred-core:resource_item:301>);
 <ore:itemCurrency>.add(<contenttweaker:coin1>);
 <ore:itemCurrency>.add(<contenttweaker:coin5>);
