@@ -63,3 +63,20 @@ Imbuer.addRecipe(<liquid:fluid_dyelightblue> * 1152, <thermalfoundation:dye:12>,
 Imbuer.addRecipe(<liquid:fluid_dyemagenta> * 1152, <thermalfoundation:dye:13>, <liquid:crude_oil> * 72, 4000);
 Imbuer.addRecipe(<liquid:fluid_dyeorange> * 1152, <thermalfoundation:dye:14>, <liquid:crude_oil> * 72, 4000);
 Imbuer.addRecipe(<liquid:fluid_dyewhite> * 1152, <thermalfoundation:dye:15>, <liquid:crude_oil> * 72, 4000);
+
+Transposer.addFillRecipe(<minecraft:skull:1>, <minecraft:skull:0>, <liquid:coal> * 10000, 6000);
+Transposer.addFillRecipe(<minecraft:coal>, <minecraft:coal:1>, <liquid:oil> * 5, 800);
+Transposer.addFillRecipe(<minecraft:coal>, <minecraft:coal:1>, <liquid:creosote> * 5, 800);
+
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:dirt>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:gravel>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:sand>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:clay>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:cobblestone>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:stone>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:netherrack>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:leaves>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:sapling>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:vine>, 400);
+Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:leaves2>, 400);
+

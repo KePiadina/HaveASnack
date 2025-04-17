@@ -137,3 +137,6 @@ Compactor.addPressRecipe(<thermalfoundation:ore:4>,<oreberries:aluminum_oreberry
 Compactor.addPressRecipe(<thermalfoundation:ore:3>,<oreberries:lead_oreberry> * 4, 2000);
 Compactor.addPressRecipe(<thermalfoundation:ore:5>,<oreberries:nickel_oreberry> * 4, 2000);
 Compactor.addPressRecipe(<thermalfoundation:ore:0>,<oreberries:copper_oreberry> * 4, 2000);
+
+Centrifuge.addRecipe([<harvestcraft:heavycreamitem> % 50, <harvestcraft:butteritem> % 50], <harvestcraft:freshmilkitem>, null, 2000);
+Centrifuge.addRecipe([<minecraft:chorus_fruit_popped>, <minecraft:ender_pearl> % 50], <minecraft:chorus_fruit>, null, 2000);
