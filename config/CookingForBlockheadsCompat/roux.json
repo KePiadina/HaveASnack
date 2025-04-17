@@ -1,0 +1,10 @@
+{
+    "modid": "harvestcraft",
+    "foods": {
+      "GENERAL": [
+        "harvestcraft:rouxitem"
+      ],
+      "INGREDIENTS": [
+      ]
+    }
+  }
