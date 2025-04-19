@@ -143,3 +143,6 @@ Centrifuge.addRecipe([<harvestcraft:heavycreamitem> % 50, <harvestcraft:butterit
 Centrifuge.addRecipe([<minecraft:chorus_fruit_popped>, <minecraft:ender_pearl> % 50], <minecraft:chorus_fruit>, null, 2000);
 
 Imbuer.addRecipe(<liquid:fluid_saltwater> * 1000, <harvestcraft:saltitem>, <liquid:water> * 1000, 4000);
+
+recipes.remove(<harvestcraft:pastaitem>);
+Transposer.addFillRecipe(<harvestcraft:pastaitem> * 6, <harvestcraft:doughitem>, <liquid:fluid_saltwater> * 500, 2000);
