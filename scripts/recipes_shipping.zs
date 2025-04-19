@@ -76,7 +76,6 @@ Infuser.addRecipe(<contenttweaker:coin1> * 4,<harvestcraft:greengrapeitem> * 32,
 
 Infuser.addRecipe(<contenttweaker:coin1> * 2, <harvestcraft:onionitem> * 32, 400);
 Infuser.addRecipe(<contenttweaker:coin1> * 2, <harvestcraft:sweetpotatoitem> * 32, 400);
-Infuser.addRecipe(<contenttweaker:coin1> * 2, <foodfunk:rotten_food> * 32, 400);
 Infuser.addRecipe(<contenttweaker:coin1> * 2, <harvestcraft:peasitem> * 32, 400);
 Infuser.addRecipe(<contenttweaker:coin1> * 2, <harvestcraft:kohlrabiitem> * 32, 400);
 
