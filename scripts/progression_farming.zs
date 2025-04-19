@@ -27,10 +27,10 @@ recipes.addShaped(<thermalfoundation:tool.hoe_platinum>, [[<ore:ingotPlatinum>,<
 recipes.remove(<forestry:carpenter>);
 recipes.addShaped(<forestry:carpenter>, [[<ore:ingotBronze>, <ore:blockGlass>, <ore:ingotBronze>], [<ore:ingotBronze>, <forestry:sturdy_machine:*>, <ore:ingotBronze>], [<ore:ingotBronze>, <minecraft:diamond_hoe>, <ore:ingotBronze>]]);
 //Post-milestone shortcut
-mods.forestry.Carpenter.addRecipe(<minecraft:diamond_hoe>, [[<minecraft:diamond>,<minecraft:diamond>],[null,<minecraft:stick>,null],[null,<minecraft:stick>,null]], 60, <liquid:seed_oil> * 100);
+mods.forestry.Carpenter.addRecipe(<minecraft:diamond_hoe>, [[<ore:gemDiamond>,<ore:gemDiamond>],[null,<ore:stickWood>,null],[null,<ore:stickWood>,null]], 60, <liquid:seed_oil> * 100);
 //Crop sticks now require diamond hoes
 recipes.remove(<agricraft:crop_sticks>);
-mods.forestry.Carpenter.addRecipe(<agricraft:crop_sticks> * 64, [[<minecraft:stick>,<minecraft:stick>],[<minecraft:stick>,<minecraft:stick>],[]], 60, <liquid:seed_oil> * 500, <minecraft:diamond_hoe>);
+mods.forestry.Carpenter.addRecipe(<agricraft:crop_sticks> * 64, [[<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>],[]], 60, <liquid:seed_oil> * 500, <minecraft:diamond_hoe>);
 //Seed Analyzer now requires Thermionic
 recipes.remove(<agricraft:seed_analyzer>);
 mods.forestry.ThermionicFabricator.addCast(<agricraft:seed_analyzer>, [[<agricraft:crop_sticks>,<projectred-core:resource_item:21>,<agricraft:crop_sticks>],[null,<forestry:analyzer>,null,],[<ore:plankWood>,<projectred-core:resource_item>,<ore:plankWood>]], <liquid:glass> * 500);

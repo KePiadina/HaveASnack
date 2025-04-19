@@ -111,16 +111,20 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:160>, <thermalfoundati
 InductionSmelter.removeRecipe(<thermalfoundation:material:96>, <thermalfoundation:material:770>);
 Crucible.addRecipe(<liquid:fluid_netherstar> * 250, <minecraft:nether_star>, 3600);
 
+//Fixed https://github.com/ForestryMC/ForestryMC/issues/2734
+<ore:dustLuminessence>.add(<extendedcrafting:material:7>);
+<ore:fireCharge>.add(<minecraft:fire_charge>);
+
 Transposer.addFillRecipe(<enderio:item_alloy_ingot:6>, <thermalfoundation:material:167>, <fluid:petrotheum> * 1000, 10000);
 mods.forestry.Carpenter.addRecipe(<enderio:item_alloy_ingot:8> * 4, [
-	[<minecraft:glowstone_dust>,<minecraft:fire_charge>,<minecraft:glowstone_dust>],
-	[<extendedcrafting:material:7>,<enderio:item_alloy_ingot:6>,<extendedcrafting:material:7>],
-	[<minecraft:glowstone_dust>,<minecraft:fire_charge>,<minecraft:glowstone_dust>]], 30, <fluid:aerotheum> * 1000);
+	[<ore:dustGlowstone>,<ore:fireCharge>,<ore:dustGlowstone>],
+	[<ore:dustLuminessence>,<ore:ingotDarkSteel>,<ore:dustLuminessence>],
+	[<ore:dustGlowstone>,<ore:fireCharge>,<ore:dustGlowstone>]], 30, <fluid:aerotheum> * 1000);
 
 mods.forestry.Carpenter.addRecipe(<enderio:item_alloy_endergy_ingot:3> * 8, [
-	[<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>],
-	[<enderio:item_alloy_ingot:8>,<appliedenergistics2:material:11>,<enderio:item_alloy_ingot:8>],
-	[<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>,<enderio:item_alloy_ingot:8>]], 30, <fluid:fluid_netherstar> * 250);
+	[<ore:ingotEndSteel>,<ore:ingotEndSteel>,<ore:ingotEndSteel>],
+	[<ore:ingotEndSteel>,<ore:crystalPureNetherQuartz>,<ore:ingotEndSteel>],
+	[<ore:ingotEndSteel>,<ore:ingotEndSteel>,<ore:ingotEndSteel>]], 30, <fluid:fluid_netherstar> * 250);
 
 
 recipes.remove(<extendedcrafting:table_advanced>);
