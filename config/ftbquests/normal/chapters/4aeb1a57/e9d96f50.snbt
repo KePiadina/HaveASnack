@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"Wither Skeleton skulls can be obtained from normal skulls by filling them with coal"
+	],
+	dependencies: [
+		"f74564ad"
+	],
+	tasks: [{
+		uid: "d44e0ae6",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "The Sludge",
+	x: -3.5d,
+	y: -2.0d,
+	description: "Gacha for farmers",
+	text: [
+		"Sludge is a fluid obtained from various inert blocks like dirt, sand, or stone and can be refined in the Sludge Refiner to make other slightly more useful inert blocks like clay, or very useful blocks like oreberries or ores"
+	],
+	dependencies: [
+		"f74564ad"
+	],
+	tasks: [{
+		uid: "dd51edfa",
+		type: "fluid",
+		fluid: "sludge"
+	}]
+}
