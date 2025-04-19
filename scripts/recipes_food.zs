@@ -40,6 +40,7 @@ Crucible.addRecipe(<liquid:fluid_co2> * 500,<minecraft:reeds>, 2000);
 
 //Popcorn
 recipes.remove(<harvestcraft:popcornitem>);
+furnace.remove(<harvestcraft:popcornitem>); 
 recipes.addShaped(<contenttweaker:component_paper_bag>,[[null,null,null],[<minecraft:paper>,null,<minecraft:paper>],[null,<minecraft:paper>,null]]);
 InductionSmelter.addRecipe(<harvestcraft:popcornitem> * 4, <harvestcraft:cornitem> * 4, <harvestcraft:butteritem>, 2000);
 recipes.addShapeless(<contenttweaker:food_popcorn_bag>, [<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<harvestcraft:popcornitem>,<contenttweaker:component_paper_bag>]);
@@ -140,3 +141,5 @@ Compactor.addPressRecipe(<thermalfoundation:ore:0>,<oreberries:copper_oreberry> 
 
 Centrifuge.addRecipe([<harvestcraft:heavycreamitem> % 50, <harvestcraft:butteritem> % 50], <harvestcraft:freshmilkitem>, null, 2000);
 Centrifuge.addRecipe([<minecraft:chorus_fruit_popped>, <minecraft:ender_pearl> % 50], <minecraft:chorus_fruit>, null, 2000);
+
+Imbuer.addRecipe(<liquid:fluid_saltwater> * 1000, <harvestcraft:saltitem>, <liquid:water> * 1000, 4000);

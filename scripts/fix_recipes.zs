@@ -39,3 +39,12 @@ recipes.addShapeless(<thermalfoundation:material:163>, [<forestry:ingot_bronze>]
 <forestry:ingot_tin>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
 <forestry:ingot_copper>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
 <forestry:ingot_bronze>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
+
+//Fix Certus quartz seeds not working
+mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:0>, <minecraft:glowstone_dust>);
+mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
+mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:10> * 3, <appliedenergistics2:quartz_block>,<liquid:fluid_saltwater> * 1000, 9000);
+mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:11> * 3, <minecraft:quartz_block>,<liquid:fluid_saltwater> * 1000, 9000);
+mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:12> * 3, <appliedenergistics2:fluix_block>,<liquid:fluid_saltwater> * 1000, 9000);

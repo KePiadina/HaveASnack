@@ -8,11 +8,13 @@ var foodlist = [
 	"pbnj",
 	"popcorn_bag",
 	"caffe_peppina",
+	"tagliatelle_nonna_pina"
 ] as string[];
 var foodValue = [
 	[6, 1.5],			//"pbnj",
 	[3, 0.6],			//"popcorn_bag",
 	[8000, 2],			//"caffe_peppina",
+	[10, 2],			//"tagliatelle_nonna_pina"
 ] as float[][];
 var components = [
 	"meat_rotten",
@@ -34,11 +36,13 @@ var components = [
 ] as string[];
 var fluids = [
 	"co2",
-	"netherstar"
+	"netherstar",
+	"saltwater"
 ] as string[];
 var fluidcolors = [
 	Color.fromHex("B7C9E2"),
-	Color.fromHex("D3D3D3")
+	Color.fromHex("D3D3D3"),
+	Color.fromHex("11119C")
 ] as Color[];
 
 
