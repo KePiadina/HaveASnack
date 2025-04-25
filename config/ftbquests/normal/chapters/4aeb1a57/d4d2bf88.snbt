@@ -1,12 +1,13 @@
 {
-	x: -1.5d,
-	y: -16.5d,
+	x: -3.5d,
+	y: -14.0d,
 	text: [
 		"Capacitor banks are able to merge together into one large multiblock energy bank"
 	],
 	dependencies: [
 		"03e00127"
 	],
+	optional: true,
 	tasks: [{
 		uid: "9bce7950",
 		type: "item",

@@ -1,0 +1,17 @@
+{
+	title: "Find a Greenhouse",
+	x: 6.5d,
+	y: -14.5d,
+	description: "Patient needs cropstick drug",
+	text: [
+		"Greenhouses can be usually found in villages"
+	],
+	tasks: [{
+		uid: "3125cf4e",
+		type: "observation",
+		icon: "minecraft:glass",
+		match_type: "block_id",
+		match: "agricraft:crop",
+		timer: 0L
+	}]
+}

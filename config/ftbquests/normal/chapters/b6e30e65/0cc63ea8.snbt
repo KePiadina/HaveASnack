@@ -1,0 +1,43 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"6da71a9e"
+	],
+	tasks: [{
+		uid: "b49b42d9",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "468e85b0",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d0b9be9",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a23d7d5f",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

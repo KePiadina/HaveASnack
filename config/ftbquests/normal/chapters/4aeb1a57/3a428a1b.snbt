@@ -1,5 +1,6 @@
 {
 	title: "§lRenewable ores & Ore processing",
+	disable_toast: true,
 	x: 6.0d,
 	y: -15.75d,
 	shape: "gear",

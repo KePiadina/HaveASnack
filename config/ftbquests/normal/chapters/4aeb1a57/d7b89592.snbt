@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -9.5d,
+	description: "My legs hurt so much, can we stop?",
+	text: [
+		""
+	],
+	dependencies: [
+		"13379f6c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5f05dc83",
+		type: "checkmark",
+		title: "Player transportation"
+	}]
+}

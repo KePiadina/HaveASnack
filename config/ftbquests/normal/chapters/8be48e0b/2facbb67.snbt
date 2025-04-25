@@ -1,0 +1,32 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	text: [
+		"The Bounty Board will be your main money making method. Every once in a while, you will get bounties to complete by cooking up food, with more complex foods giving substantially higher payouts.",
+		"",
+		"While there is no exact moment you should go for it, bear in mind that most bounties will be impossible without some research and industrialization."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "816664d8",
+		type: "item",
+		items: [{
+			item: "bountiful:bountyboarditem"
+		}]
+	}],
+	rewards: [{
+		uid: "86495311",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b,
+				Inventory: {},
+				RepairCost: 0,
+				display: {
+					Name: "Wallet"
+				}
+			}
+		}
+	}]
+}

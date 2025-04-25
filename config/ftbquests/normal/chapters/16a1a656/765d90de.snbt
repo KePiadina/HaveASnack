@@ -12,13 +12,8 @@
 					start: 0L,
 					time: 0L
 				}
-			},
-			ForgeCaps: {
-				"foodfunk:rot": {
-					start: 0L,
-					time: 0L
-				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

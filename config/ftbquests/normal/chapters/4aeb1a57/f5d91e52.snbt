@@ -1,7 +1,8 @@
 {
 	title: "§lInfinite food",
-	x: -2.0d,
-	y: -7.0d,
+	disable_toast: true,
+	x: 0.0d,
+	y: -8.0d,
 	shape: "gear",
 	description: "Solving world hunger",
 	text: [

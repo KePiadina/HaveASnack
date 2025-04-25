@@ -1,7 +1,7 @@
 {
 	title: "Railcraft",
-	x: -3.0d,
-	y: -13.0d,
+	x: -7.0d,
+	y: -9.5d,
 	description: "I like trains",
 	text: [
 		"Railcraft is a train-based logistics mod that can move items on tracks automatically",
@@ -9,8 +9,10 @@
 		"While it can be used to make complex builds, it is pretty simple at its core, and item tooltips will guide you towards building the best train station that ever was"
 	],
 	dependencies: [
+		"d7b89592",
 		"13379f6c"
 	],
+	optional: true,
 	tasks: [{
 		uid: "704cfc73",
 		type: "item",

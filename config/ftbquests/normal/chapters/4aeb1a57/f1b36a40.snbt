@@ -1,7 +1,7 @@
 {
 	icon: "minecraft:skull 1 5",
-	x: -2.0d,
-	y: -8.5d,
+	x: 0.0d,
+	y: -9.5d,
 	dependencies: [
 		"f5d91e52"
 	],

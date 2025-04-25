@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"d30db9cb"
+	],
+	tasks: [{
+		uid: "63d02f3f",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

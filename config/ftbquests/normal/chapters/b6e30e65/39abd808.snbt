@@ -1,0 +1,16 @@
+{
+	x: 4.5d,
+	y: -3.5d,
+	dependencies: [
+		"fdb26757"
+	],
+	tasks: [{
+		uid: "c448654d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.fishing_rod_electrum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

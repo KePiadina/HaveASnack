@@ -1,5 +1,6 @@
 {
 	icon: "contenttweaker:component_meat_rotten",
+	disable_toast: true,
 	x: -8.5d,
 	y: -8.5d,
 	text: [

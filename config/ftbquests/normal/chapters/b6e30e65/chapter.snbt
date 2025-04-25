@@ -1,0 +1,7 @@
+{
+	title: "Personal Augmentation",
+	icon: "artifacts:fire_gauntlet",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

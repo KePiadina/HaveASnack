@@ -1,7 +1,8 @@
 {
 	title: "§lLogistics",
-	x: -3.0d,
-	y: -14.5d,
+	disable_toast: true,
+	x: -5.0d,
+	y: -12.0d,
 	shape: "gear",
 	text: [
 		""

@@ -1,0 +1,36 @@
+{
+	title: "Portals",
+	x: -5.0d,
+	y: -7.5d,
+	text: [
+		"Ender Utilities Portals can use crystals to link to any portal or location for instantaneous travel"
+	],
+	dependencies: [
+		"d7b89592"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f6c5a9b4",
+		type: "item",
+		items: [{
+			item: "enderutilities:frame"
+		}]
+	},
+	{
+		uid: "c15a5d0b",
+		type: "item",
+		items: [{
+			item: "enderutilities:portal_panel"
+		}]
+	},
+	{
+		uid: "26b6b51f",
+		type: "item",
+		items: [{
+			item: "enderutilities:linkcrystal"
+		},
+		{
+			item: "enderutilities:linkcrystal 1 2"
+		}]
+	}]
+}

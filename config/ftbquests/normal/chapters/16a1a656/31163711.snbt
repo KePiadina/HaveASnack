@@ -7,6 +7,7 @@
 		type: "item",
 		items: [{
 			item: "harvestcraft:jicamaseeditem"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

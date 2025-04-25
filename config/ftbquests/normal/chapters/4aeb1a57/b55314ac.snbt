@@ -18,8 +18,10 @@
 	],
 	dependencies: [
 		"c1a0acd4",
-		"adadca31"
+		"adadca31",
+		"22821fec"
 	],
+	dependency_requirement: "one_completed",
 	size: 1.5d,
 	tasks: [{
 		uid: "66edd4d3",

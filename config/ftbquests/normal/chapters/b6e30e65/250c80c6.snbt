@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"d30db9cb"
+	],
+	tasks: [{
+		uid: "2f1babe1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.fishing_rod_invar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

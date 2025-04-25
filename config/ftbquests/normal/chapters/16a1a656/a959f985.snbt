@@ -7,6 +7,7 @@
 		type: "item",
 		items: [{
 			item: "harvestcraft:quinoaseeditem"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

@@ -1,10 +1,11 @@
 {
 	icon: "minecraft:water_bucket",
-	x: -3.0d,
-	y: -16.5d,
+	x: -5.0d,
+	y: -14.0d,
 	dependencies: [
 		"13379f6c"
 	],
+	optional: true,
 	tasks: [{
 		uid: "4b76b380",
 		type: "checkmark",

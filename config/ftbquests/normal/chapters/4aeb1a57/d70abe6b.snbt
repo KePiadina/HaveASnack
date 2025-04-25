@@ -1,13 +1,14 @@
 {
 	title: "Fluxducts",
-	x: -1.0d,
-	y: -13.0d,
+	x: -1.5d,
+	y: -12.0d,
 	text: [
 		""
 	],
 	dependencies: [
 		"03e00127"
 	],
+	optional: true,
 	tasks: [{
 		uid: "340e7182",
 		type: "item",

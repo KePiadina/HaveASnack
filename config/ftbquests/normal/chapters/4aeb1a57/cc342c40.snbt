@@ -1,13 +1,14 @@
 {
 	title: "Conduits",
-	x: -2.0d,
-	y: -13.0d,
+	x: -3.5d,
+	y: -11.0d,
 	text: [
 		"EnderIO conduits are small, and you can have multiple of them in the same block. They can move fluids, items, energy, and more with lots of filtering options"
 	],
 	dependencies: [
 		"13379f6c"
 	],
+	optional: true,
 	tasks: [{
 		uid: "6b131fd4",
 		type: "item",

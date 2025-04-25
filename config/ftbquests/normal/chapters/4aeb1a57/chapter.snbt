@@ -1,6 +1,6 @@
 {
-	title: "The Beginning",
-	icon: "minecraft:wheat_seeds",
+	title: "Farms & Automation",
+	icon: "minecraft:sapling",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,12 +1,13 @@
 {
-	x: -3.0d,
-	y: -20.5d,
+	x: -5.0d,
+	y: -18.0d,
 	text: [
 		"The Ender Tank works similarly to the Ender Chest: each tank can be set to a frequency, and all tanks of the same frequency will share the same fluid storage"
 	],
 	dependencies: [
 		"a7b39260"
 	],
+	optional: true,
 	tasks: [{
 		uid: "d600cff7",
 		type: "item",

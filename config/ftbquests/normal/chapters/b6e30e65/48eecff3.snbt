@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "016baf5d",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 40000
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "79ee53b4",
+		type: "item",
+		items: [{
+			id: "enderio:item_magnet",
+			tag: {
+				"enderio:energy": 100000
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

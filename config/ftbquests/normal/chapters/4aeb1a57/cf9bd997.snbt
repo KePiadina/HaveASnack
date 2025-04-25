@@ -1,13 +1,14 @@
 {
 	title: "§aSuper-Laminar Fluiduct",
-	x: -5.0d,
-	y: -20.5d,
+	x: -7.0d,
+	y: -18.0d,
 	text: [
 		""
 	],
 	dependencies: [
 		"2c9b63fa"
 	],
+	optional: true,
 	tasks: [{
 		uid: "9de9a415",
 		type: "item",

@@ -1,6 +1,7 @@
 {
 	title: "Season's growings",
 	icon: "sereneseasons:ss_icon",
+	disable_toast: true,
 	x: -8.5d,
 	y: -11.0d,
 	text: [

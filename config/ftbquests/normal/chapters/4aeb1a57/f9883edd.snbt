@@ -1,9 +1,14 @@
 {
-	x: -10.0d,
-	y: -15.5d,
+	title: "I/O Conveyor Upgrades",
+	x: -12.0d,
+	y: -13.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"40d3cac0"
 	],
+	optional: true,
 	tasks: [{
 		uid: "f9f7919b",
 		type: "item",

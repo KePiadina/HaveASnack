@@ -1,6 +1,6 @@
 {
-	x: -6.0d,
-	y: -13.5d,
+	x: -8.0d,
+	y: -11.0d,
 	text: [
 		"The Ender Chest can be set to a frequency by using dyes on its 3 wool blocks at the top. Each frequency will have its own storage space"
 	],

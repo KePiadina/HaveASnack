@@ -1,0 +1,25 @@
+{
+	title: "Backpacks",
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"Backpacks can store items f",
+		"",
+		"Note that they cannot store other backpacks, but can store satchels, and satchels can store backpacks. Try not to create a singularity, it may corrupt your character and require some tech surgery to rescue your save"
+	],
+	tasks: [{
+		uid: "c85e4c0a",
+		type: "item",
+		items: [{
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					type: "ironbackpacks:basic",
+					spec: "NONE",
+					upgrade: []
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

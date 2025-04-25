@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"fdb26757"
+	],
+	tasks: [{
+		uid: "4f41d793",
+		type: "item",
+		items: [{
+			item: "enderio:item_end_steel_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

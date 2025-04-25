@@ -1,5 +1,6 @@
 {
 	icon: "minecraft:paper",
+	disable_toast: true,
 	x: -9.5d,
 	y: -7.5d,
 	description: "§mDon't play§7 See here",

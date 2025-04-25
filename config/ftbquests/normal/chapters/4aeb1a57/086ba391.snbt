@@ -1,5 +1,6 @@
 {
 	title: "Welcome to Have A Snack",
+	disable_toast: true,
 	x: -7.5d,
 	y: -10.0d,
 	text: [

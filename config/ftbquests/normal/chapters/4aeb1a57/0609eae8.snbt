@@ -1,5 +1,6 @@
 {
 	title: "§lBasic automation",
+	disable_toast: true,
 	x: -10.0d,
 	y: -4.0d,
 	shape: "gear",

@@ -1,5 +1,6 @@
 {
 	title: "§lFarming Utilities",
+	disable_toast: true,
 	x: 11.5d,
 	y: -8.5d,
 	shape: "gear",

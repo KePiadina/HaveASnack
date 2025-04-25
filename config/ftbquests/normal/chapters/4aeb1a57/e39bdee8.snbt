@@ -1,6 +1,9 @@
 {
-	x: -0.5d,
-	y: 1.0d,
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"Tall flowers can be grown with their smaller variants + liquid glowstone"
+	],
 	dependencies: [
 		"f74564ad"
 	],

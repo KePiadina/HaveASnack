@@ -1,6 +1,6 @@
 {
-	x: -8.0d,
-	y: -14.5d,
+	x: -10.0d,
+	y: -12.0d,
 	text: [
 		"Conveyor belts are a simple block that moves items around, not much else to it."
 	],

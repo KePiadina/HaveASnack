@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: -3.5d,
+	dependencies: [
+		"8b73da7f"
+	],
+	tasks: [{
+		uid: "f7d1f306",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.fishing_rod_constantan"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

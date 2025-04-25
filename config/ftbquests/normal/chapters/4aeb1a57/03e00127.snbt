@@ -1,9 +1,11 @@
 {
-	x: -1.0d,
-	y: -14.5d,
+	disable_toast: true,
+	x: -3.0d,
+	y: -12.0d,
 	dependencies: [
 		"13379f6c"
 	],
+	optional: true,
 	tasks: [{
 		uid: "19cf2293",
 		type: "checkmark",

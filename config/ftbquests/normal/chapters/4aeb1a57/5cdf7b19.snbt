@@ -1,0 +1,36 @@
+{
+	title: "Viaduct",
+	x: -3.0d,
+	y: -9.5d,
+	description: "Aperture Science Pipe Network",
+	text: [
+		"Viaducts are automatic methods to move players via a network of pipes. Each endpoint must have an open viaduct (right click with a crescent hammer), and in order to connvect to long range viaduct there must be a linking viaduct in the middle",
+		"",
+		"After connecting the linking and long range viaduct, click on the ring between them to start searching for the network, the ring will disappear when another linking viaduct is found"
+	],
+	dependencies: [
+		"d7b89592"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8ad45643",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_64"
+		}]
+	},
+	{
+		uid: "807af0d3",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_64 1 2"
+		}]
+	},
+	{
+		uid: "107df7d8",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_64 1 1"
+		}]
+	}]
+}

@@ -7,6 +7,7 @@
 		type: "item",
 		items: [{
 			item: "harvestcraft:lentilseeditem"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

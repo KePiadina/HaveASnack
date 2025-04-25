@@ -1,0 +1,18 @@
+{
+	icon: "minecraft:paper",
+	disable_toast: true,
+	x: -2.0d,
+	y: 3.5d,
+	description: "§mDon't play§7 See here",
+	text: [
+		"In case you don't like the food spoilage mechanic, you can remove the Food Funk mod so that food will no longer spoil"
+	],
+	dependencies: [
+		"ec24b2c5"
+	],
+	tasks: [{
+		uid: "1794cbdc",
+		type: "checkmark",
+		title: "Don't like it?"
+	}]
+}

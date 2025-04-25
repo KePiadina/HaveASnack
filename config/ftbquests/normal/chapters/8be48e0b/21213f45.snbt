@@ -1,0 +1,29 @@
+{
+	title: "Compatibility issues",
+	disable_toast: true,
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"In some cases some fluids/items may not work correctly despite being the same fluid/item, which is what these Converters are for.",
+		"",
+		"Check out the Discord server or open a Github Issue if you find such a case"
+	],
+	can_repeat: true,
+	dependencies: [
+		"086ba391"
+	],
+	tasks: [{
+		uid: "896d5bac",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ccd9fac7",
+		type: "item",
+		item: "industrialforegoing:oredictionary_converter"
+	},
+	{
+		uid: "0f48a918",
+		type: "item",
+		item: "industrialforegoing:fluiddictionary_converter"
+	}]
+}

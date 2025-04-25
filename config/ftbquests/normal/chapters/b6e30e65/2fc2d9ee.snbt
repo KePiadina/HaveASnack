@@ -1,0 +1,20 @@
+{
+	x: 7.964285714285701d,
+	y: 4.0d,
+	dependencies: [
+		"cc9b834b",
+		"6c109d22"
+	],
+	tasks: [{
+		uid: "2b2a59f9",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:anvil2"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

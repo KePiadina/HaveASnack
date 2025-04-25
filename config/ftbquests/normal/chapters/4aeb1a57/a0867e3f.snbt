@@ -1,13 +1,14 @@
 {
 	title: "§aImpulse Itemduct",
-	x: -9.0d,
-	y: -16.5d,
+	x: -11.0d,
+	y: -14.0d,
 	text: [
 		""
 	],
 	dependencies: [
 		"fdd0416d"
 	],
+	optional: true,
 	tasks: [{
 		uid: "54041533",
 		type: "item",

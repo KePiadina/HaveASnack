@@ -1,7 +1,7 @@
 {
 	title: "Itemducts & Fluiducts",
-	x: -5.0d,
-	y: -16.5d,
+	x: -7.0d,
+	y: -14.0d,
 	text: [
 		"More compact and easier to route, ducts are pipe networks that can use Servos (push) or Retrievers (pull) to move things around.",
 		"",
@@ -12,6 +12,7 @@
 		"ea32b9b5"
 	],
 	dependency_requirement: "one_completed",
+	optional: true,
 	tasks: [{
 		uid: "bc632b27",
 		type: "item",
