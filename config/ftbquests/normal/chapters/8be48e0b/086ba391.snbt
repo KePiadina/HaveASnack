@@ -1,8 +1,8 @@
 {
 	title: "Welcome to Have A Snack",
 	disable_toast: true,
-	x: 0.0d,
-	y: 1.0d,
+	x: -7.5d,
+	y: -10.0d,
 	text: [
 		"This modpack focuses around farming and cooking, with the ultimate goal of growing the Tree of Eden and eating the Forbidden Fruit.",
 		"",

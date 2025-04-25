@@ -1,6 +1,6 @@
 {
-	x: -5.5d,
-	y: 0.5d,
+	x: 0.5d,
+	y: -0.5d,
 	text: [
 		"Ctiizens have to eat, and you have to give it to them by placing food in their inventory",
 		"",

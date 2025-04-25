@@ -10,8 +10,8 @@
 		}
 	},
 	disable_toast: true,
-	x: 2.0d,
-	y: -1.0d,
+	x: -5.5d,
+	y: -12.0d,
 	description: "\"But these aren't necessary for life!!\"",
 	text: [
 		"This pack adds 3 new Nutrients to keep track of: Spice, Junk food, and Hydration.",

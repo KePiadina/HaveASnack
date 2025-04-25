@@ -1,8 +1,7 @@
 {
 	icon: "teslacorelib:speed_tier2",
-	disable_toast: true,
-	x: 2.0d,
-	y: 1.0d,
+	x: -5.5d,
+	y: -10.0d,
 	description: "Too fast!",
 	text: [
 		"If speed effects are too annoying, check the config for Custom FoV to tweak them to your liking"

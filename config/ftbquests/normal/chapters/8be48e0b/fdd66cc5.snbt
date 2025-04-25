@@ -1,8 +1,8 @@
 {
 	icon: "minecraft:paper",
 	disable_toast: true,
-	x: -2.0d,
-	y: 3.5d,
+	x: -9.5d,
+	y: -8.0d,
 	description: "§mDon't play§7 See here",
 	text: [
 		"In case you don't like the food spoilage mechanic, you can remove the Food Funk mod so that food will no longer spoil"

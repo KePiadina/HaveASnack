@@ -1,0 +1,17 @@
+{
+	title: "Fishing",
+	x: -15.5d,
+	y: -13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ab791a5e",
+		type: "item",
+		items: [{
+			item: "aquaculture:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

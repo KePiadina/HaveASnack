@@ -1,8 +1,7 @@
 {
 	title: "Shipping",
-	disable_toast: true,
-	x: 4.5d,
-	y: 2.5d,
+	x: -1.0d,
+	y: -10.5d,
 	description: "Your character's is trash",
 	text: [
 		"The Energetic infuser can also ship excess produce for money",

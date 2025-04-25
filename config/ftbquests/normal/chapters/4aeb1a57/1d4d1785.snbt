@@ -1,7 +1,7 @@
 {
 	title: "Tower Defense",
-	x: -6.5d,
-	y: -5.0d,
+	x: 0.5d,
+	y: -3.0d,
 	text: [
 		"Guards will help defend your colony against mobs or enemies"
 	],

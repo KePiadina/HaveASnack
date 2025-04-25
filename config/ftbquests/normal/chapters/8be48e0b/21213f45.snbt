@@ -1,8 +1,8 @@
 {
 	title: "Compatibility issues",
 	disable_toast: true,
-	x: 1.0d,
-	y: 2.5d,
+	x: -6.5d,
+	y: -9.0d,
 	text: [
 		"In some cases some fluids/items may not work correctly despite being the same fluid/item, which is what these Converters are for.",
 		"",

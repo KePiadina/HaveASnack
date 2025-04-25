@@ -10,8 +10,8 @@
 		}
 	},
 	disable_toast: true,
-	x: 1.0d,
-	y: 0.0d,
+	x: -6.5d,
+	y: -11.0d,
 	text: [
 		"Nutrition is a mod that grants you buffs with high stats, or negative effects if they are low. Under each food you can see what stats it will increase."
 	],

@@ -1,7 +1,7 @@
 {
 	title: "Dyes",
-	x: 1.5d,
-	y: -5.5d,
+	x: -16.0d,
+	y: -7.5d,
 	text: [
 		"Dyes can also be obtained in liquid form through chemical processes, or replicated with crude oil"
 	],

@@ -1,7 +1,7 @@
 {
 	title: "Horse",
-	x: -2.0d,
-	y: -4.0d,
+	x: -19.5d,
+	y: -6.0d,
 	description: "Reverse glue generation",
 	text: [
 		"Comes with saddle, max speed, and is already tamed"
@@ -16,13 +16,13 @@
 			id: "thermalexpansion:morb",
 			tag: {
 				DeathTime: 0s,
+				AbsorptionAmount: 0.0f,
+				LeftHanded: 0b,
 				SaddleItem: {
 					id: "minecraft:saddle",
 					Count: 1,
 					Damage: 0s
 				},
-				LeftHanded: 0b,
-				AbsorptionAmount: 0.0f,
 				Attributes: [{
 					Name: "generic.maxHealth",
 					Base: 30.0d
@@ -62,17 +62,17 @@
 					}
 				},
 				Age: 0,
-				HandDropChances: [
-					0.085f,
-					0.085f
-				],
+				HurtByTimestamp: 0,
 				ArmorDropChances: [
 					0.085f,
 					0.085f,
 					0.085f,
 					0.085f
 				],
-				HurtByTimestamp: 0,
+				HandDropChances: [
+					0.085f,
+					0.085f
+				],
 				ForcedAge: 0,
 				UpdateBlocked: 0b,
 				ArmorItems: [{},
@@ -86,12 +86,12 @@
 				Variant: 0,
 				id: "minecraft:horse",
 				Bred: 0b,
-				InLove: 0,
+				PersistenceRequired: 1b,
 				CanPickUpLoot: 0b,
 				Health: 30.0f,
 				HurtTime: 0s,
 				FallFlying: 0b,
-				PersistenceRequired: 1b,
+				InLove: 0,
 				EatingHaystack: 0b
 			}
 		}]

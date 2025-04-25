@@ -1,6 +1,10 @@
 {
-	x: -5.5d,
-	y: -2.0d,
+	title: "Item magnets",
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"Magnets attract items to you, not much else to it"
+	],
 	tasks: [{
 		uid: "016baf5d",
 		type: "item",

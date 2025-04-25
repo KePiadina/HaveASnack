@@ -1,14 +1,14 @@
 {
-	x: 0.0d,
-	y: -3.0d,
+	x: -18.5d,
+	y: -5.0d,
 	dependencies: [
 		"f74564ad"
 	],
 	tasks: [{
-		uid: "067f7e7d",
+		uid: "ad806fa8",
 		type: "item",
 		items: [{
-			item: "minecraft:chorus_flower"
+			item: "minecraft:nether_wart"
 		}]
 	}]
 }

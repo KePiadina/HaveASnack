@@ -1,6 +1,9 @@
 {
 	x: -2.5d,
 	y: -3.5d,
+	text: [
+		"The Staff of Levity consumes Vapor of Levity to apply Levitation"
+	],
 	tasks: [{
 		uid: "5da9bfe2",
 		type: "item",

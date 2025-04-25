@@ -1,7 +1,7 @@
 {
 	title: "The Sludge",
-	x: -2.0d,
-	y: -7.0d,
+	x: -19.5d,
+	y: -9.0d,
 	description: "Gacha for farmers",
 	text: [
 		"Sludge is a fluid obtained from various inert blocks like dirt, sand, or stone and can be refined in the Sludge Refiner to make other slightly more useful inert blocks like clay, or very useful blocks like oreberries or ores"

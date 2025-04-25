@@ -1,7 +1,7 @@
 {
 	disable_toast: true,
-	x: -2.0d,
-	y: -1.0d,
+	x: -9.5d,
+	y: -12.0d,
 	description: "Something I spent way too much time not knowing and trying to debug",
 	text: [
 		"Tropical biomes have Wet/Dry seaons instead of the usual 4 seasons, meaning that they will only grow Summer plants (for §chot§r biomes) or Winter plants (for §bcold§r biomes)",

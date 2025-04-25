@@ -1,6 +1,6 @@
 {
-	x: -5.0d,
-	y: -5.0d,
+	x: 1.0d,
+	y: -2.0d,
 	text: [
 		"The Archery will let some guards become Archers"
 	],
