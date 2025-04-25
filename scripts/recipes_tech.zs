@@ -60,10 +60,6 @@ Compactor.addPressRecipe(<enderio:block_infinity:0>, <enderio:item_material:20> 
 Compactor.addPressRecipe(<enderio:block_infinity:1>, <enderio:block_infinity:0> * 9, 2000);
 Compactor.addPressRecipe(<enderio:block_infinity:2>, <enderio:block_infinity:1> * 9, 2000);
 
-//Induction Smelter Energetic Alloy
-recipes.addShapeless(<contenttweaker:component_energetic_dust>, [<ore:dustRedstone>,<ore:dustGlowstone>]);
-InductionSmelter.addRecipe(<enderio:item_alloy_ingot:1>, <minecraft:gold_ingot>, <contenttweaker:component_energetic_dust>, 2000);
-
 //Fused Quartz
 InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:quartz> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 100);
 //Quite Clear Glass
