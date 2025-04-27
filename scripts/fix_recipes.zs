@@ -48,3 +48,6 @@ mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:6
 mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:10> * 3, <appliedenergistics2:quartz_block>,<liquid:fluid_saltwater> * 1000, 9000);
 mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:11> * 3, <minecraft:quartz_block>,<liquid:fluid_saltwater> * 1000, 9000);
 mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:12> * 3, <appliedenergistics2:fluix_block>,<liquid:fluid_saltwater> * 1000, 9000);
+
+recipes.remove(<minecolonies:blockhuttownhall>);
+recipes.addShaped(<minecolonies:blockhuttownhall>, [[<minecraft:planks:*>, <minecraft:book>>, <minecraft:planks:*>], [<minecraft:planks:*>, null, <minecraft:planks:*>], [<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]]);
