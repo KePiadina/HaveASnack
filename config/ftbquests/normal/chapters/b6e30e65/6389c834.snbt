@@ -8,7 +8,7 @@
 		uid: "f7d1f306",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:tool.fishing_rod_constantan"
+			item: "fishingmadebetter:fishing_rod_diamond"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -8,7 +8,7 @@
 		uid: "c448654d",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:tool.fishing_rod_electrum"
+			item: "fishingmadebetter:fishing_rod_iron"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

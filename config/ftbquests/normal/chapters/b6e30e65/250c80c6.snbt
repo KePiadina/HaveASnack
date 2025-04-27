@@ -8,7 +8,7 @@
 		uid: "2f1babe1",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:tool.fishing_rod_invar"
+			item: "fishingmadebetter:fishing_rod_wood"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

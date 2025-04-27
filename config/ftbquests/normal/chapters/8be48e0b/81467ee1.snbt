@@ -1,15 +1,22 @@
 {
 	title: "Fishing",
-	x: -15.5d,
-	y: -13.0d,
+	x: -12.5d,
+	y: -12.0d,
+	description: "Requires a stellar fishing rod",
 	text: [
-		""
+		"Fishing has been expanded to allow for aquaculture, allowing you to crossbreed fish for better stats, scales, and fish yield"
 	],
 	tasks: [{
-		uid: "ab791a5e",
+		uid: "cdb00894",
 		type: "item",
 		items: [{
-			item: "aquaculture:fishing_rod"
+			item: "fishingmadebetter:fishing_rod_wood"
+		},
+		{
+			item: "fishingmadebetter:fishing_rod_iron"
+		},
+		{
+			item: "fishingmadebetter:fishing_rod_diamond"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

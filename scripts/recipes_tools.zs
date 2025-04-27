@@ -1,11 +1,8 @@
-recipes.remove(<thermalfoundation:tool.fishing_rod_constantan>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_constantan>, [[null, null, <ore:ingotStellarAlloy>], [null, <ore:ingotStellarAlloy>, <ore:string>], [<ore:stickWood>, null, <ore:string>]]);
-<thermalfoundation:tool.fishing_rod_constantan>.addTooltip("Catches 4 additional fish");
+recipes.removeByRecipeName("fishingmadebetter:fishing_rod_wood_1");
+recipes.addShaped(<fishingmadebetter:fishing_rod_wood>.withTag({Unbreakable: 1, HideFlags: 4}), [[null, null, <ore:ingotDarkSteel>], [null, <ore:ingotDarkSteel>, <fishingmadebetter:bobber_basic:*>], [<ore:ingotDarkSteel>, <fishingmadebetter:reel_basic:*>, <fishingmadebetter:hook_basic:*>]]);
 
-recipes.remove(<thermalfoundation:tool.fishing_rod_electrum>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_electrum>, [[null, null, <ore:ingotEndSteel>], [null, <ore:ingotEndSteel>, <ore:string>], [<ore:stickWood>, null, <ore:string>]]);
-<thermalfoundation:tool.fishing_rod_electrum>.addTooltip("Catches 2 additional fish");
+recipes.removeByRecipeName("fishingmadebetter:fishing_rod_iron");
+recipes.addShaped(<fishingmadebetter:fishing_rod_iron>.withTag({Unbreakable: 1, HideFlags: 4}), [[null, null, <ore:ingotEndSteel>], [null, <ore:ingotEndSteel>, <fishingmadebetter:bobber_basic:*>], [<ore:ingotEndSteel>, <fishingmadebetter:reel_basic:*>, <fishingmadebetter:hook_basic:*>]]);
 
-recipes.remove(<thermalfoundation:tool.fishing_rod_invar>);
-recipes.addShaped(<thermalfoundation:tool.fishing_rod_invar>, [[null, null, <ore:ingotDarkSteel>], [null, <ore:ingotDarkSteel>, <ore:string>], [<ore:stickWood>, null, <ore:string>]]);
-<thermalfoundation:tool.fishing_rod_invar>.addTooltip("Catches an additional fish");
+recipes.removeByRecipeName("fishingmadebetter:fishing_rod_diamond");
+recipes.addShaped(<fishingmadebetter:fishing_rod_diamond>.withTag({Unbreakable: 1, HideFlags: 4}), [[null, null, <ore:ingotStellarAlloy>], [null, <ore:ingotStellarAlloy>, <fishingmadebetter:bobber_basic:*>], [<ore:ingotStellarAlloy>, <fishingmadebetter:reel_basic:*>, <fishingmadebetter:hook_basic:*>]]);

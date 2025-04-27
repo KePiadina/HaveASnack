@@ -1,6 +1,9 @@
 {
 	x: -3.5d,
 	y: -3.0d,
+	text: [
+		"The Staff of Traveling can teleport you to Teleport Anchors or to your crosshair when crouching"
+	],
 	tasks: [{
 		uid: "45123269",
 		type: "item",

@@ -43,6 +43,10 @@ cfm:oven
 cfm:freezer
 cfm:chopping_board
 
-
+advanced-fishing:blazing_fishing_pole
+aquaculture:diamond_fishing_rod
+aquaculture:iron_fishing_rod
+aquaculture:fishing_rod
+aquaculture:gold_fishing_rod
 
 projectred-core:drawplate

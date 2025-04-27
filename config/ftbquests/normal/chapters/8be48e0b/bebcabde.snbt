@@ -1,0 +1,22 @@
+{
+	title: "Aquaculture",
+	x: -12.5d,
+	y: -11.0d,
+	text: [
+		"Fish can be bred by catching at least 2 fish and crafting them with a water bucket to get a Fish bucket to move them to your own pool.",
+		"",
+		"Note: they are not related to the fish entity and are actually invisible, like Forestry bees"
+	],
+	dependencies: [
+		"81467ee1"
+	],
+	tasks: [{
+		uid: "cf0fccb2",
+		type: "item",
+		items: [{
+			item: "fishingmadebetter:fish_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
