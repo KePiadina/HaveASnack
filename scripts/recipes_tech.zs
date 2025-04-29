@@ -163,3 +163,6 @@ Compactor.addMintRecipe(<contenttweaker:coin10>,	<forestry:stamps:3>, 400);
 Compactor.addMintRecipe(<contenttweaker:coin10> * 2,	<forestry:stamps:4>, 400);
 Compactor.addMintRecipe(<contenttweaker:coin50>,	<forestry:stamps:5>, 400);
 Compactor.addMintRecipe(<contenttweaker:coin100>,	<forestry:stamps:6>, 400);
+
+recipes.remove(<forestry:habitat_former>);
+recipes.addShaped(<forestry:habitat_former>, [[<forestry:portable_alyzer>, <forestry:rainmaker>, <forestry:habitat_screen>],[<forestry:alveary.fan>,<extrabees:alveary:6>,<forestry:alveary.heater>],[<forestry:chipsets:3>,<forestry:alveary.hygro>,<forestry:chipsets:3>]]);

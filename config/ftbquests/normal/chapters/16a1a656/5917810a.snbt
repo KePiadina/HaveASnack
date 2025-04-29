@@ -1,0 +1,20 @@
+{
+	title: "§aHabitat Former",
+	x: -27.5d,
+	y: -2.0d,
+	text: [
+		"The Habitat Former can recreate any environment for your bees"
+	],
+	dependencies: [
+		"37d372b2",
+		"3a8bec25",
+		"0a2178d6"
+	],
+	tasks: [{
+		uid: "c58c35b7",
+		type: "item",
+		items: [{
+			item: "forestry:habitat_former"
+		}]
+	}]
+}
