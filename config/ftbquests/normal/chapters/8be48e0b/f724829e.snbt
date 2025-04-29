@@ -1,0 +1,18 @@
+{
+	title: "Trading",
+	x: -16.5d,
+	y: -10.5d,
+	text: [
+		"Trade Stations will use paper and stamps to fill out orders automatically"
+	],
+	dependencies: [
+		"f3be3f2f"
+	],
+	tasks: [{
+		uid: "fd68334a",
+		type: "item",
+		items: [{
+			item: "forestry:trade_station"
+		}]
+	}]
+}

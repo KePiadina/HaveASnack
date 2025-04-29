@@ -1,0 +1,25 @@
+{
+	title: "Letters",
+	x: -16.0d,
+	y: -11.5d,
+	description: "You've got mail!",
+	text: [
+		"Letters can be sent to Trade Stations or Players.",
+		"",
+		"Trading Stations can be found in the Catalogue and offer automated trades, with a stamp fee for transport.",
+		"",
+		"Players will receive letters in their mailbox"
+	],
+	tasks: [{
+		uid: "0a2526d9",
+		type: "item",
+		items: [{
+			item: "forestry:letters"
+		}]
+	}],
+	rewards: [{
+		uid: "bac95735",
+		type: "item",
+		item: "forestry:catalogue"
+	}]
+}

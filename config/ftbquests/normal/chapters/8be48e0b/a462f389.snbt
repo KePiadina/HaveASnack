@@ -1,0 +1,17 @@
+{
+	x: -15.5d,
+	y: -10.5d,
+	text: [
+		"A Mailbox acts like an ender chest, allowing players to send and receive letters and packages from other players and trades from Trade Stations"
+	],
+	dependencies: [
+		"f3be3f2f"
+	],
+	tasks: [{
+		uid: "04f48186",
+		type: "item",
+		items: [{
+			item: "forestry:mailbox"
+		}]
+	}]
+}

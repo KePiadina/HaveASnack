@@ -6,6 +6,9 @@
 	text: [
 		"Fishing has been expanded to allow for aquaculture, allowing you to crossbreed fish for better stats, scales, and fish yield"
 	],
+	dependencies: [
+		"d30db9cb"
+	],
 	tasks: [{
 		uid: "cdb00894",
 		type: "item",
