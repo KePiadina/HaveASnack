@@ -146,3 +146,6 @@ Imbuer.addRecipe(<liquid:fluid_saltwater> * 1000, <harvestcraft:saltitem>, <liqu
 
 recipes.remove(<harvestcraft:pastaitem>);
 Transposer.addFillRecipe(<harvestcraft:pastaitem> * 6, <harvestcraft:doughitem>, <liquid:fluid_saltwater> * 500, 2000);
+
+recipes.addShapeless(<harvestcraft:porkrindsitem>* 2, [<ore:toolCuttingboard>, <ore:listAllporkraw>]);
+recipes.addShapeless(<harvestcraft:imitationcrabsticksitem> * 2, [<ore:toolMixingbowl>, <harvestcraft:groundfishitem>, <ore:listAllegg>, <ore:dyeRed>]);
