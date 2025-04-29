@@ -32,14 +32,18 @@ recipes.removeByRecipeName("forestry:bronze_ingot");
 recipes.removeByRecipeName("forestry:block_to_bronze");
 
 //Fix for broken ingots jic
-recipes.addShapeless(<thermalfoundation:material:129>, [<forestry:ingot_tin>]);
-recipes.addShapeless(<thermalfoundation:material:128>, [<forestry:ingot_copper>]);
+recipes.addShapeless(<thermalfoundation:material:129>, [<forestry:ingot_tin> | <galacticraftcore:basic_item:4>]);
+recipes.addShapeless(<thermalfoundation:material:128>, [<forestry:ingot_copper> | <galacticraftcore:basic_item:3>]);
 recipes.addShapeless(<thermalfoundation:material:163>, [<forestry:ingot_bronze>]);
+recipes.addShapeless(<thermalfoundation:material:132>, [<galacticraftcore:basic_item:5>]);
 
 <forestry:ingot_tin>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
 <forestry:ingot_copper>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
 <forestry:ingot_bronze>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
 
+<galacticraftcore:basic_item:4>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
+<galacticraftcore:basic_item:3>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
+<galacticraftcore:basic_item:5>.addTooltip("An error has occurred. Put this in a crafting table to get the correct ingot and open an issue on GitHub explaining how you got this, thanks.");
 //Fix Certus quartz seeds not working
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:0>, <minecraft:glowstone_dust>);
 mods.thermalexpansion.Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
@@ -50,4 +54,4 @@ mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:11>
 mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:12> * 3, <appliedenergistics2:fluix_block>,<liquid:fluid_saltwater> * 1000, 9000);
 
 recipes.remove(<minecolonies:blockhuttownhall>);
-recipes.addShaped(<minecolonies:blockhuttownhall>, [[<minecraft:planks:*>, <minecraft:book>>, <minecraft:planks:*>], [<minecraft:planks:*>, null, <minecraft:planks:*>], [<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]]);
+recipes.addShaped(<minecolonies:blockhuttownhall>, [[<minecraft:planks:*>, <minecraft:book>, <minecraft:planks:*>], [<minecraft:planks:*>, null, <minecraft:planks:*>], [<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]]);
