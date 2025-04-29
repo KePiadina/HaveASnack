@@ -166,3 +166,5 @@ Compactor.addMintRecipe(<contenttweaker:coin100>,	<forestry:stamps:6>, 400);
 
 recipes.remove(<forestry:habitat_former>);
 recipes.addShaped(<forestry:habitat_former>, [[<forestry:portable_alyzer>, <forestry:rainmaker>, <forestry:habitat_screen>],[<forestry:alveary.fan>,<extrabees:alveary:6>,<forestry:alveary.heater>],[<forestry:chipsets:3>,<forestry:alveary.hygro>,<forestry:chipsets:3>]]);
+
+recipes.addShapeless(<forestry:letters> * 8, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:paper>,<liquid:resin> * 1000,<ore:paper>,<ore:paper>,<ore:paper>,<ore:paper>]);

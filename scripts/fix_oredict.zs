@@ -254,3 +254,5 @@ unspoilable.add(<harvestcraft:roastedpumpkinseedsitem>);
 <ore:listAllfishraw>.add(<advanced-fishing:fish:40>);
 <ore:listAllfishraw>.add(<advanced-fishing:fish:41>);
 <ore:listAllfishraw>.add(<advanced-fishing:fish:42>);
+
+<ore:beeComb>.add(<harvestcraft:honeycombitem>);
