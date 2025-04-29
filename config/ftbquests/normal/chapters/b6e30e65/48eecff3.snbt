@@ -1,7 +1,7 @@
 {
 	title: "Item magnets",
-	x: -4.5d,
-	y: -1.5d,
+	x: -3.5d,
+	y: -2.0d,
 	text: [
 		"Magnets attract items to you, not much else to it"
 	],
