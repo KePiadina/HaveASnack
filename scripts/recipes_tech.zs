@@ -61,9 +61,9 @@ Compactor.addPressRecipe(<enderio:block_infinity:1>, <enderio:block_infinity:0> 
 Compactor.addPressRecipe(<enderio:block_infinity:2>, <enderio:block_infinity:1> * 9, 2000);
 
 //Fused Quartz
-InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:quartz> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 100);
+InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:quartz> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 400);
 //Quite Clear Glass
-InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:glass> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 100);
+InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:glass> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 400);
 
 recipes.addShaped(<enderio:block_enlightened_fused_glass> * 8, [[<ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>], [<ore:enlightenedFusedGlass>, <ore:dustGlowstone>, <ore:enlightenedFusedGlass>], [<ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>]]);
 recipes.addShaped(<enderio:block_enlightened_fused_quartz> * 8, [[<ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>], [<ore:enlightenedFusedQuartz>, <ore:dustGlowstone>,<ore:enlightenedFusedQuartz>], [<ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>]]);
@@ -138,3 +138,28 @@ recipes.addShaped(<railcraft:coke_oven> * 2, [[<minecraft:sand>, <ore:ingotBrick
 recipes.addShaped(<railcraft:coke_oven> * 2, [[null, <railcraft:brick_sandy>, null], [null, <ore:sand>, null], [null, <railcraft:brick_sandy>, null]]);
 
 recipes.addShaped(<appliedenergistics2:portable_cell>, [[],[<thermalfoundation:material:359>, <enderutilities:storage_0:6>, <thermalfoundation:material:359>],[<opencomputers:material:20>,<opencomputers:storage:4>,<thermalexpansion:capacitor>]]);
+
+
+recipes.remove(<forestry:stamps:0>);
+recipes.remove(<forestry:stamps:1>);
+recipes.remove(<forestry:stamps:2>);
+recipes.remove(<forestry:stamps:3>);
+recipes.remove(<forestry:stamps:4>);
+recipes.remove(<forestry:stamps:5>);
+recipes.remove(<forestry:stamps:6>);
+
+recipes.addShapeless(<forestry:stamps:0>, [<ore:paper>, <contenttweaker:coin1>]);
+recipes.addShapeless(<forestry:stamps:1>, [<ore:paper>, <contenttweaker:coin1>, <contenttweaker:coin1>]);
+recipes.addShapeless(<forestry:stamps:2>, [<ore:paper>, <contenttweaker:coin5>]);
+recipes.addShapeless(<forestry:stamps:3>, [<ore:paper>, <contenttweaker:coin10>]);
+recipes.addShapeless(<forestry:stamps:4>, [<ore:paper>, <contenttweaker:coin10>, <contenttweaker:coin10>]);
+recipes.addShapeless(<forestry:stamps:5>, [<ore:paper>, <contenttweaker:coin50>]);
+recipes.addShapeless(<forestry:stamps:6>, [<ore:paper>, <contenttweaker:coin100>]);
+
+Compactor.addMintRecipe(<contenttweaker:coin1>,	<forestry:stamps>, 400);
+Compactor.addMintRecipe(<contenttweaker:coin1> * 2,	<forestry:stamps:1>, 400);
+Compactor.addMintRecipe(<contenttweaker:coin5>,	<forestry:stamps:2>, 400);
+Compactor.addMintRecipe(<contenttweaker:coin10>,	<forestry:stamps:3>, 400);
+Compactor.addMintRecipe(<contenttweaker:coin10> * 2,	<forestry:stamps:4>, 400);
+Compactor.addMintRecipe(<contenttweaker:coin50>,	<forestry:stamps:5>, 400);
+Compactor.addMintRecipe(<contenttweaker:coin100>,	<forestry:stamps:6>, 400);

@@ -55,3 +55,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<appliedenergistics2:material:12>
 
 recipes.remove(<minecolonies:blockhuttownhall>);
 recipes.addShaped(<minecolonies:blockhuttownhall>, [[<minecraft:planks:*>, <minecraft:book>, <minecraft:planks:*>], [<minecraft:planks:*>, null, <minecraft:planks:*>], [<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]]);
+
+
+recipes.removeByRecipeName("projectred:copper_coil");
