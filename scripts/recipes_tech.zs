@@ -168,3 +168,6 @@ recipes.remove(<forestry:habitat_former>);
 recipes.addShaped(<forestry:habitat_former>, [[<forestry:portable_alyzer>, <forestry:rainmaker>, <forestry:habitat_screen>],[<forestry:alveary.fan>,<extrabees:alveary:6>,<forestry:alveary.heater>],[<forestry:chipsets:3>,<forestry:alveary.hygro>,<forestry:chipsets:3>]]);
 
 recipes.addShapeless(<forestry:letters> * 8, [<ore:paper>,<ore:paper>,<ore:paper>,<ore:paper>,<liquid:resin> * 1000,<ore:paper>,<ore:paper>,<ore:paper>,<ore:paper>]);
+
+recipes.remove(<forestry:trade_station>);
+recipes.addShaped(<forestry:trade_station>, [[<ore:gearIron>, <ore:gearBronze>, <ore:gearIron>], [<ore:gearBronze>, <forestry:sturdy_machine:*>, <ore:gearBronze>], [<ore:chestWood>, <opencomputers:material:4>, <ore:chestWood>]]);
