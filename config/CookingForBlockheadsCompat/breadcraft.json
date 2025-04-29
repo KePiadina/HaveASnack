@@ -1,0 +1,11 @@
+{
+    "modid": "pamsbreadcraft",
+    "foods": {
+      "GENERAL": [
+        "pamsbreadcraft:sourdoughstarter",
+        "pamsbreadcraft:sourdoughbread"
+      ],
+      "INGREDIENTS": [
+      ]
+    }
+  }
