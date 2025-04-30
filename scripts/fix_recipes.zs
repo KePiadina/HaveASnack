@@ -58,3 +58,5 @@ recipes.addShaped(<minecolonies:blockhuttownhall>, [[<minecraft:planks:*>, <mine
 
 
 recipes.removeByRecipeName("projectred:copper_coil");
+
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:trapdoor>, <minecraft:wooden_slab>, 800);
