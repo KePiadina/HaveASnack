@@ -61,9 +61,9 @@ Compactor.addPressRecipe(<enderio:block_infinity:1>, <enderio:block_infinity:0> 
 Compactor.addPressRecipe(<enderio:block_infinity:2>, <enderio:block_infinity:1> * 9, 2000);
 
 //Fused Quartz
-InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:quartz> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 400);
+InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:quartz> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 100);
 //Quite Clear Glass
-InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:glass> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 400);
+InductionSmelter.addRecipe(<enderio:block_fused_glass>, <minecraft:glass> * 4, <thermalexpansion:frame>, 2500, <thermalexpansion:frame>, 100);
 
 recipes.addShaped(<enderio:block_enlightened_fused_glass> * 8, [[<ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>], [<ore:enlightenedFusedGlass>, <ore:dustGlowstone>, <ore:enlightenedFusedGlass>], [<ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>, <ore:enlightenedFusedGlass>]]);
 recipes.addShaped(<enderio:block_enlightened_fused_quartz> * 8, [[<ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>], [<ore:enlightenedFusedQuartz>, <ore:dustGlowstone>,<ore:enlightenedFusedQuartz>], [<ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>]]);
