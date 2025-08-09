@@ -79,4 +79,3 @@ Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:leaves>, 400);
 Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:sapling>, 400);
 Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:vine>, 400);
 Transposer.addExtractRecipe(<liquid:sludge> * 500, <minecraft:leaves2>, 400);
-

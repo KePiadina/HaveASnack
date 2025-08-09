@@ -135,7 +135,6 @@ recipes.addShaped(<agricraft:sprinkler> * 2, [[null, <ore:slabWood>, null], [nul
 
 recipes.remove(<railcraft:coke_oven>);
 recipes.addShaped(<railcraft:coke_oven> * 2, [[<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>], [<ore:ingotBrick>, <minecraft:sand>, <ore:ingotBrick>], [<minecraft:sand>, <ore:ingotBrick>, <minecraft:sand>]]);
-recipes.addShaped(<railcraft:coke_oven> * 2, [[null, <railcraft:brick_sandy>, null], [null, <ore:sand>, null], [null, <railcraft:brick_sandy>, null]]);
 
 recipes.addShaped(<appliedenergistics2:portable_cell>, [[],[<thermalfoundation:material:359>, <enderutilities:storage_0:6>, <thermalfoundation:material:359>],[<opencomputers:material:20>,<opencomputers:storage:4>,<thermalexpansion:capacitor>]]);
 
